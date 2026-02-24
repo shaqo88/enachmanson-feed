@@ -6,10 +6,9 @@ Usage: python3 convert_feed.py
 Output: feed.xml  (host this file publicly, e.g. via GitHub Pages)
 """
 
+import os
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
-import re
 
 PODBEAN_FEED_URL = "https://feed.podbean.com/enachmanson/feed.xml"
 OUTPUT_FILE = "feed.xml"
@@ -113,18 +112,46 @@ def convert(raw_xml: str) -> str:
     return output
 
 
+def extract_episodes(root: ET.Element) -> list:
+    """Extract episode GUIDs, titles and pubDates from a parsed XML tree."""
+    channel = root.find("channel")
+    return [
+        {
+            "guid":    item.findtext("guid", ""),
+            "title":   item.findtext("title", ""),
+            "pubDate": item.findtext("pubDate", ""),
+        }
+        for item in channel.findall("item")
+    ]
+
+
 def main():
     print(f"Fetching {PODBEAN_FEED_URL} ...")
     raw = fetch_feed(PODBEAN_FEED_URL)
 
     print("Converting to Spotify-compatible format ...")
-    converted = convert(raw)
+    new_root = ET.fromstring(raw)
 
+    # Load and parse existing feed.xml directly — no string comparison
+    existing_episodes = []
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            existing_episodes = extract_episodes(ET.parse(OUTPUT_FILE).getroot())
+        except ET.ParseError:
+            pass  # treat corrupt/missing file as empty
+
+    new_episodes = extract_episodes(new_root)
+
+    if new_episodes == existing_episodes:
+        print("✅ No new episodes — feed unchanged, skipping write.")
+        return
+
+    # Write only if content actually changed
+    converted = convert(raw)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(converted)
 
-    print(f"✅ Done! Feed written to: {OUTPUT_FILE}")
-    print(f"   Host this file publicly and share its URL.")
+    print(f"✅ New episodes detected — feed updated: {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
