@@ -142,16 +142,25 @@ def main():
 
     new_episodes = extract_episodes(new_root)
 
-    if new_episodes == existing_episodes:
+    existing_guids = {ep["guid"] for ep in existing_episodes}
+    new_found = [ep for ep in new_episodes if ep["guid"] not in existing_guids]
+
+    if not new_found:
         print("✅ No new episodes — feed unchanged, skipping write.")
         return
+
+    print(f"🆕 {len(new_found)} new episode(s) detected:")
+    for ep in new_found:
+        print(f"   • {ep['title']}")
+        print(f"     GUID:    {ep['guid']}")
+        print(f"     PubDate: {ep['pubDate']}")
 
     # Write only if content actually changed
     converted = convert(raw)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(converted)
 
-    print(f"✅ New episodes detected — feed updated: {OUTPUT_FILE}")
+    print(f"✅ Feed updated: {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
