@@ -95,7 +95,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>1433</itunes:duration>
-                                    <spotify:order>1</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/hxrxfn7s9mfjnj37/9d4b40d9-5fb9-3b11-8211-6ecf5c23fbc9.vtt" type="text/vtt" />    <spotify:order>1</spotify:order></item>
     <item>
         <title>מתי לא לתת פרסים לילדים</title>
         <itunes:title>מתי לא לתת פרסים לילדים</itunes:title>
