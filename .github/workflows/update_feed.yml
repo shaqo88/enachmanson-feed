@@ -5,12 +5,11 @@ on:
     - cron: '0 * * * *'   # every hour
   workflow_dispatch:        # manual trigger button
 
+run-name: ${{ github.event_name == 'schedule' && 'Scheduled check' || 'Manual check' }}
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    outputs:
-      summary: ${{ steps.convert.outputs.summary }}
-
     steps:
       - uses: actions/checkout@v4
 
@@ -19,18 +18,7 @@ jobs:
           python-version: '3.x'
 
       - name: Run converter
-        id: convert
-        run: |
-          python3 convert_feed.py
-          if [ -f commit_msg.txt ]; then
-            TITLE=$(head -1 commit_msg.txt)
-          else
-            TITLE="Nothing updated"
-          fi
-          echo "summary=$TITLE" >> $GITHUB_OUTPUT
-
-      - name: "${{ steps.convert.outputs.summary }}"
-        run: echo "Done"
+        run: python3 convert_feed.py
 
       - name: Commit updated feed
         run: |
