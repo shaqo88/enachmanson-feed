@@ -8,6 +8,9 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    outputs:
+      summary: ${{ steps.convert.outputs.summary }}
+
     steps:
       - uses: actions/checkout@v4
 
@@ -16,13 +19,23 @@ jobs:
           python-version: '3.x'
 
       - name: Run converter
-        run: python3 convert_feed.py
+        id: convert
+        run: |
+          python3 convert_feed.py
+          if [ -f commit_msg.txt ]; then
+            TITLE=$(head -1 commit_msg.txt)
+          else
+            TITLE="Nothing updated"
+          fi
+          echo "summary=$TITLE" >> $GITHUB_OUTPUT
+
+      - name: "${{ steps.convert.outputs.summary }}"
+        run: echo "Done"
 
       - name: Commit updated feed
-        id: commit
         run: |
           if [ ! -f commit_msg.txt ]; then
-            echo "updated=false" >> $GITHUB_OUTPUT
+            echo "No changes detected, skipping commit."
             exit 0
           fi
           git config user.email "actions@github.com"
@@ -30,17 +43,6 @@ jobs:
           git add feed.xml
           git commit -F commit_msg.txt
           git push
-          echo "updated=true" >> $GITHUB_OUTPUT
-
-      - name: Set job summary
-        run: |
-          if [ "${{ steps.commit.outputs.updated }}" == "true" ]; then
-            echo "### ✅ Feed updated" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            cat commit_msg.txt >> $GITHUB_STEP_SUMMARY
-          else
-            echo "### ⏭️ No changes" >> $GITHUB_STEP_SUMMARY
-          fi
 
       - name: Cleanup
         if: always()
