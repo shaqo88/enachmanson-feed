@@ -5,8 +5,6 @@ on:
     - cron: '0 * * * *'   # every hour
   workflow_dispatch:        # manual trigger button
 
-run-name: ${{ github.event_name == 'schedule' && 'Scheduled check' || 'Manual check' }}
-
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -20,6 +18,17 @@ jobs:
       - name: Run converter
         run: python3 convert_feed.py
 
+      - name: Write job summary
+        run: |
+          if [ -f commit_msg.txt ]; then
+            echo "### 📻 Feed Updated" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat commit_msg.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "### ✅ No changes — feed is up to date" >> $GITHUB_STEP_SUMMARY
+          fi
+
       - name: Commit updated feed
         run: |
           if [ ! -f commit_msg.txt ]; then
@@ -31,7 +40,3 @@ jobs:
           git add feed.xml
           git commit -F commit_msg.txt
           git push
-
-      - name: Cleanup
-        if: always()
-        run: rm -f commit_msg.txt
