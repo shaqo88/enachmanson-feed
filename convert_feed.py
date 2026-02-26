@@ -14,35 +14,20 @@ PODBEAN_FEED_URL = "https://feed.podbean.com/enachmanson/feed.xml"
 OUTPUT_FILE = "feed.xml"
 
 # ── Spotify-specific fields to add/ensure ──────────────────────────────────
-# Edit these if needed
-SPOTIFY_EMAIL = ""          # Required by some platforms; add your email here
+SPOTIFY_EMAIL = ""          # Optional: add your email if the platform requires it
 SPOTIFY_LIMIT = 100         # Max episodes Spotify fetches per request
+
 
 def fetch_feed(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         return resp.read().decode("utf-8")
 
+
 def convert(raw_xml: str) -> str:
-    # Parse
-    ET.register_namespace("", "")   # avoid default ns mangling
+    ET.register_namespace("", "")
     root = ET.fromstring(raw_xml)
 
-    # ── Namespaces present in the Podbean feed ──
-    ns = {
-        "itunes":     "http://www.itunes.com/dtds/podcast-1.0.dtd",
-        "spotify":    "http://www.spotify.com/ns/rss",
-        "content":    "http://purl.org/rss/1.0/modules/content/",
-        "atom":       "http://www.w3.org/2005/Atom",
-        "dc":         "http://purl.org/dc/elements/1.1/",
-        "googleplay": "http://www.google.com/schemas/play-podcasts/1.0",
-        "podcast":    "https://podcastindex.org/namespace/1.0",
-        "media":      "http://search.yahoo.com/mrss/",
-    }
-
-    channel = root.find("channel")
-
-    # ── 1. Ensure spotify namespace declarations are on root ──
     spotify_ns_attrs = {
         "xmlns:content":    "http://purl.org/rss/1.0/modules/content/",
         "xmlns:wfw":        "http://wellformedweb.org/CommentAPI/",
@@ -55,36 +40,27 @@ def convert(raw_xml: str) -> str:
         "xmlns:media":      "http://search.yahoo.com/mrss/",
     }
 
-    # ── 2. Add spotify:email if configured ──
     spotify_ns = "http://www.spotify.com/ns/rss"
+    channel = root.find("channel")
+
     if SPOTIFY_EMAIL:
         email_tag = f"{{{spotify_ns}}}email"
         if channel.find(email_tag) is None:
-            email_el = ET.SubElement(channel, email_tag)
-            email_el.text = SPOTIFY_EMAIL
+            ET.SubElement(channel, email_tag).text = SPOTIFY_EMAIL
 
-    # ── 3. Ensure spotify:limit ──
     limit_tag = f"{{{spotify_ns}}}limit"
     if channel.find(limit_tag) is None:
-        limit_el = ET.SubElement(channel, limit_tag)
-        limit_el.text = str(SPOTIFY_LIMIT)
+        ET.SubElement(channel, limit_tag).text = str(SPOTIFY_LIMIT)
 
-    # ── 4. Ensure spotify:countryOfOrigin exists ──
     coo_tag = f"{{{spotify_ns}}}countryOfOrigin"
     if channel.find(coo_tag) is None:
-        coo_el = ET.SubElement(channel, coo_tag)
-        coo_el.text = "il"
+        ET.SubElement(channel, coo_tag).text = "il"
 
-    # ── 5. Per-episode: ensure spotify:order ──
-    items = channel.findall("item")
-    for i, item in enumerate(items, start=1):
+    for i, item in enumerate(channel.findall("item"), start=1):
         order_tag = f"{{{spotify_ns}}}order"
         if item.find(order_tag) is None:
-            order_el = ET.SubElement(item, order_tag)
-            order_el.text = str(i)
+            ET.SubElement(item, order_tag).text = str(i)
 
-    # ── Serialize ──
-    # Re-build with correct namespace declarations on <rss>
     ET.register_namespace("content",    "http://purl.org/rss/1.0/modules/content/")
     ET.register_namespace("wfw",        "http://wellformedweb.org/CommentAPI/")
     ET.register_namespace("dc",         "http://purl.org/dc/elements/1.1/")
@@ -95,20 +71,9 @@ def convert(raw_xml: str) -> str:
     ET.register_namespace("podcast",    "https://podcastindex.org/namespace/1.0")
     ET.register_namespace("media",      "http://search.yahoo.com/mrss/")
 
-    output = ET.tostring(root, encoding="unicode", xml_declaration=False)
-
-    # Prepend proper XML declaration
-    output = '<?xml version="1.0" encoding="UTF-8"?>\n' + output
-
-    # Fix the <rss> tag to include all namespace declarations explicitly
-    # (ElementTree sometimes drops unused ones)
-    rss_open = '<rss version="2.0"'
+    output = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding="unicode")
     ns_block = " ".join(f'{k}="{v}"' for k, v in spotify_ns_attrs.items())
-    output = output.replace(
-        '<rss version="2.0"',
-        f'<rss version="2.0"\n     {ns_block}'
-    )
-
+    output = output.replace('<rss version="2.0"', f'<rss version="2.0"\n     {ns_block}')
     return output
 
 
@@ -125,26 +90,12 @@ def extract_episodes(root: ET.Element) -> list:
     ]
 
 
-PUBDATE_FILE = "last_pubdate.txt"
-
-
 def main():
     print(f"Fetching {PODBEAN_FEED_URL} ...")
     raw = fetch_feed(PODBEAN_FEED_URL)
-
-    # ── Early exit: compare channel pubDate before doing any real work ──
     new_root = ET.fromstring(raw)
-    channel_pubdate = new_root.findtext("channel/pubDate", "").strip()
 
-    if os.path.exists(PUBDATE_FILE):
-        saved = open(PUBDATE_FILE).read().strip()
-        if saved == channel_pubdate:
-            print(f"✅ Feed pubDate unchanged ({channel_pubdate}) — skipping.")
-            return
-
-    print(f"📡 Feed pubDate changed → {channel_pubdate}, processing ...")
-
-    # Load and parse existing feed.xml directly — no string comparison
+    # Load and parse existing feed.xml directly into a tree for comparison
     existing_episodes = []
     if os.path.exists(OUTPUT_FILE):
         try:
@@ -153,29 +104,27 @@ def main():
             pass  # treat corrupt/missing file as empty
 
     new_episodes = extract_episodes(new_root)
-
     existing_by_guid = {ep["guid"]: ep for ep in existing_episodes}
 
-    new_found   = [ep for ep in new_episodes if ep["guid"] not in existing_by_guid]
-    updated     = [
+    new_found = [ep for ep in new_episodes if ep["guid"] not in existing_by_guid]
+    updated   = [
         ep for ep in new_episodes
         if ep["guid"] in existing_by_guid and ep != existing_by_guid[ep["guid"]]
     ]
 
     if not new_found and not updated:
-        print("✅ No new episodes — feed unchanged, skipping write.")
+        print("✅ No changes detected — skipping.")
         return
 
     # ── Build commit title ──
-    parts = []
-    if new_found:
-        parts.append(f"{len(new_found)} episode(s) added")
-    if updated:
-        parts.append(f"{len(updated)} episode(s) updated")
-
     if len(new_found) == 1 and not updated:
         commit_title = f"New episode: {new_found[0]['title']}"
     else:
+        parts = []
+        if new_found:
+            parts.append(f"{len(new_found)} episode(s) added")
+        if updated:
+            parts.append(f"{len(updated)} episode(s) updated")
         commit_title = ", ".join(parts)
 
     # ── Build commit description ──
@@ -196,21 +145,24 @@ def main():
 
     commit_body = "\n".join(lines)
 
-    # Print to Actions log
     print(f"🆕 {commit_title}")
     print(commit_body)
 
-    # Write commit message to file for the workflow to read
+    # Write commit message for the workflow
     with open("commit_msg.txt", "w", encoding="utf-8") as f:
         f.write(commit_title + "\n\n" + commit_body)
 
-    # Write updated feed
-    converted = convert(raw)
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(converted)
+    # Write GitHub Actions job summary if running in Actions
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        with open(summary_path, "a", encoding="utf-8") as f:
+            f.write(f"### {commit_title}\n\n")
+            for line in lines:
+                f.write(line + "  \n")
 
-    with open(PUBDATE_FILE, "w") as f:
-        f.write(channel_pubdate)
+    # Write updated feed
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write(convert(raw))
 
     print(f"✅ Feed updated: {OUTPUT_FILE}")
 
