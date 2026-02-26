@@ -10,15 +10,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+
       - name: Run converter
         run: python3 convert_feed.py
+
       - name: Commit updated feed
         run: |
+          if [ ! -f commit_msg.txt ]; then
+            echo "No changes detected, skipping commit."
+            exit 0
+          fi
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           git add feed.xml
-          git diff --cached --quiet || git commit -m "Auto-update feed"
+          git commit -F commit_msg.txt
           git push
