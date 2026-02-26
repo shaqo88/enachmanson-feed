@@ -125,12 +125,24 @@ def extract_episodes(root: ET.Element) -> list:
     ]
 
 
+PUBDATE_FILE = "last_pubdate.txt"
+
+
 def main():
     print(f"Fetching {PODBEAN_FEED_URL} ...")
     raw = fetch_feed(PODBEAN_FEED_URL)
 
-    print("Converting to Spotify-compatible format ...")
+    # ── Early exit: compare channel pubDate before doing any real work ──
     new_root = ET.fromstring(raw)
+    channel_pubdate = new_root.findtext("channel/pubDate", "").strip()
+
+    if os.path.exists(PUBDATE_FILE):
+        saved = open(PUBDATE_FILE).read().strip()
+        if saved == channel_pubdate:
+            print(f"✅ Feed pubDate unchanged ({channel_pubdate}) — skipping.")
+            return
+
+    print(f"📡 Feed pubDate changed → {channel_pubdate}, processing ...")
 
     # Load and parse existing feed.xml directly — no string comparison
     existing_episodes = []
@@ -196,6 +208,9 @@ def main():
     converted = convert(raw)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(converted)
+
+    with open(PUBDATE_FILE, "w") as f:
+        f.write(channel_pubdate)
 
     print(f"✅ Feed updated: {OUTPUT_FILE}")
 
