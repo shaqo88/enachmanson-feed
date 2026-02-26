@@ -142,20 +142,57 @@ def main():
 
     new_episodes = extract_episodes(new_root)
 
-    existing_guids = {ep["guid"] for ep in existing_episodes}
-    new_found = [ep for ep in new_episodes if ep["guid"] not in existing_guids]
+    existing_by_guid = {ep["guid"]: ep for ep in existing_episodes}
 
-    if not new_found:
+    new_found   = [ep for ep in new_episodes if ep["guid"] not in existing_by_guid]
+    updated     = [
+        ep for ep in new_episodes
+        if ep["guid"] in existing_by_guid and ep != existing_by_guid[ep["guid"]]
+    ]
+
+    if not new_found and not updated:
         print("✅ No new episodes — feed unchanged, skipping write.")
         return
 
-    print(f"🆕 {len(new_found)} new episode(s) detected:")
-    for ep in new_found:
-        print(f"   • {ep['title']}")
-        print(f"     GUID:    {ep['guid']}")
-        print(f"     PubDate: {ep['pubDate']}")
+    # ── Build commit title ──
+    parts = []
+    if new_found:
+        parts.append(f"{len(new_found)} episode(s) added")
+    if updated:
+        parts.append(f"{len(updated)} episode(s) updated")
 
-    # Write only if content actually changed
+    if len(new_found) == 1 and not updated:
+        commit_title = f"New episode: {new_found[0]['title']}"
+    else:
+        commit_title = ", ".join(parts)
+
+    # ── Build commit description ──
+    lines = []
+    if new_found:
+        lines.append("New episodes:")
+        for ep in new_found:
+            lines.append(f"  + {ep['title']} ({ep['pubDate']})")
+    if updated:
+        lines.append("Updated episodes:")
+        for ep in updated:
+            old_ep = existing_by_guid[ep["guid"]]
+            lines.append(f"  ~ {ep['title']} ({ep['pubDate']})")
+            if old_ep["title"] != ep["title"]:
+                lines.append(f"      title:   {old_ep['title']} → {ep['title']}")
+            if old_ep["pubDate"] != ep["pubDate"]:
+                lines.append(f"      pubDate: {old_ep['pubDate']} → {ep['pubDate']}")
+
+    commit_body = "\n".join(lines)
+
+    # Print to Actions log
+    print(f"🆕 {commit_title}")
+    print(commit_body)
+
+    # Write commit message to file for the workflow to read
+    with open("commit_msg.txt", "w", encoding="utf-8") as f:
+        f.write(commit_title + "\n\n" + commit_body)
+
+    # Write updated feed
     converted = convert(raw)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(converted)
