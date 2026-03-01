@@ -11,7 +11,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id="video-preview" class="style-scope ytd-app"&gt;&lt;/div&gt;</description>
-    <pubDate>Fri, 27 Feb 2026 09:56:45 +0200</pubDate>
+    <pubDate>Sun, 01 Mar 2026 11:01:27 +0200</pubDate>
     <generator>https://podbean.com/?v=5.5</generator>
     <language>he</language>
     <spotify:countryOfOrigin>il</spotify:countryOfOrigin>
@@ -38,6 +38,56 @@
         <width>144</width>
         <height>144</height>
     </image>
+    <item>
+        <title>מתנות לאביונים בהידור - איך עושים את זה?</title>
+        <itunes:title>מתנות לאביונים בהידור - איך עושים את זה?</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%aa%d7%a0%d7%95%d7%aa%d7%9c%d7%90%d7%91%d7%99%d7%95%d7%a0%d7%99%d7%9d%d7%91%d7%94%d7%99%d7%93%d7%95%d7%a8-%d7%90%d7%99%d7%9a-%d7%a2%d7%95/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%aa%d7%a0%d7%95%d7%aa%d7%9c%d7%90%d7%91%d7%99%d7%95%d7%a0%d7%99%d7%9d%d7%91%d7%94%d7%99%d7%93%d7%95%d7%a8-%d7%90%d7%99%d7%9a-%d7%a2%d7%95/#comments</comments>        <pubDate>Sun, 01 Mar 2026 11:01:27 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:zmavRDQBoBg</guid>
+                                    <description>&lt;p&gt;מהו השיעור המינימלי למתנות לאביונים ומהי הדרך הנכונה לתת
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;האם אפשר לתת אוכל או שצריכים דווקא כסף
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;האם אפשר לתת יום לפני פורים
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;ועוד
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מהו השיעור המינימלי למתנות לאביונים ומהי הדרך הנכונה לתת&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם אפשר לתת אוכל או שצריכים דווקא כסף&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם אפשר לתת יום לפני פורים&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;ועוד&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/7voxn8qaoanmsms4/yt_video_zmavRDQBoBg_thvdi2.mp3" length="22847781" type="audio/mpeg" />
+        <itunes:summary>מהו השיעור המינימלי למתנות לאביונים ומהי הדרך הנכונה לתתהאם אפשר לתת אוכל או שצריכים דווקא כסףהאם אפשר לתת יום לפני פוריםועודבית הכנסת המרכזי נחל'ה, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1427</itunes:duration>
+                                    <spotify:order>1</spotify:order></item>
     <item>
         <title>האם זה טוב להיות עקשן</title>
         <itunes:title>האם זה טוב להיות עקשן</itunes:title>
@@ -79,7 +129,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>2596</itunes:duration>
-                                    <spotify:order>1</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/86iz28jvgvq22ieb/476fe322-1ced-324c-a69f-43ce7dc01890.vtt" type="text/vtt" />    <spotify:order>2</spotify:order></item>
     <item>
         <title>משתה ושמחה בפורים - איך עושים את זה נכון</title>
         <itunes:title>משתה ושמחה בפורים - איך עושים את זה נכון</itunes:title>
@@ -129,7 +179,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>2096</itunes:duration>
-                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/u8hygjdpa5vgzvh4/0398eaf0-1106-319c-9e4d-d0e29cfc52e0.vtt" type="text/vtt" />    <spotify:order>2</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/u8hygjdpa5vgzvh4/0398eaf0-1106-319c-9e4d-d0e29cfc52e0.vtt" type="text/vtt" />    <spotify:order>3</spotify:order></item>
     <item>
         <title>הלכות קריאת המגילה</title>
         <itunes:title>הלכות קריאת המגילה</itunes:title>
@@ -187,7 +237,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>1433</itunes:duration>
-                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/hxrxfn7s9mfjnj37/9d4b40d9-5fb9-3b11-8211-6ecf5c23fbc9.vtt" type="text/vtt" />    <spotify:order>3</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/hxrxfn7s9mfjnj37/9d4b40d9-5fb9-3b11-8211-6ecf5c23fbc9.vtt" type="text/vtt" />    <spotify:order>4</spotify:order></item>
     <item>
         <title>מתי לא לתת פרסים לילדים</title>
         <itunes:title>מתי לא לתת פרסים לילדים</itunes:title>
@@ -213,7 +263,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>160</itunes:duration>
-                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/sqa26f57mm43ynh6/53d07a2f-644c-32c3-8959-836b128473e3.vtt" type="text/vtt" />    <spotify:order>4</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/sqa26f57mm43ynh6/53d07a2f-644c-32c3-8959-836b128473e3.vtt" type="text/vtt" />    <spotify:order>5</spotify:order></item>
     <item>
         <title>איך נקיים את מצות משלוח מנות בהידור</title>
         <itunes:title>איך נקיים את מצות משלוח מנות בהידור</itunes:title>
@@ -247,7 +297,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>1091</itunes:duration>
-                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/iw3ix4ftj4mqb44p/33df422a-4e53-38ed-94b9-946f5d954095.vtt" type="text/vtt" />    <spotify:order>5</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/iw3ix4ftj4mqb44p/33df422a-4e53-38ed-94b9-946f5d954095.vtt" type="text/vtt" />    <spotify:order>6</spotify:order></item>
     <item>
         <title>איך מתמודדים עם רגשות אשמה</title>
         <itunes:title>איך מתמודדים עם רגשות אשמה</itunes:title>
@@ -273,7 +323,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>1308</itunes:duration>
-                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/zw5nvv4yv92pizgr/40bb3559-ee5f-34e6-9c93-7a76489ccfe0.vtt" type="text/vtt" />    <spotify:order>6</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/zw5nvv4yv92pizgr/40bb3559-ee5f-34e6-9c93-7a76489ccfe0.vtt" type="text/vtt" />    <spotify:order>7</spotify:order></item>
     <item>
         <title>שתיה חריפה בעבודת ה’</title>
         <itunes:title>שתיה חריפה בעבודת ה’</itunes:title>
@@ -319,6 +369,6 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>3009</itunes:duration>
-                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/akt6gcniu9shmh4m/7bda369b-a7d3-319b-8201-53c71cd82b49.vtt" type="text/vtt" />    <spotify:order>7</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/akt6gcniu9shmh4m/7bda369b-a7d3-319b-8201-53c71cd82b49.vtt" type="text/vtt" />    <spotify:order>8</spotify:order></item>
 <spotify:limit>100</spotify:limit></channel>
 </rss>
