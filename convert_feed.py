@@ -6,6 +6,7 @@ Usage: python3 convert_feed.py
 Output: feed.xml  (host this file publicly, e.g. via GitHub Pages)
 """
 
+import hashlib
 import os
 import sys
 import urllib.request
@@ -14,6 +15,7 @@ import xml.etree.ElementTree as ET
 
 PODBEAN_FEED_URL = "https://feed.podbean.com/enachmanson/feed.xml"
 OUTPUT_FILE      = "feed.xml"
+HASH_FILE        = "last_hash.txt"
 
 # ── Spotify-specific fields to add/ensure ──────────────────────────────────
 SPOTIFY_EMAIL = ""          # Optional: add your email if the platform requires it
@@ -46,6 +48,10 @@ def fetch_feed(url: str) -> str:
     except Exception as e:
         print(f"❌ Unexpected error fetching feed: {e}")
         sys.exit(1)
+
+
+def compute_hash(text: str) -> str:
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
 def set_or_update(parent: ET.Element, tag: str, value: str):
@@ -178,6 +184,10 @@ def main():
     # Write updated feed
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(convert(raw))
+
+    # Write updated hash so it gets committed alongside feed.xml
+    with open(HASH_FILE, "w", encoding="utf-8") as f:
+        f.write(compute_hash(raw))
 
     print(f"✅ Feed updated: {OUTPUT_FILE}")
 
