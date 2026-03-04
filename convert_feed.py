@@ -13,7 +13,7 @@ import urllib.error
 import xml.etree.ElementTree as ET
 
 PODBEAN_FEED_URL = "https://feed.podbean.com/enachmanson/feed.xml"
-OUTPUT_FILE = "feed.xml"
+OUTPUT_FILE      = "feed.xml"
 
 # ── Spotify-specific fields to add/ensure ──────────────────────────────────
 SPOTIFY_EMAIL = ""          # Optional: add your email if the platform requires it
@@ -32,7 +32,7 @@ NAMESPACES = {
 }
 
 
-def fetch_feed(url):
+def fetch_feed(url: str) -> str:
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=30) as resp:
@@ -58,12 +58,10 @@ def set_or_update(parent: ET.Element, tag: str, value: str):
 
 
 def convert(raw_xml: str) -> str:
-    # Register all namespace prefixes before parsing
     for prefix, uri in NAMESPACES.items():
         ET.register_namespace(prefix, uri)
 
     root = ET.fromstring(raw_xml)
-
     spotify_ns_attrs = {f"xmlns:{k}": v for k, v in NAMESPACES.items()}
     spotify_ns = NAMESPACES["spotify"]
     channel = root.find("channel")
@@ -96,13 +94,6 @@ def extract_episodes(root: ET.Element) -> list:
     ]
 
 
-def write_env(key: str, value: str):
-    env_path = os.environ.get("GITHUB_ENV")
-    if env_path:
-        with open(env_path, "a", encoding="utf-8") as f:
-            f.write(f"{key}={value}\n")
-
-
 def write_summary(text: str):
     summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary_path:
@@ -115,7 +106,7 @@ def main():
     raw = fetch_feed(PODBEAN_FEED_URL)
     new_root = ET.fromstring(raw)
 
-    # Load and parse existing feed.xml directly into a tree for comparison
+    # Load and parse existing feed.xml for comparison
     existing_episodes = []
     if os.path.exists(OUTPUT_FILE):
         try:
@@ -123,7 +114,7 @@ def main():
         except ET.ParseError:
             pass  # treat corrupt/missing file as empty
 
-    new_episodes = extract_episodes(new_root)
+    new_episodes     = extract_episodes(new_root)
     existing_by_guid = {ep["guid"]: ep for ep in existing_episodes}
     new_by_guid      = {ep["guid"]: ep for ep in new_episodes}
 
@@ -136,12 +127,6 @@ def main():
 
     total = len(new_episodes)
 
-    if not new_found and not updated and not removed:
-        print("✅ No changes detected — skipping.")
-        write_summary(f"### ✅ No changes — {total} episodes, feed is up to date\n")
-        write_env("FEED_CHANGED", "false")
-        return
-
     # ── Build commit title ──
     if len(new_found) == 1 and not updated and not removed:
         commit_title = f"New episode: {new_found[0]['title']}"
@@ -153,7 +138,7 @@ def main():
             parts.append(f"{len(updated)} episode(s) updated")
         if removed:
             parts.append(f"{len(removed)} episode(s) removed")
-        commit_title = ", ".join(parts)
+        commit_title = ", ".join(parts) if parts else "Feed refreshed"
 
     # ── Build commit description ──
     lines = []
@@ -183,8 +168,6 @@ def main():
     # Write commit message for the workflow
     with open("commit_msg.txt", "w", encoding="utf-8") as f:
         f.write(commit_title + "\n\n" + commit_body)
-
-    write_env("FEED_CHANGED", "true")
 
     # Write GitHub Actions job summary
     summary_lines = [f"### 📻 {commit_title} ({total} episodes total)\n\n"]
