@@ -148,6 +148,11 @@ def main():
 
     # ── Build commit description ──
     lines = []
+    lines.append(f"Total episodes: {total}")
+    lines.append("")
+    if not new_found and not updated and not removed:
+        lines.append("No episode changes detected.")
+        lines.append("The raw feed XML changed (e.g. metadata, transcript tags).")
     if new_found:
         lines.append("New episodes:")
         for ep in new_found:
