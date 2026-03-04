@@ -7,7 +7,9 @@ Output: feed.xml  (host this file publicly, e.g. via GitHub Pages)
 """
 
 import os
+import sys
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 
 PODBEAN_FEED_URL = "https://feed.podbean.com/enachmanson/feed.xml"
@@ -19,9 +21,19 @@ SPOTIFY_LIMIT = 100         # Max episodes Spotify fetches per request
 
 
 def fetch_feed(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read().decode("utf-8")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return resp.read().decode("utf-8")
+    except urllib.error.HTTPError as e:
+        print(f"❌ HTTP error fetching feed: {e.code} {e.reason}")
+        sys.exit(1)
+    except urllib.error.URLError as e:
+        print(f"❌ Network error fetching feed: {e.reason}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"❌ Unexpected error fetching feed: {e}")
+        sys.exit(1)
 
 
 def convert(raw_xml: str) -> str:
@@ -90,6 +102,20 @@ def extract_episodes(root: ET.Element) -> list:
     ]
 
 
+def write_env(key: str, value: str):
+    env_path = os.environ.get("GITHUB_ENV")
+    if env_path:
+        with open(env_path, "a", encoding="utf-8") as f:
+            f.write(f"{key}={value}\n")
+
+
+def write_summary(text: str):
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        with open(summary_path, "a", encoding="utf-8") as f:
+            f.write(text)
+
+
 def main():
     print(f"Fetching {PODBEAN_FEED_URL} ...")
     raw = fetch_feed(PODBEAN_FEED_URL)
@@ -105,29 +131,25 @@ def main():
 
     new_episodes = extract_episodes(new_root)
     existing_by_guid = {ep["guid"]: ep for ep in existing_episodes}
+    new_by_guid      = {ep["guid"]: ep for ep in new_episodes}
 
     new_found = [ep for ep in new_episodes if ep["guid"] not in existing_by_guid]
     updated   = [
         ep for ep in new_episodes
         if ep["guid"] in existing_by_guid and ep != existing_by_guid[ep["guid"]]
     ]
+    removed   = [ep for ep in existing_episodes if ep["guid"] not in new_by_guid]
 
-    if not new_found and not updated:
+    total = len(new_episodes)
+
+    if not new_found and not updated and not removed:
         print("✅ No changes detected — skipping.")
-
-        summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
-        if summary_path:
-            with open(summary_path, "a", encoding="utf-8") as f:
-                f.write("### ✅ No changes — feed is up to date\n")
-
-        env_path = os.environ.get("GITHUB_ENV")
-        if env_path:
-            with open(env_path, "a", encoding="utf-8") as f:
-                f.write("FEED_CHANGED=false\n")
+        write_summary(f"### ✅ No changes — {total} episodes, feed is up to date\n")
+        write_env("FEED_CHANGED", "false")
         return
 
     # ── Build commit title ──
-    if len(new_found) == 1 and not updated:
+    if len(new_found) == 1 and not updated and not removed:
         commit_title = f"New episode: {new_found[0]['title']}"
     else:
         parts = []
@@ -135,6 +157,8 @@ def main():
             parts.append(f"{len(new_found)} episode(s) added")
         if updated:
             parts.append(f"{len(updated)} episode(s) updated")
+        if removed:
+            parts.append(f"{len(removed)} episode(s) removed")
         commit_title = ", ".join(parts)
 
     # ── Build commit description ──
@@ -152,6 +176,10 @@ def main():
                 lines.append(f"      title:   {old_ep['title']} → {ep['title']}")
             if old_ep["pubDate"] != ep["pubDate"]:
                 lines.append(f"      pubDate: {old_ep['pubDate']} → {ep['pubDate']}")
+    if removed:
+        lines.append("Removed episodes:")
+        for ep in removed:
+            lines.append(f"  - {ep['title']} ({ep['pubDate']})")
 
     commit_body = "\n".join(lines)
 
@@ -162,21 +190,13 @@ def main():
     with open("commit_msg.txt", "w", encoding="utf-8") as f:
         f.write(commit_title + "\n\n" + commit_body)
 
-    # Write GITHUB_ENV so the commit step runs and is visible in the Actions list
-    env_path = os.environ.get("GITHUB_ENV")
-    if env_path:
-        with open(env_path, "a", encoding="utf-8") as f:
-            f.write("FEED_CHANGED=true\n")
-            safe_title = commit_title.replace("\n", " ").replace("\r", "")
-            f.write(f"FEED_COMMIT_TITLE={safe_title}\n")
+    write_env("FEED_CHANGED", "true")
 
     # Write GitHub Actions job summary
-    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
-    if summary_path:
-        with open(summary_path, "a", encoding="utf-8") as f:
-            f.write(f"### 📻 {commit_title}\n\n")
-            for line in lines:
-                f.write(line + "  \n")
+    summary_lines = [f"### 📻 {commit_title} ({total} episodes total)\n\n"]
+    for line in lines:
+        summary_lines.append(line + "  \n")
+    write_summary("".join(summary_lines))
 
     # Write updated feed
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
