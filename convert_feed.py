@@ -114,7 +114,12 @@ def main():
 
     if not new_found and not updated:
         print("✅ No changes detected — skipping.")
-        # Write status to GITHUB_ENV so the workflow step indicator shows "skipped"
+
+        summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+        if summary_path:
+            with open(summary_path, "a", encoding="utf-8") as f:
+                f.write("### ✅ No changes — feed is up to date\n")
+
         env_path = os.environ.get("GITHUB_ENV")
         if env_path:
             with open(env_path, "a", encoding="utf-8") as f:
@@ -162,7 +167,6 @@ def main():
     if env_path:
         with open(env_path, "a", encoding="utf-8") as f:
             f.write("FEED_CHANGED=true\n")
-            # Sanitise title: newlines break GITHUB_ENV
             safe_title = commit_title.replace("\n", " ").replace("\r", "")
             f.write(f"FEED_COMMIT_TITLE={safe_title}\n")
 
