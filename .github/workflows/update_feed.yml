@@ -22,10 +22,6 @@ jobs:
       - name: Run converter
         run: python3 convert_feed.py
 
-      - name: Mark neutral if no changes
-        if: env.FEED_CHANGED == 'false'
-        run: exit 78
-
       - name: Commit updated feed
         if: env.FEED_CHANGED == 'true'
         run: |
