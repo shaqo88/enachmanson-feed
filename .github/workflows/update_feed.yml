@@ -20,11 +20,11 @@ jobs:
           python-version: '3.x'
 
       - name: Run converter
-        run: |
-          python3 convert_feed.py
-          if [ "$FEED_CHANGED" = "false" ]; then
-            exit 78
-          fi
+        run: python3 convert_feed.py
+
+      - name: Mark neutral if no changes
+        if: env.FEED_CHANGED == 'false'
+        run: exit 78
 
       - name: Commit updated feed
         if: env.FEED_CHANGED == 'true'
