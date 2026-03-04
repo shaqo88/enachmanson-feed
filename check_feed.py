@@ -57,9 +57,6 @@ def main():
         write_output("changed", "false")
     else:
         print("🆕 Feed has changed — will run update job.")
-        # Write the new hash so the update job can commit it
-        with open(HASH_FILE, "w", encoding="utf-8") as f:
-            f.write(new_hash)
         write_output("changed", "true")
 
 
