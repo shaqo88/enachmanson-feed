@@ -95,4 +95,3 @@ jobs:
           to: ${{ secrets.GMAIL_USER }}
           from: ${{ secrets.GMAIL_USER }}
           body: ${{ steps.msg.outputs.body }}
-          content_type: text/plain
