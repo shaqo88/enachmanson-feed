@@ -19,6 +19,18 @@ OUTPUT_FILE = "feed.xml"
 SPOTIFY_EMAIL = ""          # Optional: add your email if the platform requires it
 SPOTIFY_LIMIT = 100         # Max episodes Spotify fetches per request
 
+NAMESPACES = {
+    "content":    "http://purl.org/rss/1.0/modules/content/",
+    "wfw":        "http://wellformedweb.org/CommentAPI/",
+    "dc":         "http://purl.org/dc/elements/1.1/",
+    "atom":       "http://www.w3.org/2005/Atom",
+    "itunes":     "http://www.itunes.com/dtds/podcast-1.0.dtd",
+    "googleplay": "http://www.google.com/schemas/play-podcasts/1.0",
+    "spotify":    "http://www.spotify.com/ns/rss",
+    "podcast":    "https://podcastindex.org/namespace/1.0",
+    "media":      "http://search.yahoo.com/mrss/",
+}
+
 
 def fetch_feed(url):
     try:
@@ -36,52 +48,34 @@ def fetch_feed(url):
         sys.exit(1)
 
 
+def set_or_update(parent: ET.Element, tag: str, value: str):
+    """Set a child element's text, updating it if it already exists."""
+    existing = parent.find(tag)
+    if existing is not None:
+        existing.text = value
+    else:
+        ET.SubElement(parent, tag).text = value
+
+
 def convert(raw_xml: str) -> str:
-    ET.register_namespace("", "")
+    # Register all namespace prefixes before parsing
+    for prefix, uri in NAMESPACES.items():
+        ET.register_namespace(prefix, uri)
+
     root = ET.fromstring(raw_xml)
 
-    spotify_ns_attrs = {
-        "xmlns:content":    "http://purl.org/rss/1.0/modules/content/",
-        "xmlns:wfw":        "http://wellformedweb.org/CommentAPI/",
-        "xmlns:dc":         "http://purl.org/dc/elements/1.1/",
-        "xmlns:atom":       "http://www.w3.org/2005/Atom",
-        "xmlns:itunes":     "http://www.itunes.com/dtds/podcast-1.0.dtd",
-        "xmlns:googleplay": "http://www.google.com/schemas/play-podcasts/1.0",
-        "xmlns:spotify":    "http://www.spotify.com/ns/rss",
-        "xmlns:podcast":    "https://podcastindex.org/namespace/1.0",
-        "xmlns:media":      "http://search.yahoo.com/mrss/",
-    }
-
-    spotify_ns = "http://www.spotify.com/ns/rss"
+    spotify_ns_attrs = {f"xmlns:{k}": v for k, v in NAMESPACES.items()}
+    spotify_ns = NAMESPACES["spotify"]
     channel = root.find("channel")
 
     if SPOTIFY_EMAIL:
-        email_tag = f"{{{spotify_ns}}}email"
-        if channel.find(email_tag) is None:
-            ET.SubElement(channel, email_tag).text = SPOTIFY_EMAIL
+        set_or_update(channel, f"{{{spotify_ns}}}email", SPOTIFY_EMAIL)
 
-    limit_tag = f"{{{spotify_ns}}}limit"
-    if channel.find(limit_tag) is None:
-        ET.SubElement(channel, limit_tag).text = str(SPOTIFY_LIMIT)
-
-    coo_tag = f"{{{spotify_ns}}}countryOfOrigin"
-    if channel.find(coo_tag) is None:
-        ET.SubElement(channel, coo_tag).text = "il"
+    set_or_update(channel, f"{{{spotify_ns}}}limit", str(SPOTIFY_LIMIT))
+    set_or_update(channel, f"{{{spotify_ns}}}countryOfOrigin", "il")
 
     for i, item in enumerate(channel.findall("item"), start=1):
-        order_tag = f"{{{spotify_ns}}}order"
-        if item.find(order_tag) is None:
-            ET.SubElement(item, order_tag).text = str(i)
-
-    ET.register_namespace("content",    "http://purl.org/rss/1.0/modules/content/")
-    ET.register_namespace("wfw",        "http://wellformedweb.org/CommentAPI/")
-    ET.register_namespace("dc",         "http://purl.org/dc/elements/1.1/")
-    ET.register_namespace("atom",       "http://www.w3.org/2005/Atom")
-    ET.register_namespace("itunes",     "http://www.itunes.com/dtds/podcast-1.0.dtd")
-    ET.register_namespace("googleplay", "http://www.google.com/schemas/play-podcasts/1.0")
-    ET.register_namespace("spotify",    "http://www.spotify.com/ns/rss")
-    ET.register_namespace("podcast",    "https://podcastindex.org/namespace/1.0")
-    ET.register_namespace("media",      "http://search.yahoo.com/mrss/")
+        set_or_update(item, f"{{{spotify_ns}}}order", str(i))
 
     output = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding="unicode")
     ns_block = " ".join(f'{k}="{v}"' for k, v in spotify_ns_attrs.items())
