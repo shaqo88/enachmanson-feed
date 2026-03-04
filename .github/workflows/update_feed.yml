@@ -2,15 +2,18 @@ name: Update Podcast Feed
 
 on:
   schedule:
-    - cron: '0 * * * *'   # every hour
-  workflow_dispatch:        # manual trigger button
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+run-name: "Podcast Feed – ${{ github.run_number }}"  # fallback, updated below
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
@@ -18,23 +21,29 @@ jobs:
       - name: Run converter
         run: python3 convert_feed.py
 
-      - name: Write job summary
+      - name: Check for changes
+        id: check
         run: |
           if [ -f commit_msg.txt ]; then
-            echo "### 📻 Feed Updated" >> $GITHUB_STEP_SUMMARY
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "FEED_STATUS=📻 Feed updated" >> $GITHUB_ENV
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "FEED_STATUS=✅ No changes" >> $GITHUB_ENV
+          fi
+
+      - name: Write job summary
+        run: |
+          echo "## $FEED_STATUS" >> $GITHUB_STEP_SUMMARY
+          if [ -f commit_msg.txt ]; then
             echo '```' >> $GITHUB_STEP_SUMMARY
             cat commit_msg.txt >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
-          else
-            echo "### ✅ No changes — feed is up to date" >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: Commit updated feed
+        if: steps.check.outputs.changed == 'true'
         run: |
-          if [ ! -f commit_msg.txt ]; then
-            echo "No changes detected, skipping commit."
-            exit 0
-          fi
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           git add feed.xml
