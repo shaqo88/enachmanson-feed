@@ -79,10 +79,8 @@ jobs:
       - name: Read commit message
         id: msg
         run: |
-          DELIM=$(openssl rand -hex 8)
-          echo "body<<$DELIM" >> $GITHUB_OUTPUT
-          cat commit_msg.txt >> $GITHUB_OUTPUT
-          echo "$DELIM" >> $GITHUB_OUTPUT
+          BODY=$(base64 -w 0 commit_msg.txt)
+          echo "body=$BODY" >> $GITHUB_OUTPUT
 
       - name: Send email notification
         uses: dawidd6/action-send-mail@ba302ba66e88942841281c984a6b31ca6d6289e6  # v11
@@ -95,4 +93,4 @@ jobs:
           subject: "📻 Podcast Feed Updated"
           to: ${{ secrets.GMAIL_USER }}
           from: ${{ secrets.GMAIL_USER }}
-          body: ${{ steps.msg.outputs.body }}
+          body: ${{ fromBase64(steps.msg.outputs.body) }}
