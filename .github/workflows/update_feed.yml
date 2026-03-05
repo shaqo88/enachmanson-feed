@@ -76,12 +76,6 @@ jobs:
         with:
           name: feed-artifacts
 
-      - name: Read commit message
-        id: msg
-        run: |
-          BODY=$(base64 -w 0 commit_msg.txt)
-          echo "body=$BODY" >> $GITHUB_OUTPUT
-
       - name: Send email notification
         uses: dawidd6/action-send-mail@ba302ba66e88942841281c984a6b31ca6d6289e6  # v11
         with:
@@ -93,4 +87,4 @@ jobs:
           subject: "📻 Podcast Feed Updated"
           to: ${{ secrets.GMAIL_USER }}
           from: ${{ secrets.GMAIL_USER }}
-          body: ${{ fromBase64(steps.msg.outputs.body) }}
+          body_path: commit_msg.txt
