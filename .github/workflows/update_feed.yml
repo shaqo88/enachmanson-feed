@@ -79,9 +79,10 @@ jobs:
       - name: Read commit message
         id: msg
         run: |
-          echo "body<<EOF" >> $GITHUB_OUTPUT
+          DELIM=$(openssl rand -hex 8)
+          echo "body<<$DELIM" >> $GITHUB_OUTPUT
           cat commit_msg.txt >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          echo "$DELIM" >> $GITHUB_OUTPUT
 
       - name: Send email notification
         uses: dawidd6/action-send-mail@ba302ba66e88942841281c984a6b31ca6d6289e6  # v11
