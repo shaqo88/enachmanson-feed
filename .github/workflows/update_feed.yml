@@ -87,4 +87,4 @@ jobs:
           subject: "📻 Podcast Feed Updated"
           to: ${{ secrets.GMAIL_USER }}
           from: ${{ secrets.GMAIL_USER }}
-          body_path: commit_msg.txt
+          body: file://commit_msg.txt
