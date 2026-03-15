@@ -95,6 +95,7 @@ def extract_episodes(root: ET.Element) -> list:
             "guid":    item.findtext("guid", ""),
             "title":   item.findtext("title", ""),
             "pubDate": item.findtext("pubDate", ""),
+            "link":    item.findtext("link", ""),
         }
         for item in channel.findall("item")
     ]
@@ -157,6 +158,8 @@ def main():
         lines.append("New episodes:")
         for ep in new_found:
             lines.append(f"  + {ep['title']} ({ep['pubDate']})")
+            if ep["link"]:
+                lines.append(f"    {ep['link']}")
     if updated:
         lines.append("Updated episodes:")
         for ep in updated:
