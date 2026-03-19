@@ -81,7 +81,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>1145</itunes:duration>
-                                    <spotify:order>2</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/r92a3kethijrwm2d/e80d1030-53ed-3633-b2a8-614eb1854e4d.vtt" type="text/vtt" />    <spotify:order>2</spotify:order></item>
     <item>
         <title>למה בחב’’ד עוטפים את המטבח לפסח</title>
         <itunes:title>למה בחב’’ד עוטפים את המטבח לפסח</itunes:title>
