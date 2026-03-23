@@ -63,7 +63,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>882</itunes:duration>
-                                    <spotify:order>1</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/8t62ixc6hhpzvfqx/1cde5124-cee1-39df-9ec5-b485f8cc5cd2.vtt" type="text/vtt" />    <spotify:order>1</spotify:order></item>
     <item>
         <title>דיני בדיקת חמץ</title>
         <itunes:title>דיני בדיקת חמץ</itunes:title>
@@ -105,7 +105,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>1040</itunes:duration>
-                                    <spotify:order>2</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/vk3s6evn4xvmdc3t/1cfe0817-1c40-3e86-bfad-90238a34e277.vtt" type="text/vtt" />    <spotify:order>2</spotify:order></item>
     <item>
         <title>כשרות זה לא רק באוכל</title>
         <itunes:title>כשרות זה לא רק באוכל</itunes:title>
