@@ -67,7 +67,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>3096</itunes:duration>
-                                    <spotify:order>1</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/cysyk5kfih3t29dp/9abb8ff5-ea2c-3d2c-887d-5a43d25c67a5.vtt" type="text/vtt" />    <spotify:order>1</spotify:order></item>
     <item>
         <title>סדר לבישת הבגדים</title>
         <itunes:title>סדר לבישת הבגדים</itunes:title>
