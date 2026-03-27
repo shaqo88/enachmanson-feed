@@ -71,7 +71,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>2541</itunes:duration>
-                                    <spotify:order>1</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/des8c7h8aadwckps/b02ce645-eefd-311c-818d-622428ce2f1a.vtt" type="text/vtt" />    <spotify:order>1</spotify:order></item>
     <item>
         <title>לקחת הפסקה באמצע העבודה</title>
         <itunes:title>לקחת הפסקה באמצע העבודה</itunes:title>
