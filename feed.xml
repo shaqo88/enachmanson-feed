@@ -63,7 +63,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>282</itunes:duration>
-                                    <spotify:order>1</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/3hbzdaxh86baiimg/25458d11-7073-33d8-b6b9-95f08fad31ca.vtt" type="text/vtt" />    <spotify:order>1</spotify:order></item>
     <item>
         <title>דעת התורה על גניבת לקוחות</title>
         <itunes:title>דעת התורה על גניבת לקוחות</itunes:title>
@@ -93,7 +93,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>890</itunes:duration>
-                                    <spotify:order>2</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/rk6ucmjvkpdjdvrt/696fee53-97a7-3317-9521-f848ecd2d75f.vtt" type="text/vtt" />    <spotify:order>2</spotify:order></item>
     <item>
         <title>דיני ערב פסח וליל הסדר</title>
         <itunes:title>דיני ערב פסח וליל הסדר</itunes:title>
