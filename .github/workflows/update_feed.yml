@@ -29,6 +29,8 @@ jobs:
     needs: check
     if: needs.check.outputs.changed == 'true'
     runs-on: ubuntu-latest
+    outputs:
+      episode_changed: ${{ steps.convert.outputs.episode_changed }}
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
 
@@ -37,6 +39,7 @@ jobs:
           python-version: '3.x'
 
       - name: Run converter
+        id: convert
         run: python3 convert_feed.py
 
       - name: Upload artifacts
@@ -68,7 +71,8 @@ jobs:
           git push
 
   notify:
-    needs: commit
+    needs: [commit, update]
+    if: needs.update.outputs.episode_changed == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Download artifacts
