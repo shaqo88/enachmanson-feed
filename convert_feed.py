@@ -101,6 +101,13 @@ def extract_episodes(root: ET.Element) -> list:
     ]
 
 
+def write_output(key: str, value: str):
+    output_path = os.environ.get("GITHUB_OUTPUT")
+    if output_path:
+        with open(output_path, "a", encoding="utf-8") as f:
+            f.write(f"{key}={value}\n")
+
+
 def write_summary(text: str):
     summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary_path:
@@ -182,6 +189,9 @@ def main():
     # Write commit message for the workflow
     with open("commit_msg.txt", "w", encoding="utf-8") as f:
         f.write(commit_title + "\n\n" + commit_body)
+
+    # Signal whether actual episodes changed (vs metadata-only)
+    write_output("episode_changed", "true" if (new_found or removed) else "false")
 
     # Write GitHub Actions job summary
     summary_lines = [f"### 📻 {commit_title} ({total} episodes total)\n\n"]
