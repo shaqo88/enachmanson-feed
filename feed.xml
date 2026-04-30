@@ -63,7 +63,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>192</itunes:duration>
-                                    <spotify:order>1</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/dqn3cwzkvbntggza/51094f0f-23bc-3a29-bf43-3c9cf549f002.vtt" type="text/vtt" />    <spotify:order>1</spotify:order></item>
     <item>
         <title>מחיקת שם השם בטלפון, קדושה בכתב מיקרופילם ובשטר של דולר</title>
         <itunes:title>מחיקת שם השם בטלפון, קדושה בכתב מיקרופילם ובשטר של דולר</itunes:title>
@@ -89,7 +89,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>1283</itunes:duration>
-                                    <spotify:order>2</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/ph6qeejenc8karc7/4dabddee-6b8c-3b64-b74b-463d418679b0.vtt" type="text/vtt" />    <spotify:order>2</spotify:order></item>
     <item>
         <title>מהם התנאים לקיום מצות פרו ורבו</title>
         <itunes:title>מהם התנאים לקיום מצות פרו ורבו</itunes:title>
