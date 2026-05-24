@@ -63,7 +63,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:block>No</itunes:block>
         <itunes:duration>1046</itunes:duration>
-                                    <spotify:order>1</spotify:order></item>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/598z8advyxpd6r7v/4b5f55fe-d34b-3bfc-a91c-9b7afd038b2d.vtt" type="text/vtt" />    <spotify:order>1</spotify:order></item>
     <item>
         <title>סיר לבישול איטי - האם מותר להשתמש בו בשבת</title>
         <itunes:title>סיר לבישול איטי - האם מותר להשתמש בו בשבת</itunes:title>
