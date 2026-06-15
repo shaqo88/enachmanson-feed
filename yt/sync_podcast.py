@@ -38,11 +38,15 @@ LOGO_URL      = f"{R2_PUBLIC_URL}/logo.png"
 # How many recent playlist items to check each run (saves time; raise if needed)
 PLAYLIST_FETCH_COUNT = 50
 
-# ── Cookie options (added to every yt-dlp call) ───────────────────────────────
-def cookie_opts() -> dict:
+# ── Common options (added to every yt-dlp call) ───────────────────────────────
+def common_opts() -> dict:
+    opts = {
+        # Use the tv client which is less aggressively throttled
+        "extractor_args": {"youtube": {"player_client": ["tv", "web"]}},
+    }
     if COOKIES_FILE.exists():
-        return {"cookiefile": str(COOKIES_FILE)}
-    return {}
+        opts["cookiefile"] = str(COOKIES_FILE)
+    return opts
 
 # ── Load known episodes ────────────────────────────────────────────────────────
 if EPISODES_FILE.exists():
@@ -57,7 +61,7 @@ ydl_info_opts = {
     "quiet": True,
     "extract_flat": True,
     "playlistend": PLAYLIST_FETCH_COUNT,
-    **cookie_opts(),
+    **common_opts(),
 }
 
 with yt_dlp.YoutubeDL(ydl_info_opts) as ydl:
@@ -103,7 +107,7 @@ for entry in entries:
             "preferredquality": "128",
         }],
         "quiet": False,
-        **cookie_opts(),
+        **common_opts(),
     }
 
     try:
