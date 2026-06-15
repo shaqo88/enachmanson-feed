@@ -24,6 +24,9 @@ jobs:
           curl -fsSL https://deno.land/install.sh | sh
           echo "$HOME/.deno/bin" >> $GITHUB_PATH
 
+      - name: Install ffmpeg
+        run: sudo apt-get install -y ffmpeg
+
       - name: Install Python dependencies
         run: |
           pip install feedgen boto3 "yt-dlp[default]"
