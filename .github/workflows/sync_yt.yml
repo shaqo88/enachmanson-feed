@@ -36,6 +36,13 @@ jobs:
           ffmpeg -version | head -1
           yt-dlp --version
 
+      - name: Write YouTube cookies file
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          printf '%s' "$YOUTUBE_COOKIES" > /tmp/yt_cookies.txt
+          echo "Cookie file: $(wc -l < /tmp/yt_cookies.txt) lines, $(wc -c < /tmp/yt_cookies.txt) bytes"
+
       - name: Run sync script
         env:
           PLAYLIST_ID: ${{ secrets.YOUTUBE_PLAYLIST_ID }}
