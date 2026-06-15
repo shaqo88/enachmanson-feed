@@ -25,7 +25,7 @@ R2_SECRET_KEY = os.environ["R2_SECRET_KEY"]
 R2_BUCKET     = os.environ["R2_BUCKET"]
 R2_PUBLIC_URL = os.environ["R2_PUBLIC_URL"].rstrip("/")
 
-COOKIES_FILE  = Path("/tmp/yt_cookies.txt")
+COOKIES_FILE  = Path("/tmp/yt_cookies.txt")  # optional — used only if present
 
 EPISODES_FILE = Path("yt/episodes.json")
 FEED_FILE     = Path("feed.xml")
@@ -35,13 +35,12 @@ PODCAST_DESC  = "שיעורי הלכה, חסידות וחינוך מאת הרב 
 AUTHOR_NAME   = "הרב אלחנן נחמנסון"
 LOGO_URL      = f"{R2_PUBLIC_URL}/logo.png"
 
-# How many recent playlist items to check each run (saves time; raise if needed)
+# How many recent playlist items to check each run
 PLAYLIST_FETCH_COUNT = 50
 
-# ── Common options (added to every yt-dlp call) ───────────────────────────────
+# ── Common yt-dlp options ─────────────────────────────────────────────────────
 def common_opts() -> dict:
     opts = {
-        # Use the tv client which is less aggressively throttled
         "extractor_args": {"youtube": {"player_client": ["tv", "web"]}},
     }
     if COOKIES_FILE.exists():
@@ -96,7 +95,6 @@ for entry in entries:
     title = entry.get("title", f"Episode {vid_id}")
     print(f"\n🆕 New video: {title} ({vid_id})")
 
-    # Download audio to /tmp
     tmp_mp3 = Path(f"/tmp/{vid_id}.mp3")
     ydl_dl_opts = {
         "format": "bestaudio/best",
@@ -104,7 +102,7 @@ for entry in entries:
         "postprocessors": [{
             "key": "FFmpegExtractAudio",
             "preferredcodec": "mp3",
-            "preferredquality": "128",
+            "preferredquality": "64",   # 64kbps — voice quality, half the size of 128kbps
         }],
         "quiet": False,
         **common_opts(),
@@ -115,7 +113,7 @@ for entry in entries:
             meta = ydl.extract_info(f"https://www.youtube.com/watch?v={vid_id}", download=True)
     except Exception as e:
         print(f"  ❌ Download failed for {vid_id}: {e}")
-        continue  # skip this episode; next run will retry
+        continue  # skip; next run will retry
 
     if not tmp_mp3.exists():
         print(f"  ❌ Expected {tmp_mp3} not found after download; skipping")
@@ -124,7 +122,6 @@ for entry in entries:
     file_size = tmp_mp3.stat().st_size
     r2_key    = f"{vid_id}.mp3"
 
-    # Upload to R2
     try:
         s3.upload_file(
             str(tmp_mp3),
@@ -138,10 +135,8 @@ for entry in entries:
         tmp_mp3.unlink(missing_ok=True)
         continue  # skip; next run will retry
 
-    # Clean up local file
     tmp_mp3.unlink(missing_ok=True)
 
-    # Only now record the episode as known
     upload_date = meta.get("upload_date", "")  # YYYYMMDD
     ep = {
         "id":          vid_id,
@@ -155,7 +150,7 @@ for entry in entries:
     known[vid_id] = ep
     new_count += 1
 
-    # Save after each successful episode (so a crash mid-run doesn't lose work)
+    # Save after each episode — crash-safe
     EPISODES_FILE.write_text(
         json.dumps(known, ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -190,7 +185,7 @@ episodes_sorted = sorted(known.values(), key=lambda x: x["published"], reverse=T
 
 for ep in episodes_sorted:
     fe = fg.add_entry()
-    fe.id(f"yt:video:{ep['id']}")          # matches existing PodBean GUIDs exactly
+    fe.id(f"yt:video:{ep['id']}")   # matches existing PodBean GUIDs exactly
     fe.title(ep["title"])
     fe.description(ep["description"] or ep["title"])
     fe.published(parse_date(ep["published"]))
