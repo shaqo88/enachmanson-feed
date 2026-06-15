@@ -23,6 +23,12 @@ jobs:
         run: |
           pip install yt-dlp feedgen boto3
 
+      - name: Write YouTube cookies file
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          echo "$YOUTUBE_COOKIES" > /tmp/yt_cookies.txt
+
       - name: Run sync script
         env:
           PLAYLIST_ID: ${{ secrets.YOUTUBE_PLAYLIST_ID }}
