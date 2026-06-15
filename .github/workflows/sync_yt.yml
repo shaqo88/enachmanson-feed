@@ -28,19 +28,13 @@ jobs:
         run: sudo apt-get install -y ffmpeg
 
       - name: Install Python dependencies
-        run: |
-          pip install feedgen boto3 "yt-dlp[default]"
+        run: pip install feedgen boto3 "yt-dlp[default]"
 
       - name: Verify setup
         run: |
           deno --version
+          ffmpeg -version | head -1
           yt-dlp --version
-
-      - name: Write YouTube cookies file
-        env:
-          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
-        run: |
-          printf '%s' "$YOUTUBE_COOKIES" > /tmp/yt_cookies.txt
 
       - name: Run sync script
         env:
