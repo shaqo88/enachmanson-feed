@@ -19,20 +19,18 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install Node.js (required for yt-dlp n-challenge solver)
+      - name: Install Deno (JS runtime required by yt-dlp for YouTube n-challenge)
         run: |
-          curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-          sudo apt-get install -y nodejs
-          node --version
-          npm --version
+          curl -fsSL https://deno.land/install.sh | sh
+          echo "$HOME/.deno/bin" >> $GITHUB_PATH
 
       - name: Install Python dependencies
         run: |
           pip install feedgen boto3 "yt-dlp[default]"
 
-      - name: Install yt-dlp JS solver
+      - name: Verify setup
         run: |
-          npm install -g @distube/ytdl-core 2>/dev/null || true
+          deno --version
           yt-dlp --version
 
       - name: Write YouTube cookies file
