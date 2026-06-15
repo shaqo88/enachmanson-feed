@@ -14,7 +14,6 @@ import yt_dlp
 import boto3
 from botocore.exceptions import ClientError
 from feedgen.feed import FeedGenerator
-from feedgen.ext.podcast import PodcastExtension
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -26,6 +25,8 @@ R2_SECRET_KEY = os.environ["R2_SECRET_KEY"]
 R2_BUCKET     = os.environ["R2_BUCKET"]
 R2_PUBLIC_URL = os.environ["R2_PUBLIC_URL"].rstrip("/")
 
+COOKIES_FILE  = Path("/tmp/yt_cookies.txt")
+
 EPISODES_FILE = Path("yt/episodes.json")
 FEED_FILE     = Path("feed.xml")
 FEED_URL      = "https://shaqo88.github.io/enachmanson-feed/feed.xml"
@@ -35,6 +36,12 @@ LOGO_URL      = f"{R2_PUBLIC_URL}/logo.png"   # upload your logo to R2 once
 
 # How many recent playlist items to check each run (saves time; raise if needed)
 PLAYLIST_FETCH_COUNT = 50
+
+# ── Cookie options (added to every yt-dlp call) ───────────────────────────────
+def cookie_opts() -> dict:
+    if COOKIES_FILE.exists():
+        return {"cookiefile": str(COOKIES_FILE)}
+    return {}
 
 # ── Load known episodes ────────────────────────────────────────────────────────
 if EPISODES_FILE.exists():
@@ -49,6 +56,7 @@ ydl_info_opts = {
     "quiet": True,
     "extract_flat": True,
     "playlistend": PLAYLIST_FETCH_COUNT,
+    **cookie_opts(),
 }
 
 with yt_dlp.YoutubeDL(ydl_info_opts) as ydl:
@@ -94,6 +102,7 @@ for entry in entries:
             "preferredquality": "128",
         }],
         "quiet": False,
+        **cookie_opts(),
     }
 
     try:
