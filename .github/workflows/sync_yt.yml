@@ -1,0 +1,56 @@
+name: Sync Podcast from YouTube
+
+on:
+  # schedule:
+  #   - cron: '0 * * * *'  # every hour — uncomment after successful manual test
+  workflow_dispatch:        # manual trigger only for now
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false  # don't cancel mid-upload; let it finish
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.0.2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install yt-dlp feedgen boto3
+
+      - name: Run sync script
+        env:
+          PLAYLIST_ID: ${{ secrets.YOUTUBE_PLAYLIST_ID }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY }}
+          R2_SECRET_KEY: ${{ secrets.R2_SECRET_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+        run: python3 yt/sync_podcast.py
+
+      - name: Commit updated feed and episodes
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add yt/episodes.json feed.xml
+          git diff --staged --quiet || git commit -m "🎙️ Sync YouTube → podcast feed"
+          git push
+
+      - name: Notify on failure
+        if: failure()
+        uses: dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f  # v16
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_USER }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "⚠️ Podcast sync failed"
+          to: ${{ secrets.GMAIL_USER }}
+          from: ${{ secrets.GMAIL_USER }}
+          body: "The YouTube → podcast sync workflow failed. Check https://github.com/shaqo88/enachmanson-feed/actions for details. The next scheduled run will retry automatically — no episodes will be lost."
