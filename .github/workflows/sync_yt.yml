@@ -7,7 +7,7 @@ on:
 
 concurrency:
   group: update-feed
-  cancel-in-progress: false  # don't cancel mid-upload; let it finish
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -19,16 +19,27 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install Node.js (required for yt-dlp n-challenge solver)
         run: |
-          pip install feedgen boto3
-          pip install "yt-dlp[default]"
+          curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+          sudo apt-get install -y nodejs
+          node --version
+          npm --version
+
+      - name: Install Python dependencies
+        run: |
+          pip install feedgen boto3 "yt-dlp[default]"
+
+      - name: Install yt-dlp JS solver
+        run: |
+          npm install -g @distube/ytdl-core 2>/dev/null || true
+          yt-dlp --version
 
       - name: Write YouTube cookies file
         env:
           YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
         run: |
-          echo "$YOUTUBE_COOKIES" > /tmp/yt_cookies.txt
+          printf '%s' "$YOUTUBE_COOKIES" > /tmp/yt_cookies.txt
 
       - name: Run sync script
         env:
@@ -60,4 +71,4 @@ jobs:
           subject: "⚠️ Podcast sync failed"
           to: ${{ secrets.GMAIL_USER }}
           from: ${{ secrets.GMAIL_USER }}
-          body: "The YouTube → podcast sync workflow failed. Check https://github.com/shaqo88/enachmanson-feed/actions for details. The next scheduled run will retry automatically — no episodes will be lost."
+          body: "The YouTube → podcast sync workflow failed. Check https://github.com/shaqo88/enachmanson-feed/actions for details. The next run will retry automatically."
