@@ -31,8 +31,9 @@ EPISODES_FILE = Path("yt/episodes.json")
 FEED_FILE     = Path("feed.xml")
 FEED_URL      = "https://shaqo88.github.io/enachmanson-feed/feed.xml"
 PODCAST_TITLE = "שיעורי הרב אלחנן נחמנסון"
+PODCAST_DESC  = "שיעורי הלכה, חסידות וחינוך מאת הרב אלחנן נחמנסון"
 AUTHOR_NAME   = "הרב אלחנן נחמנסון"
-LOGO_URL      = f"{R2_PUBLIC_URL}/logo.png"   # upload your logo to R2 once
+LOGO_URL      = f"{R2_PUBLIC_URL}/logo.png"
 
 # How many recent playlist items to check each run (saves time; raise if needed)
 PLAYLIST_FETCH_COUNT = 50
@@ -141,7 +142,7 @@ for entry in entries:
     ep = {
         "id":          vid_id,
         "title":       meta.get("title", title),
-        "description": meta.get("description", ""),
+        "description": meta.get("description", "") or title,
         "published":   upload_date,
         "duration":    meta.get("duration", 0),
         "url":         f"{R2_PUBLIC_URL}/{r2_key}",
@@ -165,6 +166,7 @@ fg.load_extension("podcast")
 
 fg.id(FEED_URL)
 fg.title(PODCAST_TITLE)
+fg.description(PODCAST_DESC)
 fg.author({"name": AUTHOR_NAME})
 fg.link(href=FEED_URL, rel="self")
 fg.language("he")
