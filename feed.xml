@@ -1,24 +1,2470 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
-  <channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" version="2.0">
+
+<channel>
     <title>שיעורי הרב אלחנן נחמנסון</title>
-    <link>https://shaqo88.github.io/enachmanson-feed/feed.xml</link>
-    <description>שיעורי הלכה, חסידות וחינוך מאת הרב אלחנן נחמנסון</description>
-    <atom:link href="https://shaqo88.github.io/enachmanson-feed/feed.xml" rel="self"/>
-    <docs>http://www.rssboard.org/rss-specification</docs>
-    <generator>python-feedgen</generator>
-    <image>
-      <url>https://pub-98870003a0374406b04def2bed239266.r2.dev/logo.png</url>
-      <title>שיעורי הרב אלחנן נחמנסון</title>
-      <link>https://shaqo88.github.io/enachmanson-feed/feed.xml</link>
-    </image>
+    <atom:link href="https://feed.podbean.com/enachmanson/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://enachmanson.podbean.com</link>
+    <description>&lt;div id="content" class="style-scope ytd-engagement-panel-section-list-renderer"&gt;
+&lt;div id="contents" class="style-scope ytd-section-list-renderer"&gt;
+&lt;div id="contents" class="style-scope ytd-item-section-renderer"&gt;כאן תשמעו שיעורי הלכה במגוון תחומים, שיעורים בחסידות בשפה השווה לכל נפש עם נגיעה לחיי היומיום, שיעורים בחינוך ושלום בית. בשיעוריו לוקח אותנו למסע המחבר את חיי המעשה עם התורה, כך שהתורה נהפכת לתורת חיים - מגלה רובד עמוק יותר בחיינו ופותחת צוהר להתרומם מעל אתגרי היומיום.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="video-preview" class="style-scope ytd-app"&gt;&lt;/div&gt;</description>
+    <pubDate>Sun, 07 Jun 2026 19:40:09 +0300</pubDate>
+    <generator>https://podbean.com/?v=5.5</generator>
     <language>he</language>
-    <lastBuildDate>Mon, 15 Jun 2026 21:32:15 +0000</lastBuildDate>
-    <itunes:author>הרב אלחנן נחמנסון</itunes:author>
-    <itunes:category text="Religion &amp; Spirituality">
-      <itunes:category text="Judaism"/>
-    </itunes:category>
-    <itunes:image href="https://pub-98870003a0374406b04def2bed239266.r2.dev/logo.png"/>
-    <itunes:explicit>no</itunes:explicit>
-  </channel>
+    <spotify:countryOfOrigin>il</spotify:countryOfOrigin>
+    <copyright>Copyright 2026 All rights reserved.</copyright>
+    <category>Religion &amp; Spirituality:Judaism</category>
+    <ttl>1440</ttl>
+    <itunes:type>episodic</itunes:type>
+          <itunes:summary>שיעורי הרב אלחנן משה נחמנסון</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+	<itunes:category text="Religion &amp; Spirituality">
+		<itunes:category text="Judaism" />
+	</itunes:category>
+    <itunes:owner>
+        <itunes:name>הרב אלחנן נחמנסון</itunes:name>
+            </itunes:owner>
+    	<itunes:block>No</itunes:block>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:new-feed-url>https://feed.podbean.com/enachmanson/feed.xml</itunes:new-feed-url>
+    <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/22097982/Gemini_Generated_Image_wortwzwortwzwort_1_1_91zyt.png" />
+    <image>
+        <url>https://pbcdn1.podbean.com/imglogo/image-logo/22097982/Gemini_Generated_Image_wortwzwortwzwort_1_1_91zyt.png</url>
+        <title>שיעורי הרב אלחנן נחמנסון</title>
+        <link>https://enachmanson.podbean.com</link>
+        <width>144</width>
+        <height>144</height>
+    </image>
+    <item>
+        <title>השיעור הזה יגרום לכם להפסיק לשקר לעצמכם! | הרב אלחנן משה נחמנסון</title>
+        <itunes:title>השיעור הזה יגרום לכם להפסיק לשקר לעצמכם! | הרב אלחנן משה נחמנסון</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%a9%d7%99%d7%a2%d7%95%d7%a8-%d7%94%d7%96%d7%94%d7%99%d7%92%d7%a8%d7%95%d7%9d-%d7%9c%d7%9b%d7%9d%d7%9c%d7%94%d7%a4%d7%a1/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%a9%d7%99%d7%a2%d7%95%d7%a8-%d7%94%d7%96%d7%94%d7%99%d7%92%d7%a8%d7%95%d7%9d-%d7%9c%d7%9b%d7%9d%d7%9c%d7%94%d7%a4%d7%a1/#comments</comments>        <pubDate>Sun, 07 Jun 2026 19:40:09 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:AIrtR92VEcQ</guid>
+                                    <description>&lt;p&gt;מראי מקומות על השיעור נמצא בתוך הלינק הזה: &lt;a href='https://docs.google.com/document/d/16nN30Nmy0vsABIkOWM2Ar7CYErdqAZ6G/edit?usp=drivesdk&amp;amp;ouid=100625528041110338412&amp;amp;rtpof=true&amp;amp;sd=true'&gt;https://docs.google.com/document/d/16nN30Nmy0vsABIkOWM2Ar7CYErdqAZ6G/edit?usp=drivesdk&amp;amp;ouid=100625528041110338412&amp;amp;rtpof=true&amp;amp;sd=true&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;שיעור תורה חדש מאת הרב אלחנן משה נחמנסון
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בערוץ תמצאו שיעורים בפרשת השבוע, הלכה, אקטואליה יהודית, אמונה, השקפה, חינוך, זוגיות ועצות לחיים על פי מקורות התורה וחז"ל.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;הירשמו לערוץ לקבלת תכנים חדשים מדי שבוע.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;🔔 Subscribe והפעילו את הפעמון לקבלת עדכונים.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;#פרשת_השבוע #יהדות #תורה #הלכה #אמונה #השקפה #חיזוק #אקטואליה #דברי_תורה&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מראי מקומות על השיעור נמצא בתוך הלינק הזה: &lt;a href='https://docs.google.com/document/d/16nN30Nmy0vsABIkOWM2Ar7CYErdqAZ6G/edit?usp=drivesdk&amp;amp;ouid=100625528041110338412&amp;amp;rtpof=true&amp;amp;sd=true'&gt;https://docs.google.com/document/d/16nN30Nmy0vsABIkOWM2Ar7CYErdqAZ6G/edit?usp=drivesdk&amp;amp;ouid=100625528041110338412&amp;amp;rtpof=true&amp;amp;sd=true&lt;/a&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;שיעור תורה חדש מאת הרב אלחנן משה נחמנסון&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בערוץ תמצאו שיעורים בפרשת השבוע, הלכה, אקטואליה יהודית, אמונה, השקפה, חינוך, זוגיות ועצות לחיים על פי מקורות התורה וחז"ל.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;הירשמו לערוץ לקבלת תכנים חדשים מדי שבוע.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;🔔 Subscribe והפעילו את הפעמון לקבלת עדכונים.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;#פרשת_השבוע #יהדות #תורה #הלכה #אמונה #השקפה #חיזוק #אקטואליה #דברי_תורה&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/ljpicffqwwrkhzye/yt_video_AIrtR92VEcQ_8ii6uh.mp3" length="50104154" type="audio/mpeg" />
+        <itunes:summary>מראי מקומות על השיעור נמצא בתוך הלינק הזה: https://docs.google.com/document/d/16nN30Nmy0vsABIkOWM2Ar7CYErdqAZ6G/edit?usp=drivesdk&amp;amp;ouid=100625528041110338412&amp;amp;rtpof=true&amp;amp;sd=trueשיעור תורה חדש מאת הרב אלחנן משה נחמנסוןבערוץ תמצאו שיעורים בפרשת השבוע, הלכה, אקטואליה יהודית, אמונה, השקפה, חינוך, זוגיות ועצות לחיים על פי מקורות התורה וחז"ל.הירשמו לערוץ לקבלת תכנים חדשים מדי שבוע.🔔 Subscribe והפעילו את הפעמון לקבלת עדכונים.#פרשת_השבוע #יהדות #תורה #הלכה #אמונה #השקפה #חיזוק #אקטואליה #דברי_תורה</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>3131</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/bxmn7fej9tnt8mgu/edb823c5-362c-36d2-9779-a6ee3b0f4896.vtt" type="text/vtt" />    <spotify:order>1</spotify:order></item>
+    <item>
+        <title>אין לי מזל - איך מתמודדים עם זה</title>
+        <itunes:title>אין לי מזל - איך מתמודדים עם זה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9f-%d7%9c%d7%99-%d7%9e%d7%96%d7%9c-%d7%90%d7%99%d7%9a-%d7%9e%d7%aa%d7%9e%d7%95%d7%93%d7%93%d7%99%d7%9d-%d7%a2%d7%9d-%d7%96%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9f-%d7%9c%d7%99-%d7%9e%d7%96%d7%9c-%d7%90%d7%99%d7%9a-%d7%9e%d7%aa%d7%9e%d7%95%d7%93%d7%93%d7%99%d7%9d-%d7%a2%d7%9d-%d7%96%d7%94/#comments</comments>        <pubDate>Mon, 01 Jun 2026 08:51:14 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:XH2dTcs1UH0</guid>
+                                    <description>&lt;p&gt;סקירה מרתקת ממקורות חז"ל והפוסקים עד כמה למזל יש השפעה על חיינו, והאם ניתן להשתמש בו כתירוץ להתנהגויות שלנו.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;סקירה מרתקת ממקורות חז"ל והפוסקים עד כמה למזל יש השפעה על חיינו, והאם ניתן להשתמש בו כתירוץ להתנהגויות שלנו.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/k20udlcdmhx77bzf/yt_video_XH2dTcs1UH0_uw4r2i.mp3" length="25699099" type="audio/mpeg" />
+        <itunes:summary>סקירה מרתקת ממקורות חז"ל והפוסקים עד כמה למזל יש השפעה על חיינו, והאם ניתן להשתמש בו כתירוץ להתנהגויות שלנו.בית הכנסת הגדול חולון, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1606</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/mnkyatcwvzmz6hz9/4837f6af-6bc8-3155-bb98-e0149f8f1e6f.vtt" type="text/vtt" />    <spotify:order>2</spotify:order></item>
+    <item>
+        <title>מה טוב בלהיות מבולבל</title>
+        <itunes:title>מה טוב בלהיות מבולבל</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%98%d7%95%d7%91-%d7%91%d7%9c%d7%94%d7%99%d7%95%d7%aa-%d7%9e%d7%91%d7%95%d7%9c%d7%91%d7%9c/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%98%d7%95%d7%91-%d7%91%d7%9c%d7%94%d7%99%d7%95%d7%aa-%d7%9e%d7%91%d7%95%d7%9c%d7%91%d7%9c/#comments</comments>        <pubDate>Fri, 29 May 2026 16:53:10 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:V6evkzyzvYg</guid>
+                                    <description>&lt;p&gt;שיעור בלקוטי תורה פ' בהעלותך ד"ה וזה מעשה המנורה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;במאמר נלמד על דמותו של זרובבל כפי שהיא משתקפת בעבודת כל אחד ואחד, זרובבל מלשון מלשון בלילה ועירוב של כוחות הנפש זה בזה ללא סדר, כמו גם ערבוב של אדם אחד עם חבירו. נלמד מה טוב בזה, ואיזה חוסן לחיים מקבלים כתוצאה מזה שמקיימים את בטל רצונך.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בלקוטי תורה פ' בהעלותך ד"ה וזה מעשה המנורה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;במאמר נלמד על דמותו של זרובבל כפי שהיא משתקפת בעבודת כל אחד ואחד, זרובבל מלשון מלשון בלילה ועירוב של כוחות הנפש זה בזה ללא סדר, כמו גם ערבוב של אדם אחד עם חבירו. נלמד מה טוב בזה, ואיזה חוסן לחיים מקבלים כתוצאה מזה שמקיימים את בטל רצונך.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/hjdlqufq0wf7g1i4/yt_video_V6evkzyzvYg_yyxqhg.mp3" length="42785688" type="audio/mpeg" />
+        <itunes:summary>שיעור בלקוטי תורה פ' בהעלותך ד"ה וזה מעשה המנורה.במאמר נלמד על דמותו של זרובבל כפי שהיא משתקפת בעבודת כל אחד ואחד, זרובבל מלשון מלשון בלילה ועירוב של כוחות הנפש זה בזה ללא סדר, כמו גם ערבוב של אדם אחד עם חבירו. נלמד מה טוב בזה, ואיזה חוסן לחיים מקבלים כתוצאה מזה שמקיימים את בטל רצונך.בית הכנסת רני ושמחי, רחובות, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2674</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/pdx4887px4jg259i/acb8af5c-3517-3414-9793-96a616dcc208.vtt" type="text/vtt" />    <spotify:order>3</spotify:order></item>
+    <item>
+        <title>ספר תורה שנתרם לבית הכנסת והמשפחה רוצה לקחת אותו</title>
+        <itunes:title>ספר תורה שנתרם לבית הכנסת והמשפחה רוצה לקחת אותו</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%a1%d7%a4%d7%a8-%d7%aa%d7%95%d7%a8%d7%94-%d7%a9%d7%a0%d7%aa%d7%a8%d7%9d%d7%9c%d7%91%d7%99%d7%aa%d7%94%d7%9b%d7%a0%d7%a1%d7%aa/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%a1%d7%a4%d7%a8-%d7%aa%d7%95%d7%a8%d7%94-%d7%a9%d7%a0%d7%aa%d7%a8%d7%9d%d7%9c%d7%91%d7%99%d7%aa%d7%94%d7%9b%d7%a0%d7%a1%d7%aa/#comments</comments>        <pubDate>Thu, 28 May 2026 07:31:36 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:Yo4D6cw-JcM</guid>
+                                    <description>&lt;p&gt;אדם שתרם ספר תורה למקום מסוים ואחר כך רוצה לחזור בו. למה כותבים על הספר תורה שהוא 'מושאל' לבית הכנסת ומה עושים כאשר התורם לא ידע שצריך לציין את זה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;אדם שתרם ספר תורה למקום מסוים ואחר כך רוצה לחזור בו. למה כותבים על הספר תורה שהוא 'מושאל' לבית הכנסת ומה עושים כאשר התורם לא ידע שצריך לציין את זה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/dr6dojdiw72zh7yo/yt_video_Yo4D6cw-JcM_aakb5g.mp3" length="12587301" type="audio/mpeg" />
+        <itunes:summary>אדם שתרם ספר תורה למקום מסוים ואחר כך רוצה לחזור בו. למה כותבים על הספר תורה שהוא 'מושאל' לבית הכנסת ומה עושים כאשר התורם לא ידע שצריך לציין את זה.בית חב"ד צפון גדרה, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>786</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/btmnpdd9s6f3s43f/68614f1c-928a-3754-9c3c-eabeef285745.vtt" type="text/vtt" />    <spotify:order>4</spotify:order></item>
+    <item>
+        <title>למה לספור מנין עם הפסוק ’הושיעה את עמך’ לא מספיק</title>
+        <itunes:title>למה לספור מנין עם הפסוק ’הושיעה את עמך’ לא מספיק</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%9c%d7%a1%d7%a4%d7%95%d7%a8%d7%9e%d7%a0%d7%99%d7%9f%d7%a2%d7%9d-%d7%94%d7%a4%d7%a1%d7%95%d7%a7%d7%94%d7%95%d7%a9%d7%99%d7%a2/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%9c%d7%a1%d7%a4%d7%95%d7%a8%d7%9e%d7%a0%d7%99%d7%9f%d7%a2%d7%9d-%d7%94%d7%a4%d7%a1%d7%95%d7%a7%d7%94%d7%95%d7%a9%d7%99%d7%a2/#comments</comments>        <pubDate>Wed, 27 May 2026 07:16:39 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:CKkeEzkKaHI</guid>
+                                    <description>&lt;p&gt;השיעור עוסק באיסור לספור יהודים מפני חשש מגיפה, מדוע בזמן דוד המלך מתו יהודים במגפה בזמן שספרו אותם, ולמה כאשר סופרים מנין לא מספיק לספור עם פסוק?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;השיעור עוסק באיסור לספור יהודים מפני חשש מגיפה, מדוע בזמן דוד המלך מתו יהודים במגפה בזמן שספרו אותם, ולמה כאשר סופרים מנין לא מספיק לספור עם פסוק?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/mndlj11gd8ltryw8/yt_video_CKkeEzkKaHI_q57st7.mp3" length="20928095" type="audio/mpeg" />
+        <itunes:summary>השיעור עוסק באיסור לספור יהודים מפני חשש מגיפה, מדוע בזמן דוד המלך מתו יהודים במגפה בזמן שספרו אותם, ולמה כאשר סופרים מנין לא מספיק לספור עם פסוק?בית חב"ד צפון גדרה, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1307</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/jfhpimhxr2qbt82a/65da91dc-445f-32ae-aeb4-362a21e85026.vtt" type="text/vtt" />    <spotify:order>5</spotify:order></item>
+    <item>
+        <title>איך לא להתפתות מול מקרר מלא בכל טוב</title>
+        <itunes:title>איך לא להתפתות מול מקרר מלא בכל טוב</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%9c%d7%90-%d7%9c%d7%94%d7%aa%d7%a4%d7%aa%d7%95%d7%aa%d7%9e%d7%95%d7%9c-%d7%9e%d7%a7%d7%a8%d7%a8-%d7%9e%d7%9c%d7%90-%d7%91%d7%9b/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%9c%d7%90-%d7%9c%d7%94%d7%aa%d7%a4%d7%aa%d7%95%d7%aa%d7%9e%d7%95%d7%9c-%d7%9e%d7%a7%d7%a8%d7%a8-%d7%9e%d7%9c%d7%90-%d7%91%d7%9b/#comments</comments>        <pubDate>Tue, 26 May 2026 07:23:25 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:Nhx6ob-wh6I</guid>
+                                    <description>&lt;p&gt;איזו עיצה נתן הרבי לאדם שכל פתיחת מקרר גרמה לו להתמודדות קשה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;איזו עיצה נתן הרבי לאדם שכל פתיחת מקרר גרמה לו להתמודדות קשה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/6bqg2m6viqv8mmsl/yt_video_Nhx6ob-wh6I_ex8u3j.mp3" length="3270573" type="audio/mpeg" />
+        <itunes:summary>איזו עיצה נתן הרבי לאדם שכל פתיחת מקרר גרמה לו להתמודדות קשה.בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>204</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/n34wzivttd9w6xw7/2f3ff083-a989-38ba-bda8-9b978caa6fe4.vtt" type="text/vtt" />    <spotify:order>6</spotify:order></item>
+    <item>
+        <title>דיני בל תשחית וביזוי אוכלין</title>
+        <itunes:title>דיני בל תשחית וביזוי אוכלין</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%91%d7%9c-%d7%aa%d7%a9%d7%97%d7%99%d7%aa-%d7%95%d7%91%d7%99%d7%96%d7%95%d7%99-%d7%90%d7%95%d7%9b%d7%9c%d7%99%d7%9f/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%91%d7%9c-%d7%aa%d7%a9%d7%97%d7%99%d7%aa-%d7%95%d7%91%d7%99%d7%96%d7%95%d7%99-%d7%90%d7%95%d7%9b%d7%9c%d7%99%d7%9f/#comments</comments>        <pubDate>Mon, 25 May 2026 08:12:18 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:CDDfRpFpaXk</guid>
+                                    <description>&lt;p&gt;האם מותר לזרוק שאריות של מזון שלא מתכננים לאכול ובאיזה אופן,
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;עד כמה צריך להחמיר לא לדרוך על פירורים של לחם,
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;האם יש בעיה הלכתית לעשות פיסול וקישוטים מפירות וירקות.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם מותר לזרוק שאריות של מזון שלא מתכננים לאכול ובאיזה אופן,&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;עד כמה צריך להחמיר לא לדרוך על פירורים של לחם,&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם יש בעיה הלכתית לעשות פיסול וקישוטים מפירות וירקות.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/uiotxxdrxqgtec0t/yt_video_CDDfRpFpaXk_bajraf.mp3" length="53696931" type="audio/mpeg" />
+        <itunes:summary>האם מותר לזרוק שאריות של מזון שלא מתכננים לאכול ובאיזה אופן,עד כמה צריך להחמיר לא לדרוך על פירורים של לחם,האם יש בעיה הלכתית לעשות פיסול וקישוטים מפירות וירקות.בית חב"ד צפון גדרה, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>3356</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/cknfzkxwpjt73q5c/7f0a04f2-d867-3145-a0cf-3f74874444a1.vtt" type="text/vtt" />    <spotify:order>7</spotify:order></item>
+    <item>
+        <title>אל תפתח פה לשטן - מה זה אומר</title>
+        <itunes:title>אל תפתח פה לשטן - מה זה אומר</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%9c-%d7%aa%d7%a4%d7%aa%d7%97-%d7%a4%d7%94-%d7%9c%d7%a9%d7%98%d7%9f-%d7%9e%d7%94-%d7%96%d7%94-%d7%90%d7%95%d7%9e%d7%a8/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%9c-%d7%aa%d7%a4%d7%aa%d7%97-%d7%a4%d7%94-%d7%9c%d7%a9%d7%98%d7%9f-%d7%9e%d7%94-%d7%96%d7%94-%d7%90%d7%95%d7%9e%d7%a8/#comments</comments>        <pubDate>Sun, 24 May 2026 07:39:06 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:NOfcqN6zGwY</guid>
+                                    <description>&lt;p&gt;בשיעור נלמד עד כמה הפליגו חז"ל בחשיבות השמירה על הפה לא רק במובן של נקיות והנהגה נכונה אלא במובן שהמילים שהאדם מוציא מפיו יכולות לקבוע עת העתיד.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;בשיעור נלמד עד כמה הפליגו חז"ל בחשיבות השמירה על הפה לא רק במובן של נקיות והנהגה נכונה אלא במובן שהמילים שהאדם מוציא מפיו יכולות לקבוע עת העתיד.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/nl10vjwrqam2ilwp/yt_video_NOfcqN6zGwY_4dvejz.mp3" length="16748503" type="audio/mpeg" />
+        <itunes:summary>בשיעור נלמד עד כמה הפליגו חז"ל בחשיבות השמירה על הפה לא רק במובן של נקיות והנהגה נכונה אלא במובן שהמילים שהאדם מוציא מפיו יכולות לקבוע עת העתיד.בית הכנסת הגדול חולון, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1046</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/598z8advyxpd6r7v/4b5f55fe-d34b-3bfc-a91c-9b7afd038b2d.vtt" type="text/vtt" />    <spotify:order>8</spotify:order></item>
+    <item>
+        <title>סיר לבישול איטי - האם מותר להשתמש בו בשבת</title>
+        <itunes:title>סיר לבישול איטי - האם מותר להשתמש בו בשבת</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%a1%d7%99%d7%a8-%d7%9c%d7%91%d7%99%d7%a9%d7%95%d7%9c%d7%90%d7%99%d7%98%d7%99%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%94%d7%a9/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%a1%d7%99%d7%a8-%d7%9c%d7%91%d7%99%d7%a9%d7%95%d7%9c%d7%90%d7%99%d7%98%d7%99%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%94%d7%a9/#comments</comments>        <pubDate>Wed, 20 May 2026 08:49:00 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:abZSEHmpwC4</guid>
+                                    <description>&lt;p&gt;באיזה אופן ניתן להשתמש בסיר לבישול איטי (Slow cooker) בשבת - מצד דיני השהיה ודיני הטמנה
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;באיזה אופן ניתן להשתמש בסיר לבישול איטי (Slow cooker) בשבת - מצד דיני השהיה ודיני הטמנה&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/4f6f1yljv4u2u191/yt_video_abZSEHmpwC4_893vrk.mp3" length="6590841" type="audio/mpeg" />
+        <itunes:summary>באיזה אופן ניתן להשתמש בסיר לבישול איטי (Slow cooker) בשבת - מצד דיני השהיה ודיני הטמנהבית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>411</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/nnyxp57v3frxgpy5/00bf9a05-8615-3299-a699-e58d512759fd.vtt" type="text/vtt" />    <spotify:order>9</spotify:order></item>
+    <item>
+        <title>להתייחס למעשים ולא לכוונות</title>
+        <itunes:title>להתייחס למעשים ולא לכוונות</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%94%d7%aa%d7%99%d7%99%d7%97%d7%a1-%d7%9c%d7%9e%d7%a2%d7%a9%d7%99%d7%9d-%d7%95%d7%9c%d7%90-%d7%9c%d7%9b%d7%95%d7%95%d7%a0%d7%95%d7%aa/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%94%d7%aa%d7%99%d7%99%d7%97%d7%a1-%d7%9c%d7%9e%d7%a2%d7%a9%d7%99%d7%9d-%d7%95%d7%9c%d7%90-%d7%9c%d7%9b%d7%95%d7%95%d7%a0%d7%95%d7%aa/#comments</comments>        <pubDate>Wed, 20 May 2026 08:47:06 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:GiXqC7GKKPs</guid>
+                                    <description>&lt;p&gt;נלמד לשפוט בני אדם כפי שהקב"ה שופט אותנו
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;נלמד לשפוט בני אדם כפי שהקב"ה שופט אותנו&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/yn9ql4q0jp4nlca8/yt_video_GiXqC7GKKPs_wifdg5.mp3" length="2844673" type="audio/mpeg" />
+        <itunes:summary>נלמד לשפוט בני אדם כפי שהקב"ה שופט אותנובית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>177</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/bkwi8g35j2tzybr2/0b707953-0f18-34a6-9c96-ce406337a632.vtt" type="text/vtt" />    <spotify:order>10</spotify:order></item>
+    <item>
+        <title>למה למנהג חב”ד ילד שעשה בר מצוה בספירת העומר ממשיך לספור עם ברכה</title>
+        <itunes:title>למה למנהג חב”ד ילד שעשה בר מצוה בספירת העומר ממשיך לספור עם ברכה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%9c%d7%9e%d7%a0%d7%94%d7%92%d7%97%d7%91-%d7%93%d7%99%d7%9c%d7%93-%d7%a9%d7%a2%d7%a9%d7%94-%d7%91%d7%a8-%d7%9e%d7%a6%d7%95/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%9c%d7%9e%d7%a0%d7%94%d7%92%d7%97%d7%91-%d7%93%d7%99%d7%9c%d7%93-%d7%a9%d7%a2%d7%a9%d7%94-%d7%91%d7%a8-%d7%9e%d7%a6%d7%95/#comments</comments>        <pubDate>Tue, 19 May 2026 07:23:40 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:UcDaHcUoUhA</guid>
+                                    <description>&lt;p&gt;נחלקו הפוסקים בילד שעשה בר מצוה בספירת העומר, האם מה שספר בתור קטן נחשבת גם לזמן שהוא גדול. המחלוקת נובעת מתוך תפיסה שכל ספירת העומר היא בעצם מצוה אחת.
+&lt;/p&gt;
+&lt;p&gt;בשיעור מתבאר מנהג חב"ד בנושא.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;נחלקו הפוסקים בילד שעשה בר מצוה בספירת העומר, האם מה שספר בתור קטן נחשבת גם לזמן שהוא גדול. המחלוקת נובעת מתוך תפיסה שכל ספירת העומר היא בעצם מצוה אחת.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בשיעור מתבאר מנהג חב"ד בנושא.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/6v3g0yreew4p69hg/yt_video_UcDaHcUoUhA_6g9vgg.mp3" length="10345368" type="audio/mpeg" />
+        <itunes:summary>נחלקו הפוסקים בילד שעשה בר מצוה בספירת העומר, האם מה שספר בתור קטן נחשבת גם לזמן שהוא גדול. המחלוקת נובעת מתוך תפיסה שכל ספירת העומר היא בעצם מצוה אחת.בשיעור מתבאר מנהג חב"ד בנושא.בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>646</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/dxfmbrrmnukw8jy9/63d7146a-3a7c-3fdc-9cd8-23bcbeaebc12.vtt" type="text/vtt" />    <spotify:order>11</spotify:order></item>
+    <item>
+        <title>להוציא ספר תורה בשביל מבצע עשרת הדברות</title>
+        <itunes:title>להוציא ספר תורה בשביל מבצע עשרת הדברות</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%94%d7%95%d7%a6%d7%99%d7%90-%d7%a1%d7%a4%d7%a8%d7%aa%d7%95%d7%a8%d7%94%d7%91%d7%a9%d7%91%d7%99%d7%9c-%d7%9e%d7%91%d7%a6/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%94%d7%95%d7%a6%d7%99%d7%90-%d7%a1%d7%a4%d7%a8%d7%aa%d7%95%d7%a8%d7%94%d7%91%d7%a9%d7%91%d7%99%d7%9c-%d7%9e%d7%91%d7%a6/#comments</comments>        <pubDate>Mon, 18 May 2026 07:27:57 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:S9lg0hqaIqM</guid>
+                                    <description>&lt;p&gt;באילו מצבים מותר להוציא ספר תורה מבית הכנסת לבית אחר או לרשות הרבים, והאם
+&lt;/p&gt;
+&lt;p&gt;מותר/נכון להוציא ספר תורה בשביל לזכות יהודים בקריאת עשרת הדברות
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;באילו מצבים מותר להוציא ספר תורה מבית הכנסת לבית אחר או לרשות הרבים, והאם&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מותר/נכון להוציא ספר תורה בשביל לזכות יהודים בקריאת עשרת הדברות&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/3784nzpaopc70xx4/yt_video_S9lg0hqaIqM_xs7gn3.mp3" length="10294377" type="audio/mpeg" />
+        <itunes:summary>באילו מצבים מותר להוציא ספר תורה מבית הכנסת לבית אחר או לרשות הרבים, והאםמותר/נכון להוציא ספר תורה בשביל לזכות יהודים בקריאת עשרת הדברותבית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>643</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/4r54wqsmu2rq9mv5/1c32d77b-70c3-31ec-ad4b-03c11c8e4424.vtt" type="text/vtt" />    <spotify:order>12</spotify:order></item>
+    <item>
+        <title>דיני עירוב תבשילין</title>
+        <itunes:title>דיני עירוב תבשילין</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%a2%d7%99%d7%a8%d7%95%d7%91-%d7%aa%d7%91%d7%a9%d7%99%d7%9c%d7%99%d7%9f/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%a2%d7%99%d7%a8%d7%95%d7%91-%d7%aa%d7%91%d7%a9%d7%99%d7%9c%d7%99%d7%9f/#comments</comments>        <pubDate>Mon, 18 May 2026 07:25:33 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:wf_u23PmjHY</guid>
+                                    <description>&lt;p&gt;יום טוב שחל בערב שבת איך מקיימים את מצות עירוב תבשילין בהידור, מה עושים כאשר שוכחים - כמה פעמים אפשר לסמוך על עירוב של אחרים.
+&lt;/p&gt;
+&lt;p&gt;זוג שמתארח לסעודות האם צריך להניח עירוב תבשילין.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;יום טוב שחל בערב שבת איך מקיימים את מצות עירוב תבשילין בהידור, מה עושים כאשר שוכחים - כמה פעמים אפשר לסמוך על עירוב של אחרים.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;זוג שמתארח לסעודות האם צריך להניח עירוב תבשילין.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/nu5o60ppghls59hu/yt_video_wf_u23PmjHY_ertxek.mp3" length="24323177" type="audio/mpeg" />
+        <itunes:summary>יום טוב שחל בערב שבת איך מקיימים את מצות עירוב תבשילין בהידור, מה עושים כאשר שוכחים - כמה פעמים אפשר לסמוך על עירוב של אחרים.זוג שמתארח לסעודות האם צריך להניח עירוב תבשילין.בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1520</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/qkcunxj526dppvj7/2ae3d753-3905-33b9-8174-730c800c6b0b.vtt" type="text/vtt" />    <spotify:order>13</spotify:order></item>
+    <item>
+        <title>כל פעולה קטנה שיהודי עושה מרגשת את הקב”ה</title>
+        <itunes:title>כל פעולה קטנה שיהודי עושה מרגשת את הקב”ה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9b%d7%9c-%d7%a4%d7%a2%d7%95%d7%9c%d7%94-%d7%a7%d7%98%d7%a0%d7%94-%d7%a9%d7%99%d7%94%d7%95%d7%93%d7%99%d7%a2%d7%95%d7%a9%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9b%d7%9c-%d7%a4%d7%a2%d7%95%d7%9c%d7%94-%d7%a7%d7%98%d7%a0%d7%94-%d7%a9%d7%99%d7%94%d7%95%d7%93%d7%99%d7%a2%d7%95%d7%a9%d7%94/#comments</comments>        <pubDate>Fri, 15 May 2026 09:52:08 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:OUl-DUifq_M</guid>
+                                    <description>&lt;p&gt;שיעור בליקוטי תורה פ' במדבר - חג השבועות ד"ה וארשתיך לי לעולם.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בחיבור בין יהודי לקב"ה, שיכול להיות במצב של כלה נאה וחסודה ויכול להיות במצב של חיגרת וסומא, איך בכל זאת מתחברים לקב"ה, ואיזה כח יש ליהודי ביד עד שכל פעולה קטנה שהוא עושה מרגשת את הקב"ה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רוני ושמחי, ערב ש"פ במדבר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בליקוטי תורה פ' במדבר - חג השבועות ד"ה וארשתיך לי לעולם.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בחיבור בין יהודי לקב"ה, שיכול להיות במצב של כלה נאה וחסודה ויכול להיות במצב של חיגרת וסומא, איך בכל זאת מתחברים לקב"ה, ואיזה כח יש ליהודי ביד עד שכל פעולה קטנה שהוא עושה מרגשת את הקב"ה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רוני ושמחי, ערב ש"פ במדבר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/njc1y02eggp34b3b/yt_video_OUl-DUifq_M_v68rky.mp3" length="41733267" type="audio/mpeg" />
+        <itunes:summary>שיעור בליקוטי תורה פ' במדבר - חג השבועות ד"ה וארשתיך לי לעולם.המאמר עוסק בחיבור בין יהודי לקב"ה, שיכול להיות במצב של כלה נאה וחסודה ויכול להיות במצב של חיגרת וסומא, איך בכל זאת מתחברים לקב"ה, ואיזה כח יש ליהודי ביד עד שכל פעולה קטנה שהוא עושה מרגשת את הקב"ה.בית הכנסת רוני ושמחי, ערב ש"פ במדבר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2608</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/hkbkrc5ub35bkqmv/9a2808c7-658b-31ae-9e19-6d290714fa05.vtt" type="text/vtt" />    <spotify:order>14</spotify:order></item>
+    <item>
+        <title>האם מותר לבקש מילד להדליק את המזגן בשבת</title>
+        <itunes:title>האם מותר לבקש מילד להדליק את המזגן בשבת</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%91%d7%a7%d7%a9-%d7%9e%d7%99%d7%9c%d7%93-%d7%9c%d7%94%d7%93%d7%9c%d7%99%d7%a7%d7%90%d7%aa-%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%91%d7%a7%d7%a9-%d7%9e%d7%99%d7%9c%d7%93-%d7%9c%d7%94%d7%93%d7%9c%d7%99%d7%a7%d7%90%d7%aa-%d7%94/#comments</comments>        <pubDate>Thu, 14 May 2026 08:09:02 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:creVgtFSeZY</guid>
+                                    <description>&lt;p&gt;האם ילד מתחת לגיל בר מצוה יכול לשמש אותנו במקום 'גוי של שבת', ומה עושים כאשר הילד מחלל שבת להנאתו -  האם חייבים למנוע אותו או שאפשר לשתוק.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם ילד מתחת לגיל בר מצוה יכול לשמש אותנו במקום 'גוי של שבת', ומה עושים כאשר הילד מחלל שבת להנאתו -  האם חייבים למנוע אותו או שאפשר לשתוק.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/pbelv0ryq8rimui7/yt_video_creVgtFSeZY_7f47dk.mp3" length="25005287" type="audio/mpeg" />
+        <itunes:summary>האם ילד מתחת לגיל בר מצוה יכול לשמש אותנו במקום 'גוי של שבת', ומה עושים כאשר הילד מחלל שבת להנאתו -  האם חייבים למנוע אותו או שאפשר לשתוק.בית חב"ד צפון גדרה, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1562</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/rgys64rk4nvra6hg/c40c422f-279b-317c-ae43-12fe73218112.vtt" type="text/vtt" />    <spotify:order>15</spotify:order></item>
+    <item>
+        <title>האם מותר לפתוח מקרר שאין בו התקן שבת</title>
+        <itunes:title>האם מותר לפתוח מקרר שאין בו התקן שבת</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%a4%d7%aa%d7%95%d7%97%d7%9e%d7%a7%d7%a8%d7%a8%d7%a9%d7%90%d7%99%d7%9f%d7%91%d7%95-%d7%94%d7%aa/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%a4%d7%aa%d7%95%d7%97%d7%9e%d7%a7%d7%a8%d7%a8%d7%a9%d7%90%d7%99%d7%9f%d7%91%d7%95-%d7%94%d7%aa/#comments</comments>        <pubDate>Wed, 13 May 2026 08:45:31 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:GDx9OAJww8Q</guid>
+                                    <description>&lt;p&gt;איזה בעיות חוסך מקרר שיש בו התקן שבת, ואיך נכון להתנהג עם מקרר שאין בו התקן שבת - לפני השבת ובמהלך השבת.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;איזה בעיות חוסך מקרר שיש בו התקן שבת, ואיך נכון להתנהג עם מקרר שאין בו התקן שבת - לפני השבת ובמהלך השבת.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/5mfugonb8ww0fk8p/yt_video_GDx9OAJww8Q_yqj95s.mp3" length="19940875" type="audio/mpeg" />
+        <itunes:summary>איזה בעיות חוסך מקרר שיש בו התקן שבת, ואיך נכון להתנהג עם מקרר שאין בו התקן שבת - לפני השבת ובמהלך השבת.בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1246</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/ssdwnyezcve9t4z9/e5ef84da-0d8f-3a2e-8c9f-cb2fb60da8d0.vtt" type="text/vtt" />    <spotify:order>16</spotify:order></item>
+    <item>
+        <title>מה נקרא הפסק בין נטילת ידיים לסעודה</title>
+        <itunes:title>מה נקרא הפסק בין נטילת ידיים לסעודה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%a0%d7%a7%d7%a8%d7%90-%d7%94%d7%a4%d7%a1%d7%a7-%d7%91%d7%99%d7%9f-%d7%a0%d7%98%d7%99%d7%9c%d7%aa-%d7%99%d7%93%d7%99%d7%99%d7%9d-%d7%9c/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%a0%d7%a7%d7%a8%d7%90-%d7%94%d7%a4%d7%a1%d7%a7-%d7%91%d7%99%d7%9f-%d7%a0%d7%98%d7%99%d7%9c%d7%aa-%d7%99%d7%93%d7%99%d7%99%d7%9d-%d7%9c/#comments</comments>        <pubDate>Tue, 12 May 2026 08:34:59 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:G9rV_seTBsA</guid>
+                                    <description>&lt;p&gt;כמה זמן מותר להפסיק בין נטילת ידיים לברכת המוציא, מה קורה כאשר יוצאים לחדר אחר או אפילו בית אחר, והאם צריכים ליטול ידיים שוב כאשר מדברים דברים שאינם קשורים לסעודה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;כמה זמן מותר להפסיק בין נטילת ידיים לברכת המוציא, מה קורה כאשר יוצאים לחדר אחר או אפילו בית אחר, והאם צריכים ליטול ידיים שוב כאשר מדברים דברים שאינם קשורים לסעודה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/blhy1fxzmbyjum1a/yt_video_G9rV_seTBsA_5d5bki.mp3" length="22006847" type="audio/mpeg" />
+        <itunes:summary>כמה זמן מותר להפסיק בין נטילת ידיים לברכת המוציא, מה קורה כאשר יוצאים לחדר אחר או אפילו בית אחר, והאם צריכים ליטול ידיים שוב כאשר מדברים דברים שאינם קשורים לסעודה.בית חב"ד צפון גדרה, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1375</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/qsazwkyq9xvrehbc/4ca996b9-54c6-3edd-95fd-7e6d0fb72368.vtt" type="text/vtt" />    <spotify:order>17</spotify:order></item>
+    <item>
+        <title>האם יש בעיה ללבוש בגד בצבע אדום</title>
+        <itunes:title>האם יש בעיה ללבוש בגד בצבע אדום</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%91%d7%a2%d7%99%d7%94-%d7%9c%d7%9c%d7%91%d7%95%d7%a9-%d7%91%d7%92%d7%93-%d7%91%d7%a6%d7%91%d7%a2-%d7%90%d7%93%d7%95/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%91%d7%a2%d7%99%d7%94-%d7%9c%d7%9c%d7%91%d7%95%d7%a9-%d7%91%d7%92%d7%93-%d7%91%d7%a6%d7%91%d7%a2-%d7%90%d7%93%d7%95/#comments</comments>        <pubDate>Mon, 11 May 2026 08:29:49 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:aNeYO9QosNE</guid>
+                                    <description>&lt;p&gt;בגד אדום האם זהו איסור הלכתי או מנהג, ומה דעת היהדות על צבע אדום בכלל?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;בגד אדום האם זהו איסור הלכתי או מנהג, ומה דעת היהדות על צבע אדום בכלל?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/n1kux9lgboqxb19a/yt_video_aNeYO9QosNE_nass3p.mp3" length="17640428" type="audio/mpeg" />
+        <itunes:summary>בגד אדום האם זהו איסור הלכתי או מנהג, ומה דעת היהדות על צבע אדום בכלל?בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1102</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/h997tdryy25nt7d9/0a96bf39-791b-31cd-83e1-f212bce3d27c.vtt" type="text/vtt" />    <spotify:order>18</spotify:order></item>
+    <item>
+        <title>אם ישראל משמרים שתי שבתות מיד הם נגאלים - מה הכוונה</title>
+        <itunes:title>אם ישראל משמרים שתי שבתות מיד הם נגאלים - מה הכוונה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%9d-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%9e%d7%a9%d7%9e%d7%a8%d7%99%d7%9d%d7%a9%d7%aa%d7%99%d7%a9%d7%91%d7%aa%d7%95%d7%aa%d7%9e%d7%99%d7%93/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%9d-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%9e%d7%a9%d7%9e%d7%a8%d7%99%d7%9d%d7%a9%d7%aa%d7%99%d7%a9%d7%91%d7%aa%d7%95%d7%aa%d7%9e%d7%99%d7%93/#comments</comments>        <pubDate>Fri, 08 May 2026 12:18:19 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:8UQF-4t4NFk</guid>
+                                    <description>&lt;p&gt;שיעור בליקוטי תורה פ' בהר - ד"ה את שבתותי תשמרו
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;במאמר מבאר אדה"ז האם צריכים לשמור שתי שבתות או שבת אחת בשביל שתגיע הגאולה, ומה הכוונה שהשבת מעלה את כל השבוע איך זה קורה ומה ההשפעה של זה בנפש האדם.
+&lt;/p&gt;
+&lt;p&gt;וגם מה הכוונה 'פילגש' בעבודת ה'.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בליקוטי תורה פ' בהר - ד"ה את שבתותי תשמרו&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;במאמר מבאר אדה"ז האם צריכים לשמור שתי שבתות או שבת אחת בשביל שתגיע הגאולה, ומה הכוונה שהשבת מעלה את כל השבוע איך זה קורה ומה ההשפעה של זה בנפש האדם.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;וגם מה הכוונה 'פילגש' בעבודת ה'.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/3u6lmuzux15hmae7/yt_video_8UQF-4t4NFk_pvi9sz.mp3" length="42258642" type="audio/mpeg" />
+        <itunes:summary>שיעור בליקוטי תורה פ' בהר - ד"ה את שבתותי תשמרובמאמר מבאר אדה"ז האם צריכים לשמור שתי שבתות או שבת אחת בשביל שתגיע הגאולה, ומה הכוונה שהשבת מעלה את כל השבוע איך זה קורה ומה ההשפעה של זה בנפש האדם.וגם מה הכוונה 'פילגש' בעבודת ה'.בית הכנסת רני ושמחי, רחובות, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2641</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/mqhb7au335x9dh53/86db20f0-0aef-3f39-be69-c6f94b830d24.vtt" type="text/vtt" />    <spotify:order>19</spotify:order></item>
+    <item>
+        <title>מה ההבדל בין העברית שלנו ללשון הקודש</title>
+        <itunes:title>מה ההבדל בין העברית שלנו ללשון הקודש</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%94%d7%94%d7%91%d7%93%d7%9c-%d7%91%d7%99%d7%9f-%d7%94%d7%a2%d7%91%d7%a8%d7%99%d7%aa%d7%a9%d7%9c%d7%a0%d7%95/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%94%d7%94%d7%91%d7%93%d7%9c-%d7%91%d7%99%d7%9f-%d7%94%d7%a2%d7%91%d7%a8%d7%99%d7%aa%d7%a9%d7%9c%d7%a0%d7%95/#comments</comments>        <pubDate>Thu, 07 May 2026 07:10:54 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:24VkyEHqolU</guid>
+                                    <description>&lt;p&gt;באיזה שפה דיבר אברהם אבינו?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;למה בזמן המשנה דיברו רוב עם ישראל בשפות זרות ולא בלשון הקודש?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;מה היתרון של שירים לועזיים על שירים בעברית?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;באיזה שפה דיבר אברהם אבינו?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;למה בזמן המשנה דיברו רוב עם ישראל בשפות זרות ולא בלשון הקודש?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מה היתרון של שירים לועזיים על שירים בעברית?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/gzsnp3ehik892g9r/yt_video_24VkyEHqolU_8gh9f6.mp3" length="24668412" type="audio/mpeg" />
+        <itunes:summary>באיזה שפה דיבר אברהם אבינו?למה בזמן המשנה דיברו רוב עם ישראל בשפות זרות ולא בלשון הקודש?מה היתרון של שירים לועזיים על שירים בעברית?בית הכנסת הגדול חולון, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1541</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/ys7v7pyv223mfcxf/1c42bbfd-e21f-3c2a-bd58-39c76955d7c0.vtt" type="text/vtt" />    <spotify:order>20</spotify:order></item>
+    <item>
+        <title>דיני הנחה על הפלטה בשבת</title>
+        <itunes:title>דיני הנחה על הפלטה בשבת</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%94%d7%a0%d7%97%d7%94-%d7%a2%d7%9c-%d7%94%d7%a4%d7%9c%d7%98%d7%94-%d7%91%d7%a9%d7%91%d7%aa/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%94%d7%a0%d7%97%d7%94-%d7%a2%d7%9c-%d7%94%d7%a4%d7%9c%d7%98%d7%94-%d7%91%d7%a9%d7%91%d7%aa/#comments</comments>        <pubDate>Wed, 06 May 2026 08:05:42 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:Is2mog__ZN0</guid>
+                                    <description>&lt;p&gt;מהם התנאים להחזיר מאכל על מקור חום בשבת והאם צריך לשמור אותם גם בפלטה,
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;באיזה אופן ניתן להניח על הפלטה ללא חשש גם לדעת המחמירים
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת חב"ד רמת הנשיא בת ים, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מהם התנאים להחזיר מאכל על מקור חום בשבת והאם צריך לשמור אותם גם בפלטה,&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;באיזה אופן ניתן להניח על הפלטה ללא חשש גם לדעת המחמירים&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת חב"ד רמת הנשיא בת ים, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/cwn1rbgaypepnjcx/yt_video_Is2mog__ZN0_ykqjgq.mp3" length="15546452" type="audio/mpeg" />
+        <itunes:summary>מהם התנאים להחזיר מאכל על מקור חום בשבת והאם צריך לשמור אותם גם בפלטה,באיזה אופן ניתן להניח על הפלטה ללא חשש גם לדעת המחמיריםבית הכנסת חב"ד רמת הנשיא בת ים, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>971</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/rugw3reiynff5m2x/0b79e32d-af5b-3d94-a8ea-39df824923a1.vtt" type="text/vtt" />    <spotify:order>21</spotify:order></item>
+    <item>
+        <title>דיני שנים מקרא ואחד תרגום</title>
+        <itunes:title>דיני שנים מקרא ואחד תרגום</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%a9%d7%a0%d7%99%d7%9d-%d7%9e%d7%a7%d7%a8%d7%90-%d7%95%d7%90%d7%97%d7%93-%d7%aa%d7%a8%d7%92%d7%95%d7%9d/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%a9%d7%a0%d7%99%d7%9d-%d7%9e%d7%a7%d7%a8%d7%90-%d7%95%d7%90%d7%97%d7%93-%d7%aa%d7%a8%d7%92%d7%95%d7%9d/#comments</comments>        <pubDate>Mon, 04 May 2026 06:54:39 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:iyTrNq-A5nU</guid>
+                                    <description>&lt;p&gt;מה נפעל בעולם כתוצאה מאמירת שנים מקרא ואחד תרגום ואיך מקיימים את מצוה זו בהידור.
+&lt;/p&gt;
+&lt;p&gt;איזה עיצות יש לאדם שקשה לו להתמיד במצוה זו.
+&lt;/p&gt;
+&lt;p&gt;למה אדמור"י חב"ד נהגו בשנים מקרא ואחד תרגום שונה ממנהג חב"ד.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, חודש אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מה נפעל בעולם כתוצאה מאמירת שנים מקרא ואחד תרגום ואיך מקיימים את מצוה זו בהידור.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;איזה עיצות יש לאדם שקשה לו להתמיד במצוה זו.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;למה אדמור"י חב"ד נהגו בשנים מקרא ואחד תרגום שונה ממנהג חב"ד.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, חודש אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/8v6h5opnbknbj9c5/yt_video_iyTrNq-A5nU_kj4sfb.mp3" length="24212000" type="audio/mpeg" />
+        <itunes:summary>מה נפעל בעולם כתוצאה מאמירת שנים מקרא ואחד תרגום ואיך מקיימים את מצוה זו בהידור.איזה עיצות יש לאדם שקשה לו להתמיד במצוה זו.למה אדמור"י חב"ד נהגו בשנים מקרא ואחד תרגום שונה ממנהג חב"ד.בית הכנסת המרכזי קרית מלאכי, חודש אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1513</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/w7i4kvmj7rnq6sgu/5a769669-6ea7-3de9-af09-8201546ccab5.vtt" type="text/vtt" />    <spotify:order>22</spotify:order></item>
+    <item>
+        <title>התוועדות פסח שני תשפ’’ו</title>
+        <itunes:title>התוועדות פסח שני תשפ’’ו</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%aa%d7%95%d7%95%d7%a2%d7%93%d7%95%d7%aa-%d7%a4%d7%a1%d7%97-%d7%a9%d7%a0%d7%99-%d7%aa%d7%a9%d7%a4-%d7%95/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%aa%d7%95%d7%95%d7%a2%d7%93%d7%95%d7%aa-%d7%a4%d7%a1%d7%97-%d7%a9%d7%a0%d7%99-%d7%aa%d7%a9%d7%a4-%d7%95/#comments</comments>        <pubDate>Sun, 03 May 2026 05:36:50 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:ln4AqrW1jVc</guid>
+                                    <description>&lt;p&gt;התוועדות לכבוד י"ד אייר - פסח שני תשפ"ו
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;התוועדות לכבוד י"ד אייר - פסח שני תשפ"ו&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/sctzk34o2js8mq24/yt_video_ln4AqrW1jVc_a4jshc.mp3" length="35193878" type="audio/mpeg" />
+        <itunes:summary>התוועדות לכבוד י"ד אייר - פסח שני תשפ"ובית הכנסת המרכזי קרית מלאכי</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2199</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/mkpymygy4q2zda77/53fb8726-5de6-382b-9e49-f1b0fc3127e0.vtt" type="text/vtt" />    <spotify:order>23</spotify:order></item>
+    <item>
+        <title>למה כדאי לעשות דברים ברעש ודרמה</title>
+        <itunes:title>למה כדאי לעשות דברים ברעש ודרמה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%9b%d7%93%d7%90%d7%99-%d7%9c%d7%a2%d7%a9%d7%95%d7%aa%d7%93%d7%91%d7%a8%d7%99%d7%9d%d7%91%d7%a8%d7%a2%d7%a9/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%9b%d7%93%d7%90%d7%99-%d7%9c%d7%a2%d7%a9%d7%95%d7%aa%d7%93%d7%91%d7%a8%d7%99%d7%9d%d7%91%d7%a8%d7%a2%d7%a9/#comments</comments>        <pubDate>Thu, 30 Apr 2026 07:25:42 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:oQpTTpht_Ns</guid>
+                                    <description>&lt;p&gt;בדור שלנו עניני הקדושה צריכים להעשות דווקא ברעש, זה חלק מהתיקון.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;בדור שלנו עניני הקדושה צריכים להעשות דווקא ברעש, זה חלק מהתיקון.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/lzntvwppcwekmdyk/yt_video_oQpTTpht_Ns_7x2d8f.mp3" length="3083745" type="audio/mpeg" />
+        <itunes:summary>בדור שלנו עניני הקדושה צריכים להעשות דווקא ברעש, זה חלק מהתיקון.בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>192</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/dqn3cwzkvbntggza/51094f0f-23bc-3a29-bf43-3c9cf549f002.vtt" type="text/vtt" />    <spotify:order>24</spotify:order></item>
+    <item>
+        <title>מחיקת שם השם בטלפון, קדושה בכתב מיקרופילם ובשטר של דולר</title>
+        <itunes:title>מחיקת שם השם בטלפון, קדושה בכתב מיקרופילם ובשטר של דולר</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%97%d7%99%d7%a7%d7%aa%d7%a9%d7%9d-%d7%94%d7%a9%d7%9d-%d7%91%d7%98%d7%9c%d7%a4%d7%95%d7%9f%d7%a7%d7%93%d7%95%d7%a9%d7%94-%d7%91%d7%9b%d7%aa/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%97%d7%99%d7%a7%d7%aa%d7%a9%d7%9d-%d7%94%d7%a9%d7%9d-%d7%91%d7%98%d7%9c%d7%a4%d7%95%d7%9f%d7%a7%d7%93%d7%95%d7%a9%d7%94-%d7%91%d7%9b%d7%aa/#comments</comments>        <pubDate>Thu, 30 Apr 2026 07:24:25 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:lB8sGgMGJws</guid>
+                                    <description>&lt;p&gt;האם מותר למחוק את שם השם בהודעת וואצאפ, האם יש קדושה  בשטר של דולר מצד שכתוב עליו שם השם, ומה היחס לשטר של מאתיים ש"ח שיש עליו שם השם באותיות מזעריות, שזה מזכיר את הדין של כתב מיקרופילם.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ''ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם מותר למחוק את שם השם בהודעת וואצאפ, האם יש קדושה  בשטר של דולר מצד שכתוב עליו שם השם, ומה היחס לשטר של מאתיים ש"ח שיש עליו שם השם באותיות מזעריות, שזה מזכיר את הדין של כתב מיקרופילם.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ''ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/zcrofr15gaihfiaj/yt_video_lB8sGgMGJws_qw97wz.mp3" length="20529780" type="audio/mpeg" />
+        <itunes:summary>האם מותר למחוק את שם השם בהודעת וואצאפ, האם יש קדושה  בשטר של דולר מצד שכתוב עליו שם השם, ומה היחס לשטר של מאתיים ש"ח שיש עליו שם השם באותיות מזעריות, שזה מזכיר את הדין של כתב מיקרופילם.בית הכנסת המרכזי קרית מלאכי, אייר תשפ''ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1283</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/ph6qeejenc8karc7/4dabddee-6b8c-3b64-b74b-463d418679b0.vtt" type="text/vtt" />    <spotify:order>25</spotify:order></item>
+    <item>
+        <title>מהם התנאים לקיום מצות פרו ורבו</title>
+        <itunes:title>מהם התנאים לקיום מצות פרו ורבו</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%94%d7%9d-%d7%94%d7%aa%d7%a0%d7%90%d7%99%d7%9d%d7%9c%d7%a7%d7%99%d7%95%d7%9d-%d7%9e%d7%a6%d7%95%d7%aa-%d7%a4%d7%a8%d7%95/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%94%d7%9d-%d7%94%d7%aa%d7%a0%d7%90%d7%99%d7%9d%d7%9c%d7%a7%d7%99%d7%95%d7%9d-%d7%9e%d7%a6%d7%95%d7%aa-%d7%a4%d7%a8%d7%95/#comments</comments>        <pubDate>Wed, 29 Apr 2026 05:57:21 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:huyTqdUEvHc</guid>
+                                    <description>&lt;p&gt;עד כמה מחויב אדם להשקיע בקיום מצות פרו ורבו ומדוע לא אומרים לאדם שאין לו ילדים שעליו להתגרש כדי לקיים את המצוה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;עד כמה מחויב אדם להשקיע בקיום מצות פרו ורבו ומדוע לא אומרים לאדם שאין לו ילדים שעליו להתגרש כדי לקיים את המצוה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/1o25nuijhahzx9ht/yt_video_huyTqdUEvHc_cbeyre.mp3" length="31183977" type="audio/mpeg" />
+        <itunes:summary>עד כמה מחויב אדם להשקיע בקיום מצות פרו ורבו ומדוע לא אומרים לאדם שאין לו ילדים שעליו להתגרש כדי לקיים את המצוה.בית חב"ד צפון גדרה, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1948</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/tk6r2nd8dng5fsyz/cc7eea2c-6b04-39d7-bf87-7373d1953c56.vtt" type="text/vtt" />    <spotify:order>26</spotify:order></item>
+    <item>
+        <title>האם יש בעיה הלכתית לגדל קוקו או בלורית</title>
+        <itunes:title>האם יש בעיה הלכתית לגדל קוקו או בלורית</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%91%d7%a2%d7%99%d7%94-%d7%94%d7%9c%d7%9b%d7%aa%d7%99%d7%aa-%d7%9c%d7%92%d7%93%d7%9c-%d7%a7%d7%95%d7%a7%d7%95-%d7%90/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%91%d7%a2%d7%99%d7%94-%d7%94%d7%9c%d7%9b%d7%aa%d7%99%d7%aa-%d7%9c%d7%92%d7%93%d7%9c-%d7%a7%d7%95%d7%a7%d7%95-%d7%90/#comments</comments>        <pubDate>Tue, 28 Apr 2026 07:23:39 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:-adAJIOhPmY</guid>
+                                    <description>&lt;p&gt;בשו"ע נפסק שאסור להסתפר כמנהגי הגויים משום ובחוקותיהם לא תלכו, על איזה תספורת מדובר, ואיך משכנעים אדם להסתפר לפי ההלכה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;בשו"ע נפסק שאסור להסתפר כמנהגי הגויים משום ובחוקותיהם לא תלכו, על איזה תספורת מדובר, ואיך משכנעים אדם להסתפר לפי ההלכה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/326sc0f5pblpcxid/yt_video_-adAJIOhPmY_yxmyvh.mp3" length="20298648" type="audio/mpeg" />
+        <itunes:summary>בשו"ע נפסק שאסור להסתפר כמנהגי הגויים משום ובחוקותיהם לא תלכו, על איזה תספורת מדובר, ואיך משכנעים אדם להסתפר לפי ההלכה.בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1268</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/mbsbpsb8pyxntbxh/20f7e9ac-bb8e-36d0-8b66-0dc424d26f3c.vtt" type="text/vtt" />    <spotify:order>27</spotify:order></item>
+    <item>
+        <title>האם צריך כיריים נפרדות לחלבי ובשרי ומה הדין בקולט אדים</title>
+        <itunes:title>האם צריך כיריים נפרדות לחלבי ובשרי ומה הדין בקולט אדים</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%a6%d7%a8%d7%99%d7%9a-%d7%9b%d7%99%d7%a8%d7%99%d7%99%d7%9d%d7%a0%d7%a4%d7%a8%d7%93%d7%95%d7%aa-%d7%9c%d7%97/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%a6%d7%a8%d7%99%d7%9a-%d7%9b%d7%99%d7%a8%d7%99%d7%99%d7%9d%d7%a0%d7%a4%d7%a8%d7%93%d7%95%d7%aa-%d7%9c%d7%97/#comments</comments>        <pubDate>Mon, 27 Apr 2026 09:40:07 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:dDyJ_hUFSzo</guid>
+                                    <description>&lt;p&gt;האם יש בעיה הלכתית להניח סיר חלבי ובשרי בו זמנית על כיריים, הן מצד הכיריים עצמם והן מצד התערבות האדים דקיימא לן זיעה מילתא.
+&lt;/p&gt;
+&lt;p&gt;והאם ניתן להכשיר קולט אדים לפסח.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי, קריית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם יש בעיה הלכתית להניח סיר חלבי ובשרי בו זמנית על כיריים, הן מצד הכיריים עצמם והן מצד התערבות האדים דקיימא לן זיעה מילתא.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;והאם ניתן להכשיר קולט אדים לפסח.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי, קריית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/64cm3sli26yxyffa/yt_video_dDyJ_hUFSzo_btrswx.mp3" length="29407233" type="audio/mpeg" />
+        <itunes:summary>האם יש בעיה הלכתית להניח סיר חלבי ובשרי בו זמנית על כיריים, הן מצד הכיריים עצמם והן מצד התערבות האדים דקיימא לן זיעה מילתא.והאם ניתן להכשיר קולט אדים לפסח.בית הכנסת המרכזי, קריית מלאכי, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1837</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/45vt2bs9dgizpayy/39ad4230-3e15-34f3-95c1-4c47fe24efde.vtt" type="text/vtt" />    <spotify:order>28</spotify:order></item>
+    <item>
+        <title>מה מרוויחים כאשר מכופפים את הראש</title>
+        <itunes:title>מה מרוויחים כאשר מכופפים את הראש</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%9e%d7%a8%d7%95%d7%95%d7%99%d7%97%d7%99%d7%9d-%d7%9b%d7%90%d7%a9%d7%a8-%d7%9e%d7%9b%d7%95%d7%a4%d7%a4%d7%99%d7%9d/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%9e%d7%a8%d7%95%d7%95%d7%99%d7%97%d7%99%d7%9d-%d7%9b%d7%90%d7%a9%d7%a8-%d7%9e%d7%9b%d7%95%d7%a4%d7%a4%d7%99%d7%9d/#comments</comments>        <pubDate>Fri, 24 Apr 2026 10:14:36 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:LL6iBUbaqNY</guid>
+                                    <description>&lt;p&gt;שיעור בליקוטי תורה פ' אחרי - קדושים ד"ה כי ביום הזה יכפר עליכם
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בשאלה אם המטרה בחיים היא להתקרב לה' אז עדיף היה שנשאר כנשמות בגן עדן - קרובים אל ה' ?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;מה יותר נעלה התורה או התפילה ?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;מה מרוויח אדם בכך שמוריד ראש ואומר טעיתי למה לא מספיק להתקדם ולהתעלות בלי לחזור אל הטעויות אותם עשה ולתקן אותם?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, ז' אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בליקוטי תורה פ' אחרי - קדושים ד"ה כי ביום הזה יכפר עליכם&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בשאלה אם המטרה בחיים היא להתקרב לה' אז עדיף היה שנשאר כנשמות בגן עדן - קרובים אל ה' ?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מה יותר נעלה התורה או התפילה ?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מה מרוויח אדם בכך שמוריד ראש ואומר טעיתי למה לא מספיק להתקדם ולהתעלות בלי לחזור אל הטעויות אותם עשה ולתקן אותם?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, ז' אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/pxvsra5mnv8oh9td/yt_video_LL6iBUbaqNY_vrqcyr.mp3" length="42942841" type="audio/mpeg" />
+        <itunes:summary>שיעור בליקוטי תורה פ' אחרי - קדושים ד"ה כי ביום הזה יכפר עליכםהמאמר עוסק בשאלה אם המטרה בחיים היא להתקרב לה' אז עדיף היה שנשאר כנשמות בגן עדן - קרובים אל ה' ?מה יותר נעלה התורה או התפילה ?מה מרוויח אדם בכך שמוריד ראש ואומר טעיתי למה לא מספיק להתקדם ולהתעלות בלי לחזור אל הטעויות אותם עשה ולתקן אותם?בית הכנסת רני ושמחי, רחובות, ז' אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2683</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/k2i8sx4jnupus7kk/fd183f49-203e-3ef5-a1fe-57802bcd9dda.vtt" type="text/vtt" />    <spotify:order>29</spotify:order></item>
+    <item>
+        <title>איך להתייחס לנפילות בעבודת ה’</title>
+        <itunes:title>איך להתייחס לנפילות בעבודת ה’</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%9c%d7%94%d7%aa%d7%99%d7%99%d7%97%d7%a1-%d7%9c%d7%a0%d7%a4%d7%99%d7%9c%d7%95%d7%aa-%d7%91%d7%a2%d7%91%d7%95%d7%93%d7%aa-%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%9c%d7%94%d7%aa%d7%99%d7%99%d7%97%d7%a1-%d7%9c%d7%a0%d7%a4%d7%99%d7%9c%d7%95%d7%aa-%d7%91%d7%a2%d7%91%d7%95%d7%93%d7%aa-%d7%94/#comments</comments>        <pubDate>Thu, 23 Apr 2026 08:21:08 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:x8bMtzKmQ9o</guid>
+                                    <description>&lt;p&gt;לפעמים אדם נכשל שוב ושוב עד שחש שאין טעם לנסות עוד. מעבר לחיזוק הנפשי צריך לדעת שיש הבדל ביחס של התורה בין מעשה טוב למעשה רע. ההבדל מתבטא גם בפן ההלכתי וגם בפן המעשי. ועל כך, בשיעור שלפניכם.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אייר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;לפעמים אדם נכשל שוב ושוב עד שחש שאין טעם לנסות עוד. מעבר לחיזוק הנפשי צריך לדעת שיש הבדל ביחס של התורה בין מעשה טוב למעשה רע. ההבדל מתבטא גם בפן ההלכתי וגם בפן המעשי. ועל כך, בשיעור שלפניכם.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אייר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/o0dx47c8hd2mrcpa/yt_video_x8bMtzKmQ9o_e7hgxi.mp3" length="21271239" type="audio/mpeg" />
+        <itunes:summary>לפעמים אדם נכשל שוב ושוב עד שחש שאין טעם לנסות עוד. מעבר לחיזוק הנפשי צריך לדעת שיש הבדל ביחס של התורה בין מעשה טוב למעשה רע. ההבדל מתבטא גם בפן ההלכתי וגם בפן המעשי. ועל כך, בשיעור שלפניכם.בית הכנסת הגדול חולון, אייר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1329</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/3q8vp8h6bgs5mt76/37423efe-32d3-3b2a-80b7-6716c1f1af33.vtt" type="text/vtt" />    <spotify:order>30</spotify:order></item>
+    <item>
+        <title>האם מותר לאדם להציל את עצמו על חשבון מישהו אחר</title>
+        <itunes:title>האם מותר לאדם להציל את עצמו על חשבון מישהו אחר</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%90%d7%93%d7%9d-%d7%9c%d7%94%d7%a6%d7%99%d7%9c%d7%90%d7%aa-%d7%a2%d7%a6%d7%9e%d7%95-%d7%a2%d7%9c/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%90%d7%93%d7%9d-%d7%9c%d7%94%d7%a6%d7%99%d7%9c%d7%90%d7%aa-%d7%a2%d7%a6%d7%9e%d7%95-%d7%a2%d7%9c/#comments</comments>        <pubDate>Wed, 22 Apr 2026 07:46:57 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:nhvAXoCStNw</guid>
+                                    <description>&lt;p&gt;מהם האפשרויות שיש לאדם להציל את עצמו למרות שעל ידי זה יכנס אדם אחר תחתיו וינזק או אפילו ימות.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מהם האפשרויות שיש לאדם להציל את עצמו למרות שעל ידי זה יכנס אדם אחר תחתיו וינזק או אפילו ימות.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/v4fm2njcb3fie2t3/yt_video_nhvAXoCStNw_qy5fah.mp3" length="16826243" type="audio/mpeg" />
+        <itunes:summary>מהם האפשרויות שיש לאדם להציל את עצמו למרות שעל ידי זה יכנס אדם אחר תחתיו וינזק או אפילו ימות.בית הכנסת הגדול חולון, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1051</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/jbd7ecixmcd9cyvy/296cf771-c999-3320-a89e-38f92f49a641.vtt" type="text/vtt" />    <spotify:order>31</spotify:order></item>
+    <item>
+        <title>האם יש בעיה לקנות מדיח כלים משומש</title>
+        <itunes:title>האם יש בעיה לקנות מדיח כלים משומש</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%91%d7%a2%d7%99%d7%94-%d7%9c%d7%a7%d7%a0%d7%95%d7%aa-%d7%9e%d7%93%d7%99%d7%97-%d7%9b%d7%9c%d7%99%d7%9d-%d7%9e%d7%a9/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%91%d7%a2%d7%99%d7%94-%d7%9c%d7%a7%d7%a0%d7%95%d7%aa-%d7%9e%d7%93%d7%99%d7%97-%d7%9b%d7%9c%d7%99%d7%9d-%d7%9e%d7%a9/#comments</comments>        <pubDate>Tue, 21 Apr 2026 07:16:47 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:pP6WyHXWPzA</guid>
+                                    <description>&lt;p&gt;האם אפשר להשתמש באותו מדיח כלים לבשרי וחלבי והאם מותר לקנות מדיח כלים משומש.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם אפשר להשתמש באותו מדיח כלים לבשרי וחלבי והאם מותר לקנות מדיח כלים משומש.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/mteu65q0ct705tp7/yt_video_pP6WyHXWPzA_i4f2ah.mp3" length="13597927" type="audio/mpeg" />
+        <itunes:summary>האם אפשר להשתמש באותו מדיח כלים לבשרי וחלבי והאם מותר לקנות מדיח כלים משומש.בית הכנסת המרכזי קרית מלאכי, תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>849</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/viae48wz8fe987zx/b2c6819a-e0d9-3ada-a479-b16553332432.vtt" type="text/vtt" />    <spotify:order>32</spotify:order></item>
+    <item>
+        <title>האם מותר להלשין בשביל מטרה חינוכית</title>
+        <itunes:title>האם מותר להלשין בשביל מטרה חינוכית</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%94%d7%9c%d7%a9%d7%99%d7%9f%d7%91%d7%a9%d7%91%d7%99%d7%9c-%d7%9e%d7%98%d7%a8/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%94%d7%9c%d7%a9%d7%99%d7%9f%d7%91%d7%a9%d7%91%d7%99%d7%9c-%d7%9e%d7%98%d7%a8/#comments</comments>        <pubDate>Mon, 20 Apr 2026 08:23:28 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:z0hwhUdc6dc</guid>
+                                    <description>&lt;p&gt;האם מותר למורה לגרום לתלמיד להלשין על חברו לצורך חינוכו של התלמיד
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם מותר למורה לגרום לתלמיד להלשין על חברו לצורך חינוכו של התלמיד&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/iovrznxa81klps4o/yt_video_z0hwhUdc6dc_v8wi9v.mp3" length="9744761" type="audio/mpeg" />
+        <itunes:summary>האם מותר למורה לגרום לתלמיד להלשין על חברו לצורך חינוכו של התלמידבית הכנסת המרכזי נחל'ה, תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>609</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/vnw4h4t227hk3nba/3de76f40-2703-3882-bd93-80f336feb871.vtt" type="text/vtt" />    <spotify:order>33</spotify:order></item>
+    <item>
+        <title>חסידי אומות העולם - מה זה אומר</title>
+        <itunes:title>חסידי אומות העולם - מה זה אומר</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%97%d7%a1%d7%99%d7%93%d7%99-%d7%90%d7%95%d7%9e%d7%95%d7%aa-%d7%94%d7%a2%d7%95%d7%9c%d7%9d-%d7%9e%d7%94-%d7%96%d7%94-%d7%90%d7%95%d7%9e%d7%a8/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%97%d7%a1%d7%99%d7%93%d7%99-%d7%90%d7%95%d7%9e%d7%95%d7%aa-%d7%94%d7%a2%d7%95%d7%9c%d7%9d-%d7%9e%d7%94-%d7%96%d7%94-%d7%90%d7%95%d7%9e%d7%a8/#comments</comments>        <pubDate>Sun, 19 Apr 2026 06:56:10 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:6nwlvi6O5Ng</guid>
+                                    <description>&lt;p&gt;מה התנאים להיות חסיד אומות העולם, איך צריך להתנהג איתם, ומה יהיה המעמד שלהם לעתיד לבוא.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מה התנאים להיות חסיד אומות העולם, איך צריך להתנהג איתם, ומה יהיה המעמד שלהם לעתיד לבוא.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/lizr3ddrud2628oq/yt_video_6nwlvi6O5Ng_rgw8bb.mp3" length="16627295" type="audio/mpeg" />
+        <itunes:summary>מה התנאים להיות חסיד אומות העולם, איך צריך להתנהג איתם, ומה יהיה המעמד שלהם לעתיד לבוא.בית חב"ד צפון גדרה, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1039</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/eqdk5gfxkw2eqzwh/588d0b36-3b0b-3947-99c8-f6f1b9d58eb3.vtt" type="text/vtt" />    <spotify:order>34</spotify:order></item>
+    <item>
+        <title>קיצורי דרך בעבודת ה’</title>
+        <itunes:title>קיצורי דרך בעבודת ה’</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%a7%d7%99%d7%a6%d7%95%d7%a8%d7%99-%d7%93%d7%a8%d7%9a-%d7%91%d7%a2%d7%91%d7%95%d7%93%d7%aa-%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%a7%d7%99%d7%a6%d7%95%d7%a8%d7%99-%d7%93%d7%a8%d7%9a-%d7%91%d7%a2%d7%91%d7%95%d7%93%d7%aa-%d7%94/#comments</comments>        <pubDate>Fri, 17 Apr 2026 13:41:11 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:Wjpb9ImJTcY</guid>
+                                    <description>&lt;p&gt;שיעור בליקוטי תורה פ' תזריע ד"ה שוש תשיש ותגל העקרה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בשיעור נלמד מה ההבדל בין גבר ואישה בעבודת ה', כיצד יתכן שלאישה יש ילדים ועדיין היא נקראת עקרה, וגם האם יתכן שיש קיצורי דרך בעבודת ה' ואיך עושים את זה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי רחובות, ל' ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בליקוטי תורה פ' תזריע ד"ה שוש תשיש ותגל העקרה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בשיעור נלמד מה ההבדל בין גבר ואישה בעבודת ה', כיצד יתכן שלאישה יש ילדים ועדיין היא נקראת עקרה, וגם האם יתכן שיש קיצורי דרך בעבודת ה' ואיך עושים את זה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי רחובות, ל' ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/9cr9jen04bz0jlle/yt_video_Wjpb9ImJTcY_apjfmz.mp3" length="43820973" type="audio/mpeg" />
+        <itunes:summary>שיעור בליקוטי תורה פ' תזריע ד"ה שוש תשיש ותגל העקרה.בשיעור נלמד מה ההבדל בין גבר ואישה בעבודת ה', כיצד יתכן שלאישה יש ילדים ועדיין היא נקראת עקרה, וגם האם יתכן שיש קיצורי דרך בעבודת ה' ואיך עושים את זה.בית הכנסת רני ושמחי רחובות, ל' ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2738</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/waw887kjmh7r8kwv/721387aa-9750-3800-9a9a-546529a6ea46.vtt" type="text/vtt" />    <spotify:order>35</spotify:order></item>
+    <item>
+        <title>מה יחס התורה לקוראן</title>
+        <itunes:title>מה יחס התורה לקוראן</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%99%d7%97%d7%a1-%d7%94%d7%aa%d7%95%d7%a8%d7%94-%d7%9c%d7%a7%d7%95%d7%a8%d7%90%d7%9f/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%99%d7%97%d7%a1-%d7%94%d7%aa%d7%95%d7%a8%d7%94-%d7%9c%d7%a7%d7%95%d7%a8%d7%90%d7%9f/#comments</comments>        <pubDate>Thu, 16 Apr 2026 09:01:09 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:z_Q-rZGvHnM</guid>
+                                    <description>&lt;p&gt;המוסלמים לא נחשבים עובדי עבודה זרה אבל מה הדין של הקוראן האם מותר לקרוא בו,
+&lt;/p&gt;
+&lt;p&gt;האם מותר להקשיב לדרשות של איש דת מוסלמי?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;המוסלמים לא נחשבים עובדי עבודה זרה אבל מה הדין של הקוראן האם מותר לקרוא בו,&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם מותר להקשיב לדרשות של איש דת מוסלמי?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/f7ksnxr5k8oinzqo/yt_video_z_Q-rZGvHnM_d6jfxv.mp3" length="10532614" type="audio/mpeg" />
+        <itunes:summary>המוסלמים לא נחשבים עובדי עבודה זרה אבל מה הדין של הקוראן האם מותר לקרוא בו,האם מותר להקשיב לדרשות של איש דת מוסלמי?בית חב"ד צפון גדרה, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>658</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/j6ccyqnrbtvs8vaf/f2b16184-ec90-3795-ba74-660f2340eb21.vtt" type="text/vtt" />    <spotify:order>36</spotify:order></item>
+    <item>
+        <title>לכבד גם כשלא מסכימים</title>
+        <itunes:title>לכבד גם כשלא מסכימים</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%9b%d7%91%d7%93-%d7%92%d7%9d-%d7%9b%d7%a9%d7%9c%d7%90-%d7%9e%d7%a1%d7%9b%d7%99%d7%9e%d7%99%d7%9d/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%9b%d7%91%d7%93-%d7%92%d7%9d-%d7%9b%d7%a9%d7%9c%d7%90-%d7%9e%d7%a1%d7%9b%d7%99%d7%9e%d7%99%d7%9d/#comments</comments>        <pubDate>Wed, 15 Apr 2026 10:25:35 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:b1vZW5sKzjY</guid>
+                                    <description>&lt;p&gt;מה ענה הרבי לאחד שסיפר לו על מקרה מצער בו יורשים של רב מסוים שרפו את חידושי התורה שעליהם עמל.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מה ענה הרבי לאחד שסיפר לו על מקרה מצער בו יורשים של רב מסוים שרפו את חידושי התורה שעליהם עמל.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/eu3wx9pjdaty14rf/yt_video_b1vZW5sKzjY_asxvzt.mp3" length="1987021" type="audio/mpeg" />
+        <itunes:summary>מה ענה הרבי לאחד שסיפר לו על מקרה מצער בו יורשים של רב מסוים שרפו את חידושי התורה שעליהם עמל.בית הכנסת המרכזי קרית מלאכי, תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>124</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/b3ttnpidd3jys3e7/a17707f0-8caf-3ce9-968a-a0cd7f5d07b0.vtt" type="text/vtt" />    <spotify:order>37</spotify:order></item>
+    <item>
+        <title>האם יש בעיה הלכתית להשתמש בתאריך הלועזי</title>
+        <itunes:title>האם יש בעיה הלכתית להשתמש בתאריך הלועזי</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%91%d7%a2%d7%99%d7%94-%d7%94%d7%9c%d7%9b%d7%aa%d7%99%d7%aa-%d7%9c%d7%94%d7%a9%d7%aa%d7%9e%d7%a9/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%91%d7%a2%d7%99%d7%94-%d7%94%d7%9c%d7%9b%d7%aa%d7%99%d7%aa-%d7%9c%d7%94%d7%a9%d7%aa%d7%9e%d7%a9/#comments</comments>        <pubDate>Wed, 15 Apr 2026 10:13:41 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:EdYB3LttULc</guid>
+                                    <description>&lt;p&gt;עד כמה חשוב להשתמש בתאריך עברי, האם התאריך הלועזי קשור עם הנצרות?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;עד כמה חשוב להשתמש בתאריך עברי, האם התאריך הלועזי קשור עם הנצרות?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/usjof5tefa9z1mep/yt_video_EdYB3LttULc_2e4ipg.mp3" length="18705388" type="audio/mpeg" />
+        <itunes:summary>עד כמה חשוב להשתמש בתאריך עברי, האם התאריך הלועזי קשור עם הנצרות?בית חב"ד צפון גדרה, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1169</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/whjwpd6v5t5hngnp/1954283a-4edd-3bdf-833b-5acfcc332495.vtt" type="text/vtt" />    <spotify:order>38</spotify:order></item>
+    <item>
+        <title>מוזיקה וריקודים בבר מצוה בספירת העומר</title>
+        <itunes:title>מוזיקה וריקודים בבר מצוה בספירת העומר</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%95%d7%96%d7%99%d7%a7%d7%94-%d7%95%d7%a8%d7%99%d7%a7%d7%95%d7%93%d7%99%d7%9d%d7%91%d7%91%d7%a8%d7%9e%d7%a6%d7%95%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%95%d7%96%d7%99%d7%a7%d7%94-%d7%95%d7%a8%d7%99%d7%a7%d7%95%d7%93%d7%99%d7%9d%d7%91%d7%91%d7%a8%d7%9e%d7%a6%d7%95%d7%94/#comments</comments>        <pubDate>Tue, 14 Apr 2026 09:46:05 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:45pVMSctELo</guid>
+                                    <description>&lt;p&gt;האם ניתן לרקוד ולשים מוזיקה בבר מצוה במהלך ספירת העומר, והאם יש חסרון בדחיית הבר מצוה לאחרי חג השבועות.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם ניתן לרקוד ולשים מוזיקה בבר מצוה במהלך ספירת העומר, והאם יש חסרון בדחיית הבר מצוה לאחרי חג השבועות.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/x723ylgo8lphdunr/yt_video_45pVMSctELo_tgp5ts.mp3" length="14126645" type="audio/mpeg" />
+        <itunes:summary>האם ניתן לרקוד ולשים מוזיקה בבר מצוה במהלך ספירת העומר, והאם יש חסרון בדחיית הבר מצוה לאחרי חג השבועות.בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>882</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/f2chrvupzx3ky4rr/892e5796-043b-3682-8e82-c91b113d1d76.vtt" type="text/vtt" />    <spotify:order>39</spotify:order></item>
+    <item>
+        <title>תספורת בספירת העומר</title>
+        <itunes:title>תספורת בספירת העומר</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%aa%d7%a1%d7%a4%d7%95%d7%a8%d7%aa-%d7%91%d7%a1%d7%a4%d7%99%d7%a8%d7%aa-%d7%94%d7%a2%d7%95%d7%9e%d7%a8/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%aa%d7%a1%d7%a4%d7%95%d7%a8%d7%aa-%d7%91%d7%a1%d7%a4%d7%99%d7%a8%d7%aa-%d7%94%d7%a2%d7%95%d7%9e%d7%a8/#comments</comments>        <pubDate>Mon, 13 Apr 2026 09:37:47 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:KlycESPCjWk</guid>
+                                    <description>&lt;p&gt;באילו מצבים מותר לספר את השערות בספירת העומר.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית כנסת חב"ד המרכזי קריית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;באילו מצבים מותר לספר את השערות בספירת העומר.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית כנסת חב"ד המרכזי קריית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/wsz55f81tkzdzx5c/yt_video_KlycESPCjWk_d38tdk.mp3" length="19013006" type="audio/mpeg" />
+        <itunes:summary>באילו מצבים מותר לספר את השערות בספירת העומר.בית כנסת חב"ד המרכזי קריית מלאכי, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1188</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/np5au6zxbysqh4r6/742b1082-e802-3e91-b82c-7383b99b279f.vtt" type="text/vtt" />    <spotify:order>40</spotify:order></item>
+    <item>
+        <title>דיני ברכת הגומל לחייבים טובות</title>
+        <itunes:title>דיני ברכת הגומל לחייבים טובות</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99%d7%91%d7%a8%d7%9b%d7%aa%d7%94%d7%92%d7%95%d7%9e%d7%9c%d7%9c%d7%97%d7%99%d7%99%d7%91%d7%99%d7%9d-%d7%98/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99%d7%91%d7%a8%d7%9b%d7%aa%d7%94%d7%92%d7%95%d7%9e%d7%9c%d7%9c%d7%97%d7%99%d7%99%d7%91%d7%99%d7%9d-%d7%98/#comments</comments>        <pubDate>Sun, 12 Apr 2026 11:00:07 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:E1Z01PgFra8</guid>
+                                    <description>&lt;p&gt;אדם שכמעט עשה תאונה וניצל, האם יברך הגומל?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;מתי מברכים הגומל על מחלה והאם נשים וילדים גם מברכים?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;אדם שכמעט עשה תאונה וניצל, האם יברך הגומל?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מתי מברכים הגומל על מחלה והאם נשים וילדים גם מברכים?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/do8f9f7z4avokzrq/yt_video_E1Z01PgFra8_9q46ap.mp3" length="29204523" type="audio/mpeg" />
+        <itunes:summary>אדם שכמעט עשה תאונה וניצל, האם יברך הגומל?מתי מברכים הגומל על מחלה והאם נשים וילדים גם מברכים?בית חב"ד צפון גדרה, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1825</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/sp2m4m22yragsxsr/df601998-cc58-375a-a5c5-2e32ebe09a1f.vtt" type="text/vtt" />    <spotify:order>41</spotify:order></item>
+    <item>
+        <title>לויתן ושור הבר - שני סוגים של בני אדם</title>
+        <itunes:title>לויתן ושור הבר - שני סוגים של בני אדם</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%95%d7%99%d7%aa%d7%9f%d7%95%d7%a9%d7%95%d7%a8%d7%94%d7%91%d7%a8%d7%a9%d7%a0%d7%99%d7%a1%d7%95%d7%92%d7%99%d7%9d-%d7%a9%d7%9c/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%95%d7%99%d7%aa%d7%9f%d7%95%d7%a9%d7%95%d7%a8%d7%94%d7%91%d7%a8%d7%a9%d7%a0%d7%99%d7%a1%d7%95%d7%92%d7%99%d7%9d-%d7%a9%d7%9c/#comments</comments>        <pubDate>Fri, 10 Apr 2026 11:09:38 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:HtTWVcpVd0k</guid>
+                                    <description>&lt;p&gt;שיעור בליקוטי תורה פ' שמיני ד"ה לויתן זה יצרת לשחק בו
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בדימוי של לויתן ושור הבר לשני סוגים של צדיקים שלכל אחד עבודה משלו, כאשר התכונות של הלויתן מאפילות לכאורה על אלו של שור הבר, כאשר המסקנא היא שהקב"ה יוכיח ששניהם נצרכים בשביל שלימות הבריאה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;ההשלכה מכך לחיים שלנו ברורה, ככל שהמעלות שלך גדולות אל לך לשכוח שלכל אחד יש את המעלות שלו ודוקא ההרמוניה בין כולם מביאה את העולם לשלימות.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, כ"ג ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בליקוטי תורה פ' שמיני ד"ה לויתן זה יצרת לשחק בו&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בדימוי של לויתן ושור הבר לשני סוגים של צדיקים שלכל אחד עבודה משלו, כאשר התכונות של הלויתן מאפילות לכאורה על אלו של שור הבר, כאשר המסקנא היא שהקב"ה יוכיח ששניהם נצרכים בשביל שלימות הבריאה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;ההשלכה מכך לחיים שלנו ברורה, ככל שהמעלות שלך גדולות אל לך לשכוח שלכל אחד יש את המעלות שלו ודוקא ההרמוניה בין כולם מביאה את העולם לשלימות.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, כ"ג ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/k2g75loo06tvf2ll/yt_video_HtTWVcpVd0k_hdsthu.mp3" length="41423977" type="audio/mpeg" />
+        <itunes:summary>שיעור בליקוטי תורה פ' שמיני ד"ה לויתן זה יצרת לשחק בוהמאמר עוסק בדימוי של לויתן ושור הבר לשני סוגים של צדיקים שלכל אחד עבודה משלו, כאשר התכונות של הלויתן מאפילות לכאורה על אלו של שור הבר, כאשר המסקנא היא שהקב"ה יוכיח ששניהם נצרכים בשביל שלימות הבריאה.ההשלכה מכך לחיים שלנו ברורה, ככל שהמעלות שלך גדולות אל לך לשכוח שלכל אחד יש את המעלות שלו ודוקא ההרמוניה בין כולם מביאה את העולם לשלימות.בית הכנסת רני ושמחי, רחובות, כ"ג ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2588</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/9wq2mvtssjt97swt/fb957d15-9850-37f0-991c-b93161d33ec3.vtt" type="text/vtt" />    <spotify:order>42</spotify:order></item>
+    <item>
+        <title>האם יש כישופים בזמן הזה</title>
+        <itunes:title>האם יש כישופים בזמן הזה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%9b%d7%99%d7%a9%d7%95%d7%a4%d7%99%d7%9d-%d7%91%d7%96%d7%9e%d7%9f-%d7%94%d7%96%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%99%d7%a9-%d7%9b%d7%99%d7%a9%d7%95%d7%a4%d7%99%d7%9d-%d7%91%d7%96%d7%9e%d7%9f-%d7%94%d7%96%d7%94/#comments</comments>        <pubDate>Thu, 09 Apr 2026 18:31:10 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:xzcJj9pZAdE</guid>
+                                    <description>&lt;p&gt;למה אסרה התורה את הכישוף ובאלו מצבים מותר ללכת למכשף.
+&lt;/p&gt;
+&lt;p&gt;השיעור מתייחס גם לרפואה מיסטית כמו המטוטלת.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;כינוס תורה חול המועד פסח תשפ"ו - בית חב"ד המרכזי באר שבע.&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;למה אסרה התורה את הכישוף ובאלו מצבים מותר ללכת למכשף.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;השיעור מתייחס גם לרפואה מיסטית כמו המטוטלת.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;כינוס תורה חול המועד פסח תשפ"ו - בית חב"ד המרכזי באר שבע.&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/s0zrcipo5p8h23uc/yt_video_xzcJj9pZAdE_m6xsin.mp3" length="51212163" type="audio/mpeg" />
+        <itunes:summary>למה אסרה התורה את הכישוף ובאלו מצבים מותר ללכת למכשף.השיעור מתייחס גם לרפואה מיסטית כמו המטוטלת.כינוס תורה חול המועד פסח תשפ"ו - בית חב"ד המרכזי באר שבע.</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>3200</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/t5xwktf9k4k77yrn/47037312-9b41-374d-9cfe-eb5f77854dde.vtt" type="text/vtt" />    <spotify:order>43</spotify:order></item>
+    <item>
+        <title>דיני חול המועד</title>
+        <itunes:title>דיני חול המועד</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%97%d7%95%d7%9c-%d7%94%d7%9e%d7%95%d7%a2%d7%93/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%97%d7%95%d7%9c-%d7%94%d7%9e%d7%95%d7%a2%d7%93/#comments</comments>        <pubDate>Mon, 06 Apr 2026 13:49:27 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:nEMaRmj6b9w</guid>
+                                    <description>&lt;p&gt;האם צריך ללבוש בגדי שבת בחול המועד? איך מתייחסים לעבודות מחשב ומתי מותר לעבוד כרגיל?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;דיני חול המועד למעשה משולבים ביסודות הדברים ובסיפורים מרתקים.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, חול המועד פסח תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם צריך ללבוש בגדי שבת בחול המועד? איך מתייחסים לעבודות מחשב ומתי מותר לעבוד כרגיל?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;דיני חול המועד למעשה משולבים ביסודות הדברים ובסיפורים מרתקים.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, חול המועד פסח תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/jt3mjaynwcuvlbmd/yt_video_nEMaRmj6b9w_zaqcjq.mp3" length="51127318" type="audio/mpeg" />
+        <itunes:summary>האם צריך ללבוש בגדי שבת בחול המועד? איך מתייחסים לעבודות מחשב ומתי מותר לעבוד כרגיל?דיני חול המועד למעשה משולבים ביסודות הדברים ובסיפורים מרתקים.בית חב"ד צפון גדרה, חול המועד פסח תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>3195</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/zzfac6gey76nsmtv/7363464d-1991-33ca-ae6f-5a906d9293b4.vtt" type="text/vtt" />    <spotify:order>44</spotify:order></item>
+    <item>
+        <title>איך זוכים לקריעת ים סוף האישית שלך</title>
+        <itunes:title>איך זוכים לקריעת ים סוף האישית שלך</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%96%d7%95%d7%9b%d7%99%d7%9d%d7%9c%d7%a7%d7%a8%d7%99%d7%a2%d7%aa-%d7%99%d7%9d%d7%a1%d7%95%d7%a3-%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%96%d7%95%d7%9b%d7%99%d7%9d%d7%9c%d7%a7%d7%a8%d7%99%d7%a2%d7%aa-%d7%99%d7%9d%d7%a1%d7%95%d7%a3-%d7%94/#comments</comments>        <pubDate>Sun, 05 Apr 2026 13:30:52 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:iUL_QAFjg9c</guid>
+                                    <description>&lt;p&gt;שיעור בלקוטי תורה ד"ה הים ראה וינס - שביעי של פסח
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בנושא המבואר בקבלה ששמיני עצרת הוא זמן עיבור נשמות ישראל ושביעי של פסח הוא זמן הלידה ולכן הייתה ביום זה קריעת ים סוף.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בשיעור נלמד מה נדרש מהאדם לעשות בשביל לזכות ללידה וקריעת ים סוף אישית.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, חול המועד פסח תשפ"ו.&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בלקוטי תורה ד"ה הים ראה וינס - שביעי של פסח&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בנושא המבואר בקבלה ששמיני עצרת הוא זמן עיבור נשמות ישראל ושביעי של פסח הוא זמן הלידה ולכן הייתה ביום זה קריעת ים סוף.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בשיעור נלמד מה נדרש מהאדם לעשות בשביל לזכות ללידה וקריעת ים סוף אישית.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, חול המועד פסח תשפ"ו.&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/lseepen09zd3ytw0/yt_video_iUL_QAFjg9c_yn5qau.mp3" length="37160376" type="audio/mpeg" />
+        <itunes:summary>שיעור בלקוטי תורה ד"ה הים ראה וינס - שביעי של פסחהמאמר עוסק בנושא המבואר בקבלה ששמיני עצרת הוא זמן עיבור נשמות ישראל ושביעי של פסח הוא זמן הלידה ולכן הייתה ביום זה קריעת ים סוף.בשיעור נלמד מה נדרש מהאדם לעשות בשביל לזכות ללידה וקריעת ים סוף אישית.בית הכנסת רני ושמחי, רחובות, חול המועד פסח תשפ"ו.</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2322</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/urr3yuzjnh3n4ce4/a7a274f4-163d-3ac7-93be-5ed128eef233.vtt" type="text/vtt" />    <spotify:order>45</spotify:order></item>
+    <item>
+        <title>איך נעשים חייל</title>
+        <itunes:title>איך נעשים חייל</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%a0%d7%a2%d7%a9%d7%99%d7%9d-%d7%97%d7%99%d7%99%d7%9c/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%a0%d7%a2%d7%a9%d7%99%d7%9d-%d7%97%d7%99%d7%99%d7%9c/#comments</comments>        <pubDate>Fri, 03 Apr 2026 12:06:03 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:84-Tmw2zGxA</guid>
+                                    <description>&lt;p&gt;המאפיין של איש צבא הוא 'קבלת עול', איך נעשים חייל גם באזרחי. סיפור על חסיד שעשה את זה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;המאפיין של איש צבא הוא 'קבלת עול', איך נעשים חייל גם באזרחי. סיפור על חסיד שעשה את זה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/n8czq64emq5tp0jp/yt_video_84-Tmw2zGxA_h4t9w2.mp3" length="4521943" type="audio/mpeg" />
+        <itunes:summary>המאפיין של איש צבא הוא 'קבלת עול', איך נעשים חייל גם באזרחי. סיפור על חסיד שעשה את זה.בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>282</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/3hbzdaxh86baiimg/25458d11-7073-33d8-b6b9-95f08fad31ca.vtt" type="text/vtt" />    <spotify:order>46</spotify:order></item>
+    <item>
+        <title>דעת התורה על גניבת לקוחות</title>
+        <itunes:title>דעת התורה על גניבת לקוחות</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%a2%d7%aa-%d7%94%d7%aa%d7%95%d7%a8%d7%94-%d7%a2%d7%9c-%d7%92%d7%a0%d7%99%d7%91%d7%aa-%d7%9c%d7%a7%d7%95%d7%97%d7%95%d7%aa/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%a2%d7%aa-%d7%94%d7%aa%d7%95%d7%a8%d7%94-%d7%a2%d7%9c-%d7%92%d7%a0%d7%99%d7%91%d7%aa-%d7%9c%d7%a7%d7%95%d7%97%d7%95%d7%aa/#comments</comments>        <pubDate>Fri, 03 Apr 2026 12:04:32 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:Ne4rdeJbmMY</guid>
+                                    <description>&lt;p&gt;מה מותר לבעל עסק לעשות כדי למשוך לקוחות, האם מותר להביע דיעה על עסק
+&lt;/p&gt;
+&lt;p&gt;כאשר הדבר יגרום שלקוחות יעזבו אותו?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי חולון, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מה מותר לבעל עסק לעשות כדי למשוך לקוחות, האם מותר להביע דיעה על עסק&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;כאשר הדבר יגרום שלקוחות יעזבו אותו?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי חולון, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/p76nrd892l2dn05a/yt_video_Ne4rdeJbmMY_a26thn.mp3" length="14243674" type="audio/mpeg" />
+        <itunes:summary>מה מותר לבעל עסק לעשות כדי למשוך לקוחות, האם מותר להביע דיעה על עסקכאשר הדבר יגרום שלקוחות יעזבו אותו?בית הכנסת המרכזי חולון, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>890</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/rk6ucmjvkpdjdvrt/696fee53-97a7-3317-9521-f848ecd2d75f.vtt" type="text/vtt" />    <spotify:order>47</spotify:order></item>
+    <item>
+        <title>דיני ערב פסח וליל הסדר</title>
+        <itunes:title>דיני ערב פסח וליל הסדר</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%a2%d7%a8%d7%91-%d7%a4%d7%a1%d7%97-%d7%95%d7%9c%d7%99%d7%9c-%d7%94%d7%a1%d7%93%d7%a8/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%a2%d7%a8%d7%91-%d7%a4%d7%a1%d7%97-%d7%95%d7%9c%d7%99%d7%9c-%d7%94%d7%a1%d7%93%d7%a8/#comments</comments>        <pubDate>Sun, 29 Mar 2026 16:31:56 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:N9eUxKpSFQw</guid>
+                                    <description>&lt;p&gt;מנהגי ערב פסח וליל הסדר בשפה השווה לכל נפש
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, חודש ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מנהגי ערב פסח וליל הסדר בשפה השווה לכל נפש&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, חודש ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/914ghna3c47xs7sg/yt_video_N9eUxKpSFQw_6c4rc5.mp3" length="39629261" type="audio/mpeg" />
+        <itunes:summary>מנהגי ערב פסח וליל הסדר בשפה השווה לכל נפשבית הכנסת המרכזי קרית מלאכי, חודש ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2476</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/75utcibbccjsrc8r/2b2e4e6c-3d26-32db-b688-8b57e13b3afd.vtt" type="text/vtt" />    <spotify:order>48</spotify:order></item>
+    <item>
+        <title>למה בחג שמחים יותר מאשר שבת - שיעור הכנה לפסח</title>
+        <itunes:title>למה בחג שמחים יותר מאשר שבת - שיעור הכנה לפסח</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%91%d7%97%d7%92-%d7%a9%d7%9e%d7%97%d7%99%d7%9d-%d7%99%d7%95%d7%aa%d7%a8-%d7%9e%d7%90%d7%a9%d7%a8-%d7%a9%d7%91%d7%aa/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%91%d7%97%d7%92-%d7%a9%d7%9e%d7%97%d7%99%d7%9d-%d7%99%d7%95%d7%aa%d7%a8-%d7%9e%d7%90%d7%a9%d7%a8-%d7%a9%d7%91%d7%aa/#comments</comments>        <pubDate>Fri, 27 Mar 2026 09:55:22 +0300</pubDate>
+        <guid isPermaLink="false">yt:video:kK39b6JE3K0</guid>
+                                    <description>&lt;p&gt;השיעור עוסק בשאלה מה הטעם שאוכלים מצות שבעה ימים בזמן שהנס היה רק יום אחד?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;כמו כן מה ההבדל בין שמחת יום טוב לשמחה בשבת ואיזו השלכה מעשית יש לכך.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;השיעור עוסק בשאלה מה הטעם שאוכלים מצות שבעה ימים בזמן שהנס היה רק יום אחד?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;כמו כן מה ההבדל בין שמחת יום טוב לשמחה בשבת ואיזו השלכה מעשית יש לכך.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/lngc60jv51aczmpe/yt_video_kK39b6JE3K0_gfn6bf.mp3" length="40664963" type="audio/mpeg" />
+        <itunes:summary>השיעור עוסק בשאלה מה הטעם שאוכלים מצות שבעה ימים בזמן שהנס היה רק יום אחד?כמו כן מה ההבדל בין שמחת יום טוב לשמחה בשבת ואיזו השלכה מעשית יש לכך.בית הכנסת רני ושמחי, רחובות, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2541</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/des8c7h8aadwckps/b02ce645-eefd-311c-818d-622428ce2f1a.vtt" type="text/vtt" />    <spotify:order>49</spotify:order></item>
+    <item>
+        <title>לקחת הפסקה באמצע העבודה</title>
+        <itunes:title>לקחת הפסקה באמצע העבודה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%a7%d7%97%d7%aa-%d7%94%d7%a4%d7%a1%d7%a7%d7%94-%d7%91%d7%90%d7%9e%d7%a6%d7%a2-%d7%94%d7%a2%d7%91%d7%95%d7%93%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%a7%d7%97%d7%aa-%d7%94%d7%a4%d7%a1%d7%a7%d7%94-%d7%91%d7%90%d7%9e%d7%a6%d7%a2-%d7%94%d7%a2%d7%91%d7%95%d7%93%d7%94/#comments</comments>        <pubDate>Thu, 26 Mar 2026 09:16:41 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:KHQlFw6-Eqo</guid>
+                                    <description>&lt;p&gt;האם מותר לקחת הפסקות מנוחה באמצע העבודה בלי רשות של המעסיק
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם מותר לקחת הפסקות מנוחה באמצע העבודה בלי רשות של המעסיק&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/l5ugpxxwbtbvamwe/yt_video_KHQlFw6-Eqo_b9dvqp.mp3" length="5148882" type="audio/mpeg" />
+        <itunes:summary>האם מותר לקחת הפסקות מנוחה באמצע העבודה בלי רשות של המעסיקבית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>321</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/u3ygj2992bbx4236/bcabacea-1264-3f3d-8861-c4060ad0d930.vtt" type="text/vtt" />    <spotify:order>50</spotify:order></item>
+    <item>
+        <title>מה ענה הרבי לאדם שאמר שאין לו עם מי להתייעץ</title>
+        <itunes:title>מה ענה הרבי לאדם שאמר שאין לו עם מי להתייעץ</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%a2%d7%a0%d7%94-%d7%94%d7%a8%d7%91%d7%99-%d7%9c%d7%90%d7%93%d7%9d-%d7%a9%d7%90%d7%9e%d7%a8-%d7%a9%d7%90%d7%99%d7%9f-%d7%9c%d7%95/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%a2%d7%a0%d7%94-%d7%94%d7%a8%d7%91%d7%99-%d7%9c%d7%90%d7%93%d7%9d-%d7%a9%d7%90%d7%9e%d7%a8-%d7%a9%d7%90%d7%99%d7%9f-%d7%9c%d7%95/#comments</comments>        <pubDate>Wed, 25 Mar 2026 09:32:11 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:_0LHj9Czamc</guid>
+                                    <description>&lt;p&gt;מהו האיזון הנכון בין 'ציות' לבין להפעיל את השכל.&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מהו האיזון הנכון בין 'ציות' לבין להפעיל את השכל.&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/ri0qhgynnl8uuxrk/yt_video__0LHj9Czamc_m6up95.mp3" length="2707582" type="audio/mpeg" />
+        <itunes:summary>מהו האיזון הנכון בין 'ציות' לבין להפעיל את השכל.</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>169</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/vmrhxjcb4245ekxd/5afee2fa-90fd-3485-824e-d4b4c5a732d0.vtt" type="text/vtt" />    <spotify:order>51</spotify:order></item>
+    <item>
+        <title>הכנת הבית לפסח בקלות וביעילות</title>
+        <itunes:title>הכנת הבית לפסח בקלות וביעילות</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%9b%d7%a0%d7%aa%d7%94%d7%91%d7%99%d7%aa%d7%9c%d7%a4%d7%a1%d7%97%d7%91%d7%a7%d7%9c%d7%95%d7%aa%d7%95%d7%91%d7%99%d7%a2%d7%99%d7%9c%d7%95%d7%aa/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%9b%d7%a0%d7%aa%d7%94%d7%91%d7%99%d7%aa%d7%9c%d7%a4%d7%a1%d7%97%d7%91%d7%a7%d7%9c%d7%95%d7%aa%d7%95%d7%91%d7%99%d7%a2%d7%99%d7%9c%d7%95%d7%aa/#comments</comments>        <pubDate>Tue, 24 Mar 2026 10:20:00 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:bavYBGJUfc4</guid>
+                                    <description>&lt;p&gt;השיעור עוסק בהכנת הבית והכשרת המטבח לפסח, כולל נקיון הפה והגוף לפסח ובפסח,
+&lt;/p&gt;
+&lt;p&gt;עם דגש על הדעות המקילות. מתאים לאדם שבתהליך התקרבות.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;השיעור עוסק בהכנת הבית והכשרת המטבח לפסח, כולל נקיון הפה והגוף לפסח ובפסח,&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;עם דגש על הדעות המקילות. מתאים לאדם שבתהליך התקרבות.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/1w911adl065f5c3n/yt_video_bavYBGJUfc4_vrkxjv.mp3" length="49550776" type="audio/mpeg" />
+        <itunes:summary>השיעור עוסק בהכנת הבית והכשרת המטבח לפסח, כולל נקיון הפה והגוף לפסח ובפסח,עם דגש על הדעות המקילות. מתאים לאדם שבתהליך התקרבות.בית חב"ד צפון גדרה, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>3096</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/cysyk5kfih3t29dp/9abb8ff5-ea2c-3d2c-887d-5a43d25c67a5.vtt" type="text/vtt" />    <spotify:order>52</spotify:order></item>
+    <item>
+        <title>סדר לבישת הבגדים</title>
+        <itunes:title>סדר לבישת הבגדים</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%a1%d7%93%d7%a8-%d7%9c%d7%91%d7%99%d7%a9%d7%aa-%d7%94%d7%91%d7%92%d7%93%d7%99%d7%9d/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%a1%d7%93%d7%a8-%d7%9c%d7%91%d7%99%d7%a9%d7%aa-%d7%94%d7%91%d7%92%d7%93%d7%99%d7%9d/#comments</comments>        <pubDate>Mon, 23 Mar 2026 09:28:43 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:66jVGnLF7RI</guid>
+                                    <description>&lt;p&gt;מהיכן מתחילים להתלבש מפלג הגוף העליון או התחתון ומה מנהג חב"ד בזה?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מהיכן מתחילים להתלבש מפלג הגוף העליון או התחתון ומה מנהג חב"ד בזה?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/7sr3k529zr8kwsbo/yt_video_66jVGnLF7RI_w9ewcw.mp3" length="14119122" type="audio/mpeg" />
+        <itunes:summary>מהיכן מתחילים להתלבש מפלג הגוף העליון או התחתון ומה מנהג חב"ד בזה?בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>882</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/8t62ixc6hhpzvfqx/1cde5124-cee1-39df-9ec5-b485f8cc5cd2.vtt" type="text/vtt" />    <spotify:order>53</spotify:order></item>
+    <item>
+        <title>דיני בדיקת חמץ</title>
+        <itunes:title>דיני בדיקת חמץ</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%91%d7%93%d7%99%d7%a7%d7%aa-%d7%97%d7%9e%d7%a5/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%91%d7%93%d7%99%d7%a7%d7%aa-%d7%97%d7%9e%d7%a5/#comments</comments>        <pubDate>Mon, 23 Mar 2026 09:25:03 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:cR8vzWEz2rw</guid>
+                                    <description>&lt;p&gt;האם בבדיקת חמץ צריך לכבות את האורות בבית?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;איזה מקומות לא צריך לבדוק?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;מה יעשה אדם שעוזב את ביתו לכל ימי הפסח?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם בבדיקת חמץ צריך לכבות את האורות בבית?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;איזה מקומות לא צריך לבדוק?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מה יעשה אדם שעוזב את ביתו לכל ימי הפסח?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/7ujup0mh797g6b1a/yt_video_cR8vzWEz2rw_62khv9.mp3" length="16644013" type="audio/mpeg" />
+        <itunes:summary>האם בבדיקת חמץ צריך לכבות את האורות בבית?איזה מקומות לא צריך לבדוק?מה יעשה אדם שעוזב את ביתו לכל ימי הפסח?בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1040</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/vk3s6evn4xvmdc3t/1cfe0817-1c40-3e86-bfad-90238a34e277.vtt" type="text/vtt" />    <spotify:order>54</spotify:order></item>
+    <item>
+        <title>כשרות זה לא רק באוכל</title>
+        <itunes:title>כשרות זה לא רק באוכל</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9b%d7%a9%d7%a8%d7%95%d7%aa-%d7%96%d7%94-%d7%9c%d7%90-%d7%a8%d7%a7-%d7%91%d7%90%d7%95%d7%9b%d7%9c/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9b%d7%a9%d7%a8%d7%95%d7%aa-%d7%96%d7%94-%d7%9c%d7%90-%d7%a8%d7%a7-%d7%91%d7%90%d7%95%d7%9b%d7%9c/#comments</comments>        <pubDate>Sun, 22 Mar 2026 09:03:09 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:uqGL1F0MIAM</guid>
+                                    <description>&lt;p&gt;התורה נקראת תורת חיים משום שהיא נותנת לאדם דרך בכל פרט בחיים. בשיעור זה נלמד על מצבים שנדרשת בהם שאלת כשרות למרות שלא מדובר על אוכל.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;התורה נקראת תורת חיים משום שהיא נותנת לאדם דרך בכל פרט בחיים. בשיעור זה נלמד על מצבים שנדרשת בהם שאלת כשרות למרות שלא מדובר על אוכל.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/6updsjaj2u49hdsz/yt_video_uqGL1F0MIAM_zyen96.mp3" length="27204170" type="audio/mpeg" />
+        <itunes:summary>התורה נקראת תורת חיים משום שהיא נותנת לאדם דרך בכל פרט בחיים. בשיעור זה נלמד על מצבים שנדרשת בהם שאלת כשרות למרות שלא מדובר על אוכל.בית הכנסת הגדול חולון, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1700</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/bjbti5iy785fyjmw/8fcbf0a5-6749-30a4-b6b4-1623cb4a0aed.vtt" type="text/vtt" />    <spotify:order>55</spotify:order></item>
+    <item>
+        <title>למה ה’ דורש מאתנו הקרבה?</title>
+        <itunes:title>למה ה’ דורש מאתנו הקרבה?</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%94-%d7%93%d7%95%d7%a8%d7%a9-%d7%9e%d7%90%d7%aa%d7%a0%d7%95-%d7%94%d7%a7%d7%a8%d7%91%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%94-%d7%93%d7%95%d7%a8%d7%a9-%d7%9e%d7%90%d7%aa%d7%a0%d7%95-%d7%94%d7%a7%d7%a8%d7%91%d7%94/#comments</comments>        <pubDate>Fri, 20 Mar 2026 13:38:16 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:Fv2bd20HPeY</guid>
+                                    <description>&lt;p&gt;שיעור בלקוטי תורה פ' ויקרא ד"ה אדם כי יקריב (השני).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;השיעור עוסק בשאלה איך אפשר לרתום את הנפש הבהמית לעבודת ה', ומדוע הקב"ה מציף אותנו בקשיים במהלך החיים, לאיזו מטרה זה מוביל.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, ב' ניסן תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בלקוטי תורה פ' ויקרא ד"ה אדם כי יקריב (השני).&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;השיעור עוסק בשאלה איך אפשר לרתום את הנפש הבהמית לעבודת ה', ומדוע הקב"ה מציף אותנו בקשיים במהלך החיים, לאיזו מטרה זה מוביל.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, ב' ניסן תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/dy4jn7k69yckekgi/yt_video_Fv2bd20HPeY_cwe5rq.mp3" length="28455540" type="audio/mpeg" />
+        <itunes:summary>שיעור בלקוטי תורה פ' ויקרא ד"ה אדם כי יקריב (השני).השיעור עוסק בשאלה איך אפשר לרתום את הנפש הבהמית לעבודת ה', ומדוע הקב"ה מציף אותנו בקשיים במהלך החיים, לאיזו מטרה זה מוביל.בית הכנסת רני ושמחי, רחובות, ב' ניסן תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1778</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/brsz6ufsgwd2n2zf/8703febf-cde2-34d8-a28a-fb8145ae0aef.vtt" type="text/vtt" />    <spotify:order>56</spotify:order></item>
+    <item>
+        <title>אל תיכנס למקומות שמפילים אותך</title>
+        <itunes:title>אל תיכנס למקומות שמפילים אותך</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%9c-%d7%aa%d7%99%d7%9b%d7%a0%d7%a1-%d7%9c%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%a9%d7%9e%d7%a4%d7%99%d7%9c%d7%99%d7%9d/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%9c-%d7%aa%d7%99%d7%9b%d7%a0%d7%a1-%d7%9c%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%a9%d7%9e%d7%a4%d7%99%d7%9c%d7%99%d7%9d/#comments</comments>        <pubDate>Thu, 19 Mar 2026 09:59:08 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:CWJk6UvetyU</guid>
+                                    <description>&lt;p&gt;כדי להצליח בחיים לא מספיק לדעת 'מה לעשות' אלא חשוב לדעת מה 'לא לעשות'.&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;כדי להצליח בחיים לא מספיק לדעת 'מה לעשות' אלא חשוב לדעת מה 'לא לעשות'.&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/pnaz117yowtoeodb/yt_video_CWJk6UvetyU_h6dyyf.mp3" length="1363007" type="audio/mpeg" />
+        <itunes:summary>כדי להצליח בחיים לא מספיק לדעת 'מה לעשות' אלא חשוב לדעת מה 'לא לעשות'.</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>85</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/i35q9rrdyas7hnsp/a78310a4-950d-39e2-aea6-d51512eb3b0b.vtt" type="text/vtt" />    <spotify:order>57</spotify:order></item>
+    <item>
+        <title>דיני לחם משנה</title>
+        <itunes:title>דיני לחם משנה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%9c%d7%97%d7%9d-%d7%9e%d7%a9%d7%a0%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%93%d7%99%d7%a0%d7%99-%d7%9c%d7%97%d7%9d-%d7%9e%d7%a9%d7%a0%d7%94/#comments</comments>        <pubDate>Thu, 19 Mar 2026 09:41:37 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:8leGz-i8YGM</guid>
+                                    <description>&lt;p&gt;מקבץ הלכות הנוגעות למצות לחם משנה בשבת, על פי הלכה ולפי הקבלה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מקבץ הלכות הנוגעות למצות לחם משנה בשבת, על פי הלכה ולפי הקבלה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/izns58bkickiypjp/yt_video_8leGz-i8YGM_mu58y4.mp3" length="18325045" type="audio/mpeg" />
+        <itunes:summary>מקבץ הלכות הנוגעות למצות לחם משנה בשבת, על פי הלכה ולפי הקבלה.בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1145</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/r92a3kethijrwm2d/e80d1030-53ed-3633-b2a8-614eb1854e4d.vtt" type="text/vtt" />    <spotify:order>58</spotify:order></item>
+    <item>
+        <title>למה בחב’’ד עוטפים את המטבח לפסח</title>
+        <itunes:title>למה בחב’’ד עוטפים את המטבח לפסח</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%91%d7%97%d7%91-%d7%93-%d7%a2%d7%95%d7%98%d7%a4%d7%99%d7%9d-%d7%90%d7%aa-%d7%94%d7%9e%d7%98%d7%91%d7%97-%d7%9c%d7%a4%d7%a1%d7%97/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%91%d7%97%d7%91-%d7%93-%d7%a2%d7%95%d7%98%d7%a4%d7%99%d7%9d-%d7%90%d7%aa-%d7%94%d7%9e%d7%98%d7%91%d7%97-%d7%9c%d7%a4%d7%a1%d7%97/#comments</comments>        <pubDate>Mon, 16 Mar 2026 08:26:57 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:ym15O8-pXjs</guid>
+                                    <description>&lt;p&gt;יש קהילות בעם ישראל שנוהגות לעטוף את השיש והמקרר ועוד חלקים במטבח, מהו המקור ההלכתי לכך.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;יש קהילות בעם ישראל שנוהגות לעטוף את השיש והמקרר ועוד חלקים במטבח, מהו המקור ההלכתי לכך.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/57cow9nhlqlt57r2/yt_video_ym15O8-pXjs_ucyrka.mp3" length="19924993" type="audio/mpeg" />
+        <itunes:summary>יש קהילות בעם ישראל שנוהגות לעטוף את השיש והמקרר ועוד חלקים במטבח, מהו המקור ההלכתי לכך.בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1245</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/ybzaa3kedmczkgsi/fe3aacbc-46b5-3a54-b530-81d37566c46b.vtt" type="text/vtt" />    <spotify:order>59</spotify:order></item>
+    <item>
+        <title>מה עושים עם הבעלי חיים בפסח</title>
+        <itunes:title>מה עושים עם הבעלי חיים בפסח</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%a2%d7%95%d7%a9%d7%99%d7%9d-%d7%a2%d7%9d-%d7%94%d7%91%d7%a2%d7%9c%d7%99-%d7%97%d7%99%d7%99%d7%9d-%d7%91%d7%a4%d7%a1%d7%97/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%a2%d7%95%d7%a9%d7%99%d7%9d-%d7%a2%d7%9d-%d7%94%d7%91%d7%a2%d7%9c%d7%99-%d7%97%d7%99%d7%99%d7%9d-%d7%91%d7%a4%d7%a1%d7%97/#comments</comments>        <pubDate>Mon, 16 Mar 2026 07:58:43 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:nNY28LuhFps</guid>
+                                    <description>&lt;p&gt;אדם שברשותו בעלי חיים שאוכלים חמץ כל השנה, מה יעשה כאשר לא מצליח למצוא בשבילם אוכל כשר לפסח.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;אדם שברשותו בעלי חיים שאוכלים חמץ כל השנה, מה יעשה כאשר לא מצליח למצוא בשבילם אוכל כשר לפסח.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/83kif2wkvxmycqjs/yt_video_nNY28LuhFps_6mnzqu.mp3" length="4711696" type="audio/mpeg" />
+        <itunes:summary>אדם שברשותו בעלי חיים שאוכלים חמץ כל השנה, מה יעשה כאשר לא מצליח למצוא בשבילם אוכל כשר לפסח.בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>294</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/eyg2dujmhvf69d8m/72d4bf87-59c4-30f2-a398-bfd0b868f76d.vtt" type="text/vtt" />    <spotify:order>60</spotify:order></item>
+    <item>
+        <title>ברכת האילנות לפי מנהג אדמו’’ר הזקן</title>
+        <itunes:title>ברכת האילנות לפי מנהג אדמו’’ר הזקן</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%91%d7%a8%d7%9b%d7%aa%d7%94%d7%90%d7%99%d7%9c%d7%a0%d7%95%d7%aa-%d7%9c%d7%a4%d7%99-%d7%9e%d7%a0%d7%94%d7%92-%d7%90%d7%93%d7%9e%d7%95-%d7%a8/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%91%d7%a8%d7%9b%d7%aa%d7%94%d7%90%d7%99%d7%9c%d7%a0%d7%95%d7%aa-%d7%9c%d7%a4%d7%99-%d7%9e%d7%a0%d7%94%d7%92-%d7%90%d7%93%d7%9e%d7%95-%d7%a8/#comments</comments>        <pubDate>Mon, 16 Mar 2026 07:54:59 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:cm_ctSlAPss</guid>
+                                    <description>&lt;p&gt;דיני ברכת האילנות לפי שיטת אדה"ז.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;דיני ברכת האילנות לפי שיטת אדה"ז.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/o9lqw4cu3sbn5vw1/yt_video_cm_ctSlAPss_6bes2h.mp3" length="3564398" type="audio/mpeg" />
+        <itunes:summary>דיני ברכת האילנות לפי שיטת אדה"ז.בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>222</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/zd2ue5gde2i32qfe/4672a0b7-e354-3659-9187-4aa4eb860365.vtt" type="text/vtt" />    <spotify:order>61</spotify:order></item>
+    <item>
+        <title>כל כמה זמן צריך להפריש מעשר כספים</title>
+        <itunes:title>כל כמה זמן צריך להפריש מעשר כספים</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9b%d7%9c-%d7%9b%d7%9e%d7%94-%d7%96%d7%9e%d7%9f%d7%a6%d7%a8%d7%99%d7%9a%d7%9c%d7%94%d7%a4%d7%a8%d7%99%d7%a9-%d7%9e%d7%a2%d7%a9%d7%a8-%d7%9b%d7%a1/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9b%d7%9c-%d7%9b%d7%9e%d7%94-%d7%96%d7%9e%d7%9f%d7%a6%d7%a8%d7%99%d7%9a%d7%9c%d7%94%d7%a4%d7%a8%d7%99%d7%a9-%d7%9e%d7%a2%d7%a9%d7%a8-%d7%9b%d7%a1/#comments</comments>        <pubDate>Sun, 15 Mar 2026 07:58:46 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:-pSKEZOL_vA</guid>
+                                    <description>&lt;p&gt;השיעור עוסק בדיון באיזו תדירות צריך להפריש מעשר כספים: כל חודש בעת קבלת המשכורת או אולי כל שנה.
+&lt;/p&gt;
+&lt;p&gt;גם נדון האם נכון לשמור את כספי המעשר לתקופות ארוכות בשביל לתרום לפרוייקט גדול, ומה יעשה אדם שנקלע למצב קשה כלכלית אך בכל זאת רוצה להמשיך לקיים את מצוות הפרשת מעשר כספים.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קריית מלאכי, חודש אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;השיעור עוסק בדיון באיזו תדירות צריך להפריש מעשר כספים: כל חודש בעת קבלת המשכורת או אולי כל שנה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;גם נדון האם נכון לשמור את כספי המעשר לתקופות ארוכות בשביל לתרום לפרוייקט גדול, ומה יעשה אדם שנקלע למצב קשה כלכלית אך בכל זאת רוצה להמשיך לקיים את מצוות הפרשת מעשר כספים.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי קריית מלאכי, חודש אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/4r33931maaghzjw5/yt_video_-pSKEZOL_vA_8rbuis.mp3" length="15448650" type="audio/mpeg" />
+        <itunes:summary>השיעור עוסק בדיון באיזו תדירות צריך להפריש מעשר כספים: כל חודש בעת קבלת המשכורת או אולי כל שנה.גם נדון האם נכון לשמור את כספי המעשר לתקופות ארוכות בשביל לתרום לפרוייקט גדול, ומה יעשה אדם שנקלע למצב קשה כלכלית אך בכל זאת רוצה להמשיך לקיים את מצוות הפרשת מעשר כספים.בית הכנסת המרכזי קריית מלאכי, חודש אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>965</itunes:duration>
+                                    <spotify:order>62</spotify:order></item>
+    <item>
+        <title>נשמה יתרה בשבת - מה זה אומר ואיך מקבלים אותה</title>
+        <itunes:title>נשמה יתרה בשבת - מה זה אומר ואיך מקבלים אותה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%a0%d7%a9%d7%9e%d7%94%d7%99%d7%aa%d7%a8%d7%94%d7%91%d7%a9%d7%91%d7%aa%d7%9e%d7%94%d7%96%d7%94-%d7%90%d7%95%d7%9e%d7%a8-%d7%95%d7%90/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%a0%d7%a9%d7%9e%d7%94%d7%99%d7%aa%d7%a8%d7%94%d7%91%d7%a9%d7%91%d7%aa%d7%9e%d7%94%d7%96%d7%94-%d7%90%d7%95%d7%9e%d7%a8-%d7%95%d7%90/#comments</comments>        <pubDate>Fri, 13 Mar 2026 11:54:00 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:b5b7G6kiWtA</guid>
+                                    <description>&lt;p&gt;שיעור בתורה אור ד"ה ויקהל משה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;השיעור עוסק בקשר בין מצות שבת למלאכת המשכן, במה שבת נעלית יותר, ומה עלינו לעשות כדי לחוש את הנשמה יתרה בשבת.
+&lt;/p&gt;
+&lt;p&gt;בשיעור נלמד שלפעמים 'לא לעשות' זו העשיה הגדולה ביותר.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, כ"ד אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בתורה אור ד"ה ויקהל משה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;השיעור עוסק בקשר בין מצות שבת למלאכת המשכן, במה שבת נעלית יותר, ומה עלינו לעשות כדי לחוש את הנשמה יתרה בשבת.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בשיעור נלמד שלפעמים 'לא לעשות' זו העשיה הגדולה ביותר.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, כ"ד אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/tuab61ayib3spy1n/yt_video_b5b7G6kiWtA_ehcpe4.mp3" length="44705375" type="audio/mpeg" />
+        <itunes:summary>שיעור בתורה אור ד"ה ויקהל משה.השיעור עוסק בקשר בין מצות שבת למלאכת המשכן, במה שבת נעלית יותר, ומה עלינו לעשות כדי לחוש את הנשמה יתרה בשבת.בשיעור נלמד שלפעמים 'לא לעשות' זו העשיה הגדולה ביותר.בית הכנסת רני ושמחי, רחובות, כ"ד אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2794</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/xyqqnqg5ukqn2fyr/b458fcbe-a0d8-3fe6-bb74-c7dd39cbcc06.vtt" type="text/vtt" />    <spotify:order>63</spotify:order></item>
+    <item>
+        <title>טוסט וסופלה בשבת</title>
+        <itunes:title>טוסט וסופלה בשבת</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%98%d7%95%d7%a1%d7%98-%d7%95%d7%a1%d7%95%d7%a4%d7%9c%d7%94-%d7%91%d7%a9%d7%91%d7%aa/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%98%d7%95%d7%a1%d7%98-%d7%95%d7%a1%d7%95%d7%a4%d7%9c%d7%94-%d7%91%d7%a9%d7%91%d7%aa/#comments</comments>        <pubDate>Thu, 12 Mar 2026 07:03:11 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:8q1cFKcAgbI</guid>
+                                    <description>&lt;p&gt;האם יש אפשרות לעשות טוסט או לחמם עוגת סופלה בשבת? השאלות הנידונות הם האם מותר לעשות צנימים מלחם אפוי, האם יש בישול חוזר במוצרים שעברו פיסטור? מה ההגדרה של מבושל כל צרכו?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם יש אפשרות לעשות טוסט או לחמם עוגת סופלה בשבת? השאלות הנידונות הם האם מותר לעשות צנימים מלחם אפוי, האם יש בישול חוזר במוצרים שעברו פיסטור? מה ההגדרה של מבושל כל צרכו?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/ktn6mt8x8dz914vi/yt_video_8q1cFKcAgbI_gmyjjb.mp3" length="12862736" type="audio/mpeg" />
+        <itunes:summary>האם יש אפשרות לעשות טוסט או לחמם עוגת סופלה בשבת? השאלות הנידונות הם האם מותר לעשות צנימים מלחם אפוי, האם יש בישול חוזר במוצרים שעברו פיסטור? מה ההגדרה של מבושל כל צרכו?בית חב"ד צפון גדרה, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>803</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/a7kw9vzb9ay4r3bz/1e71bdbf-9fa5-38ae-aaac-1f634ed5e876.vtt" type="text/vtt" />    <spotify:order>64</spotify:order></item>
+    <item>
+        <title>האם מותר לקחת הלוואה ברבית נמוכה לכסות רבית גבוהה</title>
+        <itunes:title>האם מותר לקחת הלוואה ברבית נמוכה לכסות רבית גבוהה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%a7%d7%97%d7%aa-%d7%94%d7%9c%d7%95%d7%95%d7%90%d7%94%d7%91%d7%a8%d7%91%d7%99/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%a7%d7%97%d7%aa-%d7%94%d7%9c%d7%95%d7%95%d7%90%d7%94%d7%91%d7%a8%d7%91%d7%99/#comments</comments>        <pubDate>Wed, 11 Mar 2026 13:01:05 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:OSwPCJJ6Nzc</guid>
+                                    <description>&lt;p&gt;לפי ההלכה אסור לקחת הלוואה ברבית אלא אם כן מדובר בהלוואה לצורך עסקים וחותמים על היתר עסקא, האם האדם שכבר יש לו חוב בבנק עם רבית גבוהה רשאי לקחת הלוואה עם רבית נמוכה כדי להרוויח כלכלית וגם כדי להקטין את איסור ריבית?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, חודש אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;לפי ההלכה אסור לקחת הלוואה ברבית אלא אם כן מדובר בהלוואה לצורך עסקים וחותמים על היתר עסקא, האם האדם שכבר יש לו חוב בבנק עם רבית גבוהה רשאי לקחת הלוואה עם רבית נמוכה כדי להרוויח כלכלית וגם כדי להקטין את איסור ריבית?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, חודש אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/4bimerl3hbx87pmy/yt_video_OSwPCJJ6Nzc_qg6umg.mp3" length="14767794" type="audio/mpeg" />
+        <itunes:summary>לפי ההלכה אסור לקחת הלוואה ברבית אלא אם כן מדובר בהלוואה לצורך עסקים וחותמים על היתר עסקא, האם האדם שכבר יש לו חוב בבנק עם רבית גבוהה רשאי לקחת הלוואה עם רבית נמוכה כדי להרוויח כלכלית וגם כדי להקטין את איסור ריבית?בית הכנסת המרכזי נחל'ה, חודש אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>922</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/e9ey28p4hibpmk6a/95e37565-a280-3719-985c-71d4331d725d.vtt" type="text/vtt" />    <spotify:order>65</spotify:order></item>
+    <item>
+        <title>ונשמרתם מאוד לנפשותיכם - התנהלות הלכתית בזמן אזעקות</title>
+        <itunes:title>ונשמרתם מאוד לנפשותיכם - התנהלות הלכתית בזמן אזעקות</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%95%d7%a0%d7%a9%d7%9e%d7%a8%d7%aa%d7%9d-%d7%9e%d7%90%d7%95%d7%93-%d7%9c%d7%a0%d7%a4%d7%a9%d7%95%d7%aa%d7%99%d7%9b%d7%9d/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%95%d7%a0%d7%a9%d7%9e%d7%a8%d7%aa%d7%9d-%d7%9e%d7%90%d7%95%d7%93-%d7%9c%d7%a0%d7%a4%d7%a9%d7%95%d7%aa%d7%99%d7%9b%d7%9d/#comments</comments>        <pubDate>Tue, 10 Mar 2026 11:29:32 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:OkfPLlQO9-Q</guid>
+                                    <description>&lt;p&gt;כיצד נכון להתנהג הלכתית כאשר שומעים אזעקה באמצע תפילה/קריאת התורה/סעודת שבת, ועוד.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;מהי רמת הסיכון שמותר לאדם לקחת בלי לעבור על 'ונשמרתם'.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, חודש אדר תשפ"ו.&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;כיצד נכון להתנהג הלכתית כאשר שומעים אזעקה באמצע תפילה/קריאת התורה/סעודת שבת, ועוד.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מהי רמת הסיכון שמותר לאדם לקחת בלי לעבור על 'ונשמרתם'.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, חודש אדר תשפ"ו.&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/j06zfu3sciwth5u4/yt_video_OkfPLlQO9-Q_g76kzb.mp3" length="34574880" type="audio/mpeg" />
+        <itunes:summary>כיצד נכון להתנהג הלכתית כאשר שומעים אזעקה באמצע תפילה/קריאת התורה/סעודת שבת, ועוד.מהי רמת הסיכון שמותר לאדם לקחת בלי לעבור על 'ונשמרתם'.בית חב"ד צפון גדרה, חודש אדר תשפ"ו.</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2160</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/rb2vbexaccsnicqe/03e4a2f5-2ece-337c-983a-a95518a8fe13.vtt" type="text/vtt" />    <spotify:order>66</spotify:order></item>
+    <item>
+        <title>הנחת מזומן האם יש בזה בעיה הלכתית</title>
+        <itunes:title>הנחת מזומן האם יש בזה בעיה הלכתית</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%a0%d7%97%d7%aa%d7%9e%d7%96%d7%95%d7%9e%d7%9f%d7%94%d7%90%d7%9d%d7%99%d7%a9-%d7%91%d7%96%d7%94-%d7%91%d7%a2%d7%99%d7%94-%d7%94%d7%9c%d7%9b/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%a0%d7%97%d7%aa%d7%9e%d7%96%d7%95%d7%9e%d7%9f%d7%94%d7%90%d7%9d%d7%99%d7%a9-%d7%91%d7%96%d7%94-%d7%91%d7%a2%d7%99%d7%94-%d7%94%d7%9c%d7%9b/#comments</comments>        <pubDate>Mon, 09 Mar 2026 09:12:30 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:ZT9yrEsKTq0</guid>
+                                    <description>&lt;p&gt;האם יש בעיה הלכתית כאשר בעל עסק נותן שני מחירים שונים למזומן ואשראי?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;האם יש בעיה הלכתית כאשר בעל עסק נותן שני מחירים שונים למזומן ואשראי?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/5g1jzp3eua65lt6n/yt_video_ZT9yrEsKTq0_xv6bc5.mp3" length="13218002" type="audio/mpeg" />
+        <itunes:summary>האם יש בעיה הלכתית כאשר בעל עסק נותן שני מחירים שונים למזומן ואשראי?בית הכנסת המרכזי נחל'ה, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>826</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/u2sttxqsvxyshuuf/2331ede3-4f77-3ae8-8bd7-ecc020bda70d.vtt" type="text/vtt" />    <spotify:order>67</spotify:order></item>
+    <item>
+        <title>למה לומר ליהודי ’אתה מלאך’ זו לא מחמאה</title>
+        <itunes:title>למה לומר ליהודי ’אתה מלאך’ זו לא מחמאה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%9c%d7%95%d7%9e%d7%a8-%d7%9c%d7%99%d7%94%d7%95%d7%93%d7%99%d7%90%d7%aa%d7%94%d7%9e%d7%9c%d7%90%d7%9a%d7%96%d7%95/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9c%d7%9e%d7%94-%d7%9c%d7%95%d7%9e%d7%a8-%d7%9c%d7%99%d7%94%d7%95%d7%93%d7%99%d7%90%d7%aa%d7%94%d7%9e%d7%9c%d7%90%d7%9a%d7%96%d7%95/#comments</comments>        <pubDate>Fri, 06 Mar 2026 13:04:23 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:JzYoyVGGKPE</guid>
+                                    <description>&lt;p&gt;שיעור בתורה אור פ' כי תשא, ד"ה שמאלו תחת לראשי וימינו תחבקני.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק במהות של תפילה וכיצד יכול האדם להתפלל במשך היום כולו גם כאשר עוסק בעניני העולם.
+&lt;/p&gt;
+&lt;p&gt;וגם, מדוע המלאכים אינם יכולים לומר קדושה לקב"ה עד שעם ישראל אומר קדושה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, חודש אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בתורה אור פ' כי תשא, ד"ה שמאלו תחת לראשי וימינו תחבקני.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק במהות של תפילה וכיצד יכול האדם להתפלל במשך היום כולו גם כאשר עוסק בעניני העולם.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;וגם, מדוע המלאכים אינם יכולים לומר קדושה לקב"ה עד שעם ישראל אומר קדושה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, חודש אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/ijf5rqi2emtymupy/yt_video_JzYoyVGGKPE_krm76g.mp3" length="47719696" type="audio/mpeg" />
+        <itunes:summary>שיעור בתורה אור פ' כי תשא, ד"ה שמאלו תחת לראשי וימינו תחבקני.המאמר עוסק במהות של תפילה וכיצד יכול האדם להתפלל במשך היום כולו גם כאשר עוסק בעניני העולם.וגם, מדוע המלאכים אינם יכולים לומר קדושה לקב"ה עד שעם ישראל אומר קדושה.בית הכנסת רני ושמחי, רחובות, חודש אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2982</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/kr7sb57gp3ff7qwu/f400b8b5-7574-32ab-a5ec-0c35faca284e.vtt" type="text/vtt" />    <spotify:order>68</spotify:order></item>
+    <item>
+        <title>אור לגויים - עד כמה יש לנו אחריות על הנהגת אומות העולם</title>
+        <itunes:title>אור לגויים - עד כמה יש לנו אחריות על הנהגת אומות העולם</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%95%d7%a8-%d7%9c%d7%92%d7%95%d7%99%d7%99%d7%9d%d7%a2%d7%93%d7%9b%d7%9e%d7%94%d7%99%d7%a9-%d7%9c%d7%a0%d7%95-%d7%90%d7%97%d7%a8/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%95%d7%a8-%d7%9c%d7%92%d7%95%d7%99%d7%99%d7%9d%d7%a2%d7%93%d7%9b%d7%9e%d7%94%d7%99%d7%a9-%d7%9c%d7%a0%d7%95-%d7%90%d7%97%d7%a8/#comments</comments>        <pubDate>Thu, 05 Mar 2026 09:47:49 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:X9YAiiAAZsw</guid>
+                                    <description>&lt;p&gt;השיעור עוסק באחריות העולמית של יהודים כלפי כל באי עולם, למשל גוי שנשוי לאחותו - דבר האסור לבני נוח, במידה ויש ביכולתי להשפיע עליו עד כמה אני מחויב בדבר.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;השיעור עוסק באחריות העולמית של יהודים כלפי כל באי עולם, למשל גוי שנשוי לאחותו - דבר האסור לבני נוח, במידה ויש ביכולתי להשפיע עליו עד כמה אני מחויב בדבר.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/ofd5gbdwfjtldost/yt_video_X9YAiiAAZsw_xg2m4w.mp3" length="28020444" type="audio/mpeg" />
+        <itunes:summary>השיעור עוסק באחריות העולמית של יהודים כלפי כל באי עולם, למשל גוי שנשוי לאחותו - דבר האסור לבני נוח, במידה ויש ביכולתי להשפיע עליו עד כמה אני מחויב בדבר.בית הכנסת הגדול חולון, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1751</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/y7dccdzhtfe9mcph/30c53bac-2f84-340a-855c-af85017c161f.vtt" type="text/vtt" />    <spotify:order>69</spotify:order></item>
+    <item>
+        <title>מה הכוונה להתנהג במידת חסידות לפי ההלכה</title>
+        <itunes:title>מה הכוונה להתנהג במידת חסידות לפי ההלכה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%94%d7%9b%d7%95%d7%95%d7%a0%d7%94%d7%9c%d7%94%d7%aa%d7%a0%d7%94%d7%92-%d7%91%d7%9e%d7%99%d7%93%d7%aa-%d7%97%d7%a1/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%94-%d7%94%d7%9b%d7%95%d7%95%d7%a0%d7%94%d7%9c%d7%94%d7%aa%d7%a0%d7%94%d7%92-%d7%91%d7%9e%d7%99%d7%93%d7%aa-%d7%97%d7%a1/#comments</comments>        <pubDate>Wed, 04 Mar 2026 14:02:02 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:-PiaBfF8DPU</guid>
+                                    <description>&lt;p&gt;חז"ל אומרים שהנוהג במידת חסידות עם חבירו גם מלמעלה מתנהגים איתו באופן אופן.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בשיעור נלמד על הנהגות הקשורות במידת חסידות לפי ההלכה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;חז"ל אומרים שהנוהג במידת חסידות עם חבירו גם מלמעלה מתנהגים איתו באופן אופן.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בשיעור נלמד על הנהגות הקשורות במידת חסידות לפי ההלכה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/ljgecxtju9qmdd4u/yt_video_-PiaBfF8DPU_apnji5.mp3" length="16849231" type="audio/mpeg" />
+        <itunes:summary>חז"ל אומרים שהנוהג במידת חסידות עם חבירו גם מלמעלה מתנהגים איתו באופן אופן.בשיעור נלמד על הנהגות הקשורות במידת חסידות לפי ההלכה.בית חב"ד צפון גדרה, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1053</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/zz7pt739qzab73hc/a6faeb9b-189d-370d-9995-332cd2d1388c.vtt" type="text/vtt" />    <spotify:order>70</spotify:order></item>
+    <item>
+        <title>מתנות לאביונים בהידור - איך עושים את זה?</title>
+        <itunes:title>מתנות לאביונים בהידור - איך עושים את זה?</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%aa%d7%a0%d7%95%d7%aa%d7%9c%d7%90%d7%91%d7%99%d7%95%d7%a0%d7%99%d7%9d%d7%91%d7%94%d7%99%d7%93%d7%95%d7%a8-%d7%90%d7%99%d7%9a-%d7%a2%d7%95/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%aa%d7%a0%d7%95%d7%aa%d7%9c%d7%90%d7%91%d7%99%d7%95%d7%a0%d7%99%d7%9d%d7%91%d7%94%d7%99%d7%93%d7%95%d7%a8-%d7%90%d7%99%d7%9a-%d7%a2%d7%95/#comments</comments>        <pubDate>Sun, 01 Mar 2026 11:01:27 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:zmavRDQBoBg</guid>
+                                    <description>&lt;p&gt;מהו השיעור המינימלי למתנות לאביונים ומהי הדרך הנכונה לתת
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;האם אפשר לתת אוכל או שצריכים דווקא כסף
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;האם אפשר לתת יום לפני פורים
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;ועוד
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מהו השיעור המינימלי למתנות לאביונים ומהי הדרך הנכונה לתת&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם אפשר לתת אוכל או שצריכים דווקא כסף&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם אפשר לתת יום לפני פורים&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;ועוד&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/7voxn8qaoanmsms4/yt_video_zmavRDQBoBg_thvdi2.mp3" length="22847781" type="audio/mpeg" />
+        <itunes:summary>מהו השיעור המינימלי למתנות לאביונים ומהי הדרך הנכונה לתתהאם אפשר לתת אוכל או שצריכים דווקא כסףהאם אפשר לתת יום לפני פוריםועודבית הכנסת המרכזי נחל'ה, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1427</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/c5tim9aisd7knzms/f74a09f1-407b-323f-a680-11e7944f62e2.vtt" type="text/vtt" />    <spotify:order>71</spotify:order></item>
+    <item>
+        <title>האם זה טוב להיות עקשן</title>
+        <itunes:title>האם זה טוב להיות עקשן</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%96%d7%94-%d7%98%d7%95%d7%91-%d7%9c%d7%94%d7%99%d7%95%d7%aa-%d7%a2%d7%a7%d7%a9%d7%9f/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%90%d7%9d-%d7%96%d7%94-%d7%98%d7%95%d7%91-%d7%9c%d7%94%d7%99%d7%95%d7%aa-%d7%a2%d7%a7%d7%a9%d7%9f/#comments</comments>        <pubDate>Fri, 27 Feb 2026 09:56:45 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:_stGC0Dp7Ng</guid>
+                                    <description>&lt;p&gt;תורה אור ד"ה זכור את אשר עשה לך עמלק. פורים ושבת זכור.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;השיעור עוסק בשאלה מדוע עמלק נטפל דווקא לעם ישראל, איזו תכונה בעם ישראל משכה אותו.
+&lt;/p&gt;
+&lt;p&gt;דבר נוסף, מהו ההבדל בין פרעה לעמלק, הרי גם את יציאת מצרים וגם את מעשה עמלק צריכים להזכיר ולחיות מידי יום.
+&lt;/p&gt;
+&lt;p&gt;לקראת סיום נלמד באילו מצבים עדיף לא להתעקש ובאילו דווקא כן.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, חודש אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;תורה אור ד"ה זכור את אשר עשה לך עמלק. פורים ושבת זכור.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;השיעור עוסק בשאלה מדוע עמלק נטפל דווקא לעם ישראל, איזו תכונה בעם ישראל משכה אותו.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;דבר נוסף, מהו ההבדל בין פרעה לעמלק, הרי גם את יציאת מצרים וגם את מעשה עמלק צריכים להזכיר ולחיות מידי יום.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;לקראת סיום נלמד באילו מצבים עדיף לא להתעקש ובאילו דווקא כן.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי, רחובות, חודש אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/hz615e3o1rws9a45/yt_video__stGC0Dp7Ng_5rvg35.mp3" length="41548529" type="audio/mpeg" />
+        <itunes:summary>תורה אור ד"ה זכור את אשר עשה לך עמלק. פורים ושבת זכור.השיעור עוסק בשאלה מדוע עמלק נטפל דווקא לעם ישראל, איזו תכונה בעם ישראל משכה אותו.דבר נוסף, מהו ההבדל בין פרעה לעמלק, הרי גם את יציאת מצרים וגם את מעשה עמלק צריכים להזכיר ולחיות מידי יום.לקראת סיום נלמד באילו מצבים עדיף לא להתעקש ובאילו דווקא כן.בית הכנסת רני ושמחי, רחובות, חודש אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2596</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/86iz28jvgvq22ieb/476fe322-1ced-324c-a69f-43ce7dc01890.vtt" type="text/vtt" />    <spotify:order>72</spotify:order></item>
+    <item>
+        <title>משתה ושמחה בפורים - איך עושים את זה נכון</title>
+        <itunes:title>משתה ושמחה בפורים - איך עושים את זה נכון</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%a9%d7%aa%d7%94%d7%95%d7%a9%d7%9e%d7%97%d7%94%d7%91%d7%a4%d7%95%d7%a8%d7%99%d7%9d%d7%90%d7%99%d7%9a-%d7%a2%d7%95%d7%a9%d7%99%d7%9d/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%a9%d7%aa%d7%94%d7%95%d7%a9%d7%9e%d7%97%d7%94%d7%91%d7%a4%d7%95%d7%a8%d7%99%d7%9d%d7%90%d7%99%d7%9a-%d7%a2%d7%95%d7%a9%d7%99%d7%9d/#comments</comments>        <pubDate>Wed, 25 Feb 2026 08:10:01 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:iK18ZRi3k-8</guid>
+                                    <description>&lt;p&gt;בשיעור שלפניכם תמצאו מגוון שאלות סביב משתה וסעודת פורים, למשל:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;מה נקרא 'עד דלא ידע' כמה לשתות לפי ההלכה?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;מה צריך לאכול בסעודה?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;האם צריך לעשות הכנה מסוימת לסעודה? ועוד.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, חודש אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;בשיעור שלפניכם תמצאו מגוון שאלות סביב משתה וסעודת פורים, למשל:&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מה נקרא 'עד דלא ידע' כמה לשתות לפי ההלכה?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מה צריך לאכול בסעודה?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם צריך לעשות הכנה מסוימת לסעודה? ועוד.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית חב"ד צפון גדרה, חודש אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/4ltaglz0y91sniu1/yt_video_iK18ZRi3k-8_j93k25.mp3" length="33549626" type="audio/mpeg" />
+        <itunes:summary>בשיעור שלפניכם תמצאו מגוון שאלות סביב משתה וסעודת פורים, למשל:מה נקרא 'עד דלא ידע' כמה לשתות לפי ההלכה?מה צריך לאכול בסעודה?האם צריך לעשות הכנה מסוימת לסעודה? ועוד.בית חב"ד צפון גדרה, חודש אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>2096</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/u8hygjdpa5vgzvh4/0398eaf0-1106-319c-9e4d-d0e29cfc52e0.vtt" type="text/vtt" />    <spotify:order>73</spotify:order></item>
+    <item>
+        <title>הלכות קריאת המגילה</title>
+        <itunes:title>הלכות קריאת המגילה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a7%d7%a8%d7%99%d7%90%d7%aa-%d7%94%d7%9e%d7%92%d7%99%d7%9c%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a7%d7%a8%d7%99%d7%90%d7%aa-%d7%94%d7%9e%d7%92%d7%99%d7%9c%d7%94/#comments</comments>        <pubDate>Tue, 24 Feb 2026 08:09:12 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:55GATXUsLNQ</guid>
+                                    <description>&lt;p&gt;איך יוצאים ידי חובת המגילה בהידור?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;מה עושים אם פספסתי מילה אחת?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;האם כולם צריכים להגיד את עשרת בני המן בנשימה אחת או מספיק שהחזן?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;האם עדיף שנשים יבואו לבית הכנסת או שישמעו מגילה בבית?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;איך יוצאים ידי חובת המגילה בהידור?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;מה עושים אם פספסתי מילה אחת?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם כולם צריכים להגיד את עשרת בני המן בנשימה אחת או מספיק שהחזן?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם עדיף שנשים יבואו לבית הכנסת או שישמעו מגילה בבית?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/9rz04k1wyfnsl48h/yt_video_55GATXUsLNQ_dgk5jv.mp3" length="22940986" type="audio/mpeg" />
+        <itunes:summary>איך יוצאים ידי חובת המגילה בהידור?מה עושים אם פספסתי מילה אחת?האם כולם צריכים להגיד את עשרת בני המן בנשימה אחת או מספיק שהחזן?האם עדיף שנשים יבואו לבית הכנסת או שישמעו מגילה בבית?בית הכנסת המרכזי נחל'ה, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1433</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/hxrxfn7s9mfjnj37/9d4b40d9-5fb9-3b11-8211-6ecf5c23fbc9.vtt" type="text/vtt" />    <spotify:order>74</spotify:order></item>
+    <item>
+        <title>מתי לא לתת פרסים לילדים</title>
+        <itunes:title>מתי לא לתת פרסים לילדים</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%9e%d7%aa%d7%99-%d7%9c%d7%90-%d7%9c%d7%aa%d7%aa-%d7%a4%d7%a8%d7%a1%d7%99%d7%9d-%d7%9c%d7%99%d7%9c%d7%93%d7%99%d7%9d/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%9e%d7%aa%d7%99-%d7%9c%d7%90-%d7%9c%d7%aa%d7%aa-%d7%a4%d7%a8%d7%a1%d7%99%d7%9d-%d7%9c%d7%99%d7%9c%d7%93%d7%99%d7%9d/#comments</comments>        <pubDate>Mon, 23 Feb 2026 08:37:34 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:0FRxXchUPLk</guid>
+                                    <description>&lt;p&gt;כיצד הגיב הרבי לשליח שרצה לדרבן את המקורבים שלו לבוא ביחד עם טיול?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;כיצד הגיב הרבי לשליח שרצה לדרבן את המקורבים שלו לבוא ביחד עם טיול?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/93wj4zv2g2xya6eq/yt_video_0FRxXchUPLk_8aen83.mp3" length="2566312" type="audio/mpeg" />
+        <itunes:summary>כיצד הגיב הרבי לשליח שרצה לדרבן את המקורבים שלו לבוא ביחד עם טיול?בית הכנסת המרכזי נחל'ה, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>160</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/sqa26f57mm43ynh6/53d07a2f-644c-32c3-8959-836b128473e3.vtt" type="text/vtt" />    <spotify:order>75</spotify:order></item>
+    <item>
+        <title>איך נקיים את מצות משלוח מנות בהידור</title>
+        <itunes:title>איך נקיים את מצות משלוח מנות בהידור</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%a0%d7%a7%d7%99%d7%99%d7%9d%d7%90%d7%aa-%d7%9e%d7%a6%d7%95%d7%aa-%d7%9e%d7%a9%d7%9c%d7%95%d7%97-%d7%9e%d7%a0%d7%95%d7%aa-%d7%91/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%a0%d7%a7%d7%99%d7%99%d7%9d%d7%90%d7%aa-%d7%9e%d7%a6%d7%95%d7%aa-%d7%9e%d7%a9%d7%9c%d7%95%d7%97-%d7%9e%d7%a0%d7%95%d7%aa-%d7%91/#comments</comments>        <pubDate>Mon, 23 Feb 2026 08:23:57 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:BJ_E0zHZE5w</guid>
+                                    <description>&lt;p&gt;מה הגודל הראוי של משלוח מנות והאם צריך לכלול ברכות שונות?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;האם טוב לתת משלוח מנות תוך כדי שיחת התפייסות?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;מה הגודל הראוי של משלוח מנות והאם צריך לכלול ברכות שונות?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;האם טוב לתת משלוח מנות תוך כדי שיחת התפייסות?&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת המרכזי נחל'ה, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/ph4o08g5bgso8vv9/yt_video_BJ_E0zHZE5w_rsmpvm.mp3" length="17456944" type="audio/mpeg" />
+        <itunes:summary>מה הגודל הראוי של משלוח מנות והאם צריך לכלול ברכות שונות?האם טוב לתת משלוח מנות תוך כדי שיחת התפייסות?בית הכנסת המרכזי נחל'ה, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1091</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/iw3ix4ftj4mqb44p/33df422a-4e53-38ed-94b9-946f5d954095.vtt" type="text/vtt" />    <spotify:order>76</spotify:order></item>
+    <item>
+        <title>איך מתמודדים עם רגשות אשמה</title>
+        <itunes:title>איך מתמודדים עם רגשות אשמה</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%9e%d7%aa%d7%9e%d7%95%d7%93%d7%93%d7%99%d7%9d-%d7%a2%d7%9d-%d7%a8%d7%92%d7%a9%d7%95%d7%aa-%d7%90%d7%a9%d7%9e%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%90%d7%99%d7%9a-%d7%9e%d7%aa%d7%9e%d7%95%d7%93%d7%93%d7%99%d7%9d-%d7%a2%d7%9d-%d7%a8%d7%92%d7%a9%d7%95%d7%aa-%d7%90%d7%a9%d7%9e%d7%94/#comments</comments>        <pubDate>Sun, 22 Feb 2026 10:51:00 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:ym5UFBAlX8I</guid>
+                                    <description>&lt;p&gt;אדם שאביו נפטר והוא חש שלא טיפל בו מספיק והאשמה אוכלת אותו, מה ההסתכלות הנכונה לפי התורה עד כמה לקחת את האשמה עלינו.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;אדם שאביו נפטר והוא חש שלא טיפל בו מספיק והאשמה אוכלת אותו, מה ההסתכלות הנכונה לפי התורה עד כמה לקחת את האשמה עלינו.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת הגדול חולון, אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/zh595adzpodor1ay/yt_video_ym5UFBAlX8I_xb7fmh.mp3" length="20941470" type="audio/mpeg" />
+        <itunes:summary>אדם שאביו נפטר והוא חש שלא טיפל בו מספיק והאשמה אוכלת אותו, מה ההסתכלות הנכונה לפי התורה עד כמה לקחת את האשמה עלינו.בית הכנסת הגדול חולון, אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>1308</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/zw5nvv4yv92pizgr/40bb3559-ee5f-34e6-9c93-7a76489ccfe0.vtt" type="text/vtt" />    <spotify:order>77</spotify:order></item>
+    <item>
+        <title>שתיה חריפה בעבודת ה’</title>
+        <itunes:title>שתיה חריפה בעבודת ה’</itunes:title>
+        <link>https://enachmanson.podbean.com/e/%d7%a9%d7%aa%d7%99%d7%94-%d7%97%d7%a8%d7%99%d7%a4%d7%94-%d7%91%d7%a2%d7%91%d7%95%d7%93%d7%aa-%d7%94/</link>
+                    <comments>https://enachmanson.podbean.com/e/%d7%a9%d7%aa%d7%99%d7%94-%d7%97%d7%a8%d7%99%d7%a4%d7%94-%d7%91%d7%a2%d7%91%d7%95%d7%93%d7%aa-%d7%94/#comments</comments>        <pubDate>Fri, 20 Feb 2026 11:08:39 +0200</pubDate>
+        <guid isPermaLink="false">yt:video:tpFzbw3Odvk</guid>
+                                    <description>&lt;p&gt;שיעור בתורה אור פ' תרומה ד"ה אמצאך בחוץ.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בפעולת הכרובים שהיו במשכן על בני ישראל, והאם גם בזמנינו אפשר לייצר רמת קשר עם הקב"ה כמו בזמן הכרובים, וזה מתחלק לכמה דרגות: אדם שעוסק כל היום בתורה, אדם שקובע עיתים לתורה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;במאמר יש התייחסות מיוחדת לאדם שעובר קשיים חריפים, שהפתרון הוא שתיית יין.
+&lt;/p&gt;
+&lt;p&gt;כמו שנאמר תנו יין למרי נפש כך זה גם בעבודת ה' יש פעולות שניתן לעשות כדי להפוך את המצב המריר למצב של עליה.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי רחובות, חודש אדר תשפ"ו&lt;/p&gt;
+</description>
+                                                            <content:encoded>&lt;p&gt;שיעור בתורה אור פ' תרומה ד"ה אמצאך בחוץ.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;המאמר עוסק בפעולת הכרובים שהיו במשכן על בני ישראל, והאם גם בזמנינו אפשר לייצר רמת קשר עם הקב"ה כמו בזמן הכרובים, וזה מתחלק לכמה דרגות: אדם שעוסק כל היום בתורה, אדם שקובע עיתים לתורה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;במאמר יש התייחסות מיוחדת לאדם שעובר קשיים חריפים, שהפתרון הוא שתיית יין.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;כמו שנאמר תנו יין למרי נפש כך זה גם בעבודת ה' יש פעולות שניתן לעשות כדי להפוך את המצב המריר למצב של עליה.&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;בית הכנסת רני ושמחי רחובות, חודש אדר תשפ"ו&lt;/p&gt;
+</content:encoded>
+                                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/xmtdiwytmarj4dzl/yt_video_tpFzbw3Odvk_jxp6ka.mp3" length="48149358" type="audio/mpeg" />
+        <itunes:summary>שיעור בתורה אור פ' תרומה ד"ה אמצאך בחוץ.המאמר עוסק בפעולת הכרובים שהיו במשכן על בני ישראל, והאם גם בזמנינו אפשר לייצר רמת קשר עם הקב"ה כמו בזמן הכרובים, וזה מתחלק לכמה דרגות: אדם שעוסק כל היום בתורה, אדם שקובע עיתים לתורה.במאמר יש התייחסות מיוחדת לאדם שעובר קשיים חריפים, שהפתרון הוא שתיית יין.כמו שנאמר תנו יין למרי נפש כך זה גם בעבודת ה' יש פעולות שניתן לעשות כדי להפוך את המצב המריר למצב של עליה.בית הכנסת רני ושמחי רחובות, חודש אדר תשפ"ו</itunes:summary>
+        <itunes:author>הרב אלחנן נחמנסון</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>3009</itunes:duration>
+                                <podcast:transcript url="https://mcdn.podbean.com/mf/web/akt6gcniu9shmh4m/7bda369b-a7d3-319b-8201-53c71cd82b49.vtt" type="text/vtt" />    <spotify:order>78</spotify:order></item>
+<spotify:limit>100</spotify:limit></channel>
 </rss>
