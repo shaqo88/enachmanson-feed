@@ -36,7 +36,7 @@ AUTHOR_NAME   = "הרב אלחנן נחמנסון"
 LOGO_URL      = f"{R2_PUBLIC_URL}/logo.png"
 
 # How many recent playlist items to check each run
-PLAYLIST_FETCH_COUNT = 50
+PLAYLIST_FETCH_COUNT = 150
 
 # ── Common yt-dlp options ─────────────────────────────────────────────────────
 def common_opts() -> dict:
