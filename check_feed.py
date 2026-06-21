@@ -14,6 +14,7 @@ import urllib.error
 
 PODBEAN_FEED_URL = "https://feed.podbean.com/enachmanson/feed.xml"
 HASH_FILE        = "last_hash.txt"
+RAW_FEED_FILE    = "raw_feed.xml"
 
 
 def fetch_feed(url: str) -> str:
@@ -51,6 +52,11 @@ def main():
     old_hash = ""
     if os.path.exists(HASH_FILE):
         old_hash = open(HASH_FILE).read().strip()
+
+    # Always save the raw fetch so convert_feed.py uses the exact same bytes
+    # this job just compared, instead of doing its own separate live fetch.
+    with open(RAW_FEED_FILE, "w", encoding="utf-8") as f:
+        f.write(raw)
 
     if new_hash == old_hash:
         print("✅ Feed unchanged — skipping update job.")
