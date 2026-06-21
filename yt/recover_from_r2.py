@@ -113,3 +113,20 @@ def main():
             continue
         info = in_r2[vid_id]
         known[vid_id] = {
+            "id": vid_id,
+            "title": meta.get("title", vid_id),
+            "description": meta.get("description", "") or meta.get("title", vid_id),
+            "published": meta.get("upload_date", ""),
+            "duration": meta.get("duration", 0),
+            "url": f"{R2_PUBLIC_URL}/{info['key']}",
+            "size": info["size"],
+        }
+        print(f"   ✅ Recovered {vid_id} — {meta.get('title', '?')}")
+
+    EPISODES_FILE.write_text(json.dumps(known, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"\n💾 Wrote {len(known)} total entries to {EPISODES_FILE}")
+    print("ℹ️  feed.xml was NOT regenerated. Run sync_podcast.py next to rebuild the feed from the updated episodes.json.")
+
+
+if __name__ == "__main__":
+    main()
