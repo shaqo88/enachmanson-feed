@@ -185,4 +185,42 @@ def main():
             old_ep = existing_by_guid[ep["guid"]]
             lines.append(f"  ~ {ep['title']} ({ep['pubDate']})")
             if old_ep["title"] != ep["title"]:
-                lines.append(f"      title:
+                lines.append(f"      title:   {old_ep['title']} → {ep['title']}")
+            if old_ep["pubDate"] != ep["pubDate"]:
+                lines.append(f"      pubDate: {old_ep['pubDate']} → {ep['pubDate']}")
+    if removed:
+        lines.append("Removed episodes:")
+        for ep in removed:
+            lines.append(f"  - {ep['title']} ({ep['pubDate']})")
+
+    commit_body = "\n".join(lines)
+
+    print(f"🆕 {commit_title}")
+    print(commit_body)
+
+    # Write commit message for the workflow
+    with open("commit_msg.txt", "w", encoding="utf-8") as f:
+        f.write(commit_title + "\n\n" + commit_body)
+
+    # Signal whether actual episodes changed (vs metadata-only)
+    write_output("episode_changed", "true" if (new_found or removed) else "false")
+
+    # Write GitHub Actions job summary
+    summary_lines = [f"### 📻 {commit_title} ({total} episodes total)\n\n"]
+    for line in lines:
+        summary_lines.append(line + "  \n")
+    write_summary("".join(summary_lines))
+
+    # Write updated feed
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write(convert(raw))
+
+    # Write updated hash so it gets committed alongside feed.xml
+    with open(HASH_FILE, "w", encoding="utf-8") as f:
+        f.write(compute_hash(raw))
+
+    print(f"✅ Feed updated: {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()
