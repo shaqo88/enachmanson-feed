@@ -67,8 +67,12 @@ jobs:
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           git add feed.xml last_hash.txt
-          git commit -F commit_msg.txt
-          git push
+          if git diff --staged --quiet; then
+            echo "No actual changes to commit, skipping."
+          else
+            git commit -F commit_msg.txt
+            git push
+          fi
 
   notify:
     needs: [commit, update]
