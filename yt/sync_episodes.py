@@ -83,7 +83,7 @@ def main():
         if vid_id in known:
             continue  # already processed
 
-        title = entry.get("title", f"Episode {vid_id}")
+        title = entry.get("title") or f"Episode {vid_id}"
         print(f"\n🆕 New video: {title} ({vid_id})")
 
         tmp_mp3 = Path(f"/tmp/{vid_id}.mp3")
