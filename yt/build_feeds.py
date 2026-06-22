@@ -104,7 +104,8 @@ def add_spotify_fields(xml_bytes: bytes) -> bytes:
 
 def main():
     known = json.loads(EPISODES_FILE.read_text(encoding="utf-8")) if EPISODES_FILE.exists() else {}
-    episodes_sorted = sorted(known.values(), key=lambda x: x["published"], reverse=True)
+    real_episodes = [ep for ep in known.values() if not ep.get("unavailable")]
+    episodes_sorted = sorted(real_episodes, key=lambda x: x["published"], reverse=True)
     print(f"📚 Building feeds from {len(episodes_sorted)} episodes")
 
     # ── Zinc feed (feed.xml) — frozen name/URL, with spotify: fields ──────────
