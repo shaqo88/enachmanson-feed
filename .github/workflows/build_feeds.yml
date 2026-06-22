@@ -1,0 +1,37 @@
+name: Rebuild Feeds Only
+
+# Manual only — fast feed-only rebuild from the existing episodes.json.
+# Never touches YouTube or R2. Useful after manually editing episodes.json,
+# or after a feed-formatting fix in build_feeds.py.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.0.2
+        with:
+          python-version: '3.x'
+
+      - name: Install Python dependencies
+        run: pip install feedgen
+
+      - name: Build feeds
+        env:
+          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+        run: python3 yt/build_feeds.py
+
+      - name: Commit updated feeds
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add feed.xml feed-standard.xml
+          git diff --staged --quiet || git commit -m "🔄 Rebuild feeds from episodes.json"
+          git push
