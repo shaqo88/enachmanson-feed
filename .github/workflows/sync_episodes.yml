@@ -1,8 +1,8 @@
 name: Sync Episodes from YouTube
 
 on:
-  # schedule:
-  #   - cron: '0 * * * *'  # every hour — uncomment after successful manual test
+  schedule:
+    - cron: '0 * * * *'  # every hour — uncomment after successful manual test
   workflow_dispatch:        # manual trigger only for now
 
 concurrency:
