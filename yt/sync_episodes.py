@@ -99,13 +99,31 @@ def main():
             **common_opts(),
         }
 
+        PERMANENT_UNAVAILABLE_MARKERS = (
+            "video unavailable",
+            "private video",
+            "video is private",
+            "removed by the uploader",
+            "terminated",
+            "removed for violating",
+        )
+
         try:
             with yt_dlp.YoutubeDL(ydl_dl_opts) as ydl:
                 meta = ydl.extract_info(f"https://www.youtube.com/watch?v={vid_id}", download=True)
         except Exception as e:
-            print(f"  ❌ Download failed for {vid_id}: {e}")
-            continue  # skip; next run will retry
-
+            err_str = str(e).lower()
+            if any(marker in err_str for marker in PERMANENT_UNAVAILABLE_MARKERS):
+                print(f"  ⚠️  Permanently unavailable, will not retry: {vid_id} — {e}")
+                known[vid_id] = {"id": vid_id, "title": title, "unavailable": True}
+                EPISODES_FILE.write_text(
+                    json.dumps(known, ensure_ascii=False, indent=2),
+                    encoding="utf-8",
+                )
+            else:
+                print(f"  ❌ Download failed for {vid_id}: {e}")
+            continue  # only retried next run if NOT marked unavailable
+          
         if not tmp_mp3.exists():
             print(f"  ❌ Expected {tmp_mp3} not found after download; skipping")
             continue
