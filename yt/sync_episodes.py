@@ -35,6 +35,14 @@ EPISODES_FILE = Path("yt/episodes.json")
 # How many recent playlist items to check each run
 PLAYLIST_FETCH_COUNT = 150
 
+PERMANENT_UNAVAILABLE_MARKERS = (
+    "video unavailable",
+    "private video",
+    "video is private",
+    "removed by the uploader",
+    "terminated",
+    "removed for violating",
+)
 
 def common_opts() -> dict:
     opts = {
@@ -98,15 +106,6 @@ def main():
             "quiet": False,
             **common_opts(),
         }
-
-        PERMANENT_UNAVAILABLE_MARKERS = (
-            "video unavailable",
-            "private video",
-            "video is private",
-            "removed by the uploader",
-            "terminated",
-            "removed for violating",
-        )
 
         try:
             with yt_dlp.YoutubeDL(ydl_dl_opts) as ydl:
