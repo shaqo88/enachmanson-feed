@@ -2,8 +2,9 @@ name: Sync Episodes from YouTube
 
 on:
   schedule:
-    - cron: '0 * * * *'  # every hour — uncomment after successful manual test
-  workflow_dispatch:        # manual trigger only for now
+    # Avoid minute 0, when GitHub Actions scheduled-run load is highest.
+    - cron: '17 * * * *'
+  workflow_dispatch:
 
 concurrency:
   group: update-feed
