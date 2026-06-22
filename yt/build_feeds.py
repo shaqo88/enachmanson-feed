@@ -83,6 +83,9 @@ def add_episodes(fg: FeedGenerator, episodes_sorted: list) -> None:
 
 def add_spotify_fields(xml_bytes: bytes) -> bytes:
     """Port of what convert_feed.py used to inject — keeps Zinc happy."""
+    ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
+    ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
+    ET.register_namespace("content", "http://purl.org/rss/1.0/modules/content/")
     ET.register_namespace("spotify", SPOTIFY_NS)
     root = ET.fromstring(xml_bytes)
     channel = root.find("channel")
