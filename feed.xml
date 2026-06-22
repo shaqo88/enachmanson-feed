@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:spotify="http://www.spotify.com/ns/rss" version="2.0">
   <channel>
     <title>שיעורי הרב אלחנן נחמנסון</title>
     <link>https://shaqo88.github.io/enachmanson-feed/feed.xml</link>
     <description>שיעורי הלכה, חסידות וחינוך מאת הרב אלחנן נחמנסון</description>
-    <atom:link href="https://shaqo88.github.io/enachmanson-feed/feed.xml" rel="self"/>
+    <ns0:link href="https://shaqo88.github.io/enachmanson-feed/feed.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
@@ -13,13 +13,13 @@
       <link>https://shaqo88.github.io/enachmanson-feed/feed.xml</link>
     </image>
     <language>he</language>
-    <lastBuildDate>Sun, 21 Jun 2026 21:05:11 +0000</lastBuildDate>
-    <itunes:author>הרב אלחנן נחמנסון</itunes:author>
-    <itunes:category text="Religion &amp; Spirituality">
-      <itunes:category text="Judaism"/>
-    </itunes:category>
-    <itunes:image href="https://pub-98870003a0374406b04def2bed239266.r2.dev/logo.png"/>
-    <itunes:explicit>no</itunes:explicit>
+    <lastBuildDate>Mon, 22 Jun 2026 08:01:14 +0000</lastBuildDate>
+    <ns1:author>הרב אלחנן נחמנסון</ns1:author>
+    <ns1:category text="Religion &amp; Spirituality">
+      <ns1:category text="Judaism" />
+    </ns1:category>
+    <ns1:image href="https://pub-98870003a0374406b04def2bed239266.r2.dev/logo.png" />
+    <ns1:explicit>no</ns1:explicit>
     <item>
       <title>שתיה חריפה בעבודת ה'</title>
       <description>שיעור בתורה אור פ' תרומה ד"ה אמצאך בחוץ.
@@ -31,33 +31,33 @@
 
 בית הכנסת רני ושמחי רחובות, חודש אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:tpFzbw3Odvk</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/tpFzbw3Odvk.mp3" length="24074541" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/tpFzbw3Odvk.mp3" length="24074541" type="audio/mpeg" />
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>3009</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>3009</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>1</spotify:order></item>
     <item>
       <title>איך מתמודדים עם רגשות אשמה</title>
       <description>אדם שאביו נפטר והוא חש שלא טיפל בו מספיק והאשמה אוכלת אותו, מה ההסתכלות הנכונה לפי התורה עד כמה לקחת את האשמה עלינו.
 
 בית הכנסת הגדול חולון, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:ym5UFBAlX8I</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/ym5UFBAlX8I.mp3" length="10470765" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/ym5UFBAlX8I.mp3" length="10470765" type="audio/mpeg" />
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1309</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1309</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>2</spotify:order></item>
     <item>
       <title>מתי לא לתת פרסים לילדים</title>
       <description>כיצד הגיב הרבי לשליח שרצה לדרבן את המקורבים שלו לבוא ביחד עם טיול?
 
 בית הכנסת המרכזי נחל'ה, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:0FRxXchUPLk</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/0FRxXchUPLk.mp3" length="1282989" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/0FRxXchUPLk.mp3" length="1282989" type="audio/mpeg" />
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>160</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>160</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>3</spotify:order></item>
     <item>
       <title>איך נקיים את מצות משלוח מנות בהידור</title>
       <description>מה הגודל הראוי של משלוח מנות והאם צריך לכלול ברכות שונות?
@@ -66,11 +66,11 @@
 
 בית הכנסת המרכזי נחל'ה, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:BJ_E0zHZE5w</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/BJ_E0zHZE5w.mp3" length="8728365" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/BJ_E0zHZE5w.mp3" length="8728365" type="audio/mpeg" />
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1091</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1091</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>4</spotify:order></item>
     <item>
       <title>הלכות קריאת המגילה</title>
       <description>איך יוצאים ידי חובת המגילה בהידור?
@@ -85,11 +85,11 @@
 
 בית הכנסת המרכזי נחל'ה, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:55GATXUsLNQ</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/55GATXUsLNQ.mp3" length="11470509" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/55GATXUsLNQ.mp3" length="11470509" type="audio/mpeg" />
       <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1434</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1434</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>5</spotify:order></item>
     <item>
       <title>משתה ושמחה בפורים - איך עושים את זה נכון</title>
       <description>בשיעור שלפניכם תמצאו מגוון שאלות סביב משתה וסעודת פורים, למשל:
@@ -102,11 +102,11 @@
 
 בית חב"ד צפון גדרה, חודש אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:iK18ZRi3k-8</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/iK18ZRi3k-8.mp3" length="16774893" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/iK18ZRi3k-8.mp3" length="16774893" type="audio/mpeg" />
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2097</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2097</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>6</spotify:order></item>
     <item>
       <title>האם זה טוב להיות עקשן</title>
       <description>תורה אור ד"ה זכור את אשר עשה לך עמלק. פורים ושבת זכור.
@@ -117,11 +117,11 @@
 
 בית הכנסת רני ושמחי, רחובות, חודש אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:_stGC0Dp7Ng</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/_stGC0Dp7Ng.mp3" length="20774253" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/_stGC0Dp7Ng.mp3" length="20774253" type="audio/mpeg" />
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2597</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2597</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>7</spotify:order></item>
     <item>
       <title>מתנות לאביונים בהידור - איך עושים את זה?</title>
       <description>מהו השיעור המינימלי למתנות לאביונים ומהי הדרך הנכונה לתת
@@ -134,11 +134,11 @@
 
 בית הכנסת המרכזי נחל'ה, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:zmavRDQBoBg</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/zmavRDQBoBg.mp3" length="11423853" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/zmavRDQBoBg.mp3" length="11423853" type="audio/mpeg" />
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1428</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1428</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>8</spotify:order></item>
     <item>
       <title>מה הכוונה להתנהג במידת חסידות לפי ההלכה</title>
       <description>חז"ל אומרים שהנוהג במידת חסידות עם חבירו גם מלמעלה מתנהגים איתו באופן אופן.
@@ -147,22 +147,22 @@
 
 בית חב"ד צפון גדרה, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:-PiaBfF8DPU</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/-PiaBfF8DPU.mp3" length="8424621" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/-PiaBfF8DPU.mp3" length="8424621" type="audio/mpeg" />
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1053</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1053</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>9</spotify:order></item>
     <item>
       <title>אור לגויים - עד כמה יש לנו אחריות על הנהגת אומות העולם</title>
       <description>השיעור עוסק באחריות העולמית של יהודים כלפי כל באי עולם, למשל גוי שנשוי לאחותו - דבר האסור לבני נוח, במידה ויש ביכולתי להשפיע עליו עד כמה אני מחויב בדבר.
 
 בית הכנסת הגדול חולון, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:X9YAiiAAZsw</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/X9YAiiAAZsw.mp3" length="14010285" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/X9YAiiAAZsw.mp3" length="14010285" type="audio/mpeg" />
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1751</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1751</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>10</spotify:order></item>
     <item>
       <title>למה לומר ליהודי 'אתה מלאך' זו לא מחמאה</title>
       <description>שיעור בתורה אור פ' כי תשא, ד"ה שמאלו תחת לראשי וימינו תחבקני.
@@ -172,22 +172,22 @@
 
 בית הכנסת רני ושמחי, רחובות, חודש אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:JzYoyVGGKPE</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/JzYoyVGGKPE.mp3" length="23859885" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/JzYoyVGGKPE.mp3" length="23859885" type="audio/mpeg" />
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2982</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2982</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>11</spotify:order></item>
     <item>
       <title>הנחת מזומן האם יש בזה בעיה הלכתית</title>
       <description>האם יש בעיה הלכתית כאשר בעל עסק נותן שני מחירים שונים למזומן ואשראי?
 
 בית הכנסת המרכזי נחל'ה, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:ZT9yrEsKTq0</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/ZT9yrEsKTq0.mp3" length="6608877" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/ZT9yrEsKTq0.mp3" length="6608877" type="audio/mpeg" />
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>826</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>826</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>12</spotify:order></item>
     <item>
       <title>ונשמרתם מאוד לנפשותיכם - התנהלות הלכתית בזמן אזעקות</title>
       <description>כיצד נכון להתנהג הלכתית כאשר שומעים אזעקה באמצע תפילה/קריאת התורה/סעודת שבת, ועוד.
@@ -196,33 +196,33 @@
 
 בית חב"ד צפון גדרה, חודש אדר תשפ"ו.</description>
       <guid isPermaLink="false">yt:video:OkfPLlQO9-Q</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/OkfPLlQO9-Q.mp3" length="17287341" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/OkfPLlQO9-Q.mp3" length="17287341" type="audio/mpeg" />
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2161</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2161</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>13</spotify:order></item>
     <item>
       <title>הלוואה בריבית - האם יש מצבים שזה מותר</title>
       <description>לפי ההלכה אסור לקחת הלוואה ברבית אלא אם כן מדובר בהלוואה לצורך עסקים וחותמים על היתר עסקא, האם האדם שכבר יש לו חוב בבנק עם רבית גבוהה רשאי לקחת הלוואה עם רבית נמוכה כדי להרוויח כלכלית וגם כדי להקטין את איסור ריבית?
 
 בית הכנסת המרכזי נחל'ה, חודש אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:OSwPCJJ6Nzc</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/OSwPCJJ6Nzc.mp3" length="7383981" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/OSwPCJJ6Nzc.mp3" length="7383981" type="audio/mpeg" />
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>923</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>923</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>14</spotify:order></item>
     <item>
       <title>טוסט וסופלה בשבת</title>
       <description>האם יש אפשרות לעשות טוסט או לחמם עוגת סופלה בשבת? השאלות הנידונות הם האם מותר לעשות צנימים מלחם אפוי, האם יש בישול חוזר במוצרים שעברו פיסטור? מה ההגדרה של מבושל כל צרכו?
 
 בית חב"ד צפון גדרה, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:8q1cFKcAgbI</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/8q1cFKcAgbI.mp3" length="6431469" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/8q1cFKcAgbI.mp3" length="6431469" type="audio/mpeg" />
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>804</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>804</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>15</spotify:order></item>
     <item>
       <title>נשמה יתרה בשבת - מה זה אומר ואיך מקבלים אותה</title>
       <description>שיעור בתורה אור ד"ה ויקהל משה.
@@ -232,11 +232,11 @@
 
 בית הכנסת רני ושמחי, רחובות, כ"ד אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:b5b7G6kiWtA</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/b5b7G6kiWtA.mp3" length="22352685" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/b5b7G6kiWtA.mp3" length="22352685" type="audio/mpeg" />
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2794</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2794</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>16</spotify:order></item>
     <item>
       <title>כל כמה זמן צריך להפריש מעשר כספים</title>
       <description>השיעור עוסק בדיון באיזו תדירות צריך להפריש מעשר כספים: כל חודש בעת קבלת המשכורת או אולי כל שנה.
@@ -244,64 +244,64 @@
 
 בית הכנסת המרכזי קריית מלאכי, חודש אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:-pSKEZOL_vA</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/-pSKEZOL_vA.mp3" length="7724205" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/-pSKEZOL_vA.mp3" length="7724205" type="audio/mpeg" />
       <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>966</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>966</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>17</spotify:order></item>
     <item>
       <title>ברכת האילנות לפי מנהג אדמו''ר הזקן</title>
       <description>דיני ברכת האילנות לפי שיטת אדה"ז.
 
 בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:cm_ctSlAPss</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/cm_ctSlAPss.mp3" length="1782189" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/cm_ctSlAPss.mp3" length="1782189" type="audio/mpeg" />
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>223</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>223</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>18</spotify:order></item>
     <item>
       <title>מה עושים עם הבעלי חיים בפסח</title>
       <description>אדם שברשותו בעלי חיים שאוכלים חמץ כל השנה, מה יעשה כאשר לא מצליח למצוא בשבילם אוכל כשר לפסח.
 
 בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:nNY28LuhFps</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/nNY28LuhFps.mp3" length="2355885" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/nNY28LuhFps.mp3" length="2355885" type="audio/mpeg" />
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>294</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>294</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>19</spotify:order></item>
     <item>
       <title>למה בחב''ד עוטפים את המטבח לפסח</title>
       <description>יש קהילות בעם ישראל שנוהגות לעטוף את השיש והמקרר ועוד חלקים במטבח, מהו המקור ההלכתי לכך.
 
 בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:ym15O8-pXjs</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/ym15O8-pXjs.mp3" length="9962541" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/ym15O8-pXjs.mp3" length="9962541" type="audio/mpeg" />
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1245</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1245</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>20</spotify:order></item>
     <item>
       <title>אל תיכנס למקומות שמפילים אותך</title>
       <description>כדי להצליח בחיים לא מספיק לדעת 'מה לעשות' אלא חשוב לדעת מה 'לא לעשות'.</description>
       <guid isPermaLink="false">yt:video:CWJk6UvetyU</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/CWJk6UvetyU.mp3" length="681453" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/CWJk6UvetyU.mp3" length="681453" type="audio/mpeg" />
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>85</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>85</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>21</spotify:order></item>
     <item>
       <title>דיני לחם משנה</title>
       <description>מקבץ הלכות הנוגעות למצות לחם משנה בשבת, על פי הלכה ולפי הקבלה.
 
 בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:8leGz-i8YGM</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/8leGz-i8YGM.mp3" length="9162669" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/8leGz-i8YGM.mp3" length="9162669" type="audio/mpeg" />
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1145</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1145</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>22</spotify:order></item>
     <item>
       <title>למה ה' דורש מאתנו הקרבה?</title>
       <description>שיעור בלקוטי תורה פ' ויקרא ד"ה אדם כי יקריב (השני).
@@ -310,22 +310,22 @@
 
 בית הכנסת רני ושמחי, רחובות, ב' ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:Fv2bd20HPeY</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Fv2bd20HPeY.mp3" length="14227821" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Fv2bd20HPeY.mp3" length="14227821" type="audio/mpeg" />
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1778</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1778</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>23</spotify:order></item>
     <item>
       <title>כשרות זה לא רק באוכל</title>
       <description>התורה נקראת תורת חיים משום שהיא נותנת לאדם דרך בכל פרט בחיים. בשיעור זה נלמד על מצבים שנדרשת בהם שאלת כשרות למרות שלא מדובר על אוכל.
 
 בית הכנסת הגדול חולון, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:uqGL1F0MIAM</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/uqGL1F0MIAM.mp3" length="13601901" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/uqGL1F0MIAM.mp3" length="13601901" type="audio/mpeg" />
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1700</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1700</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>24</spotify:order></item>
     <item>
       <title>דיני בדיקת חמץ</title>
       <description>האם בבדיקת חמץ צריך לכבות את האורות בבית?
@@ -336,22 +336,22 @@
 
 בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:cR8vzWEz2rw</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/cR8vzWEz2rw.mp3" length="8322093" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/cR8vzWEz2rw.mp3" length="8322093" type="audio/mpeg" />
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1040</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1040</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>25</spotify:order></item>
     <item>
       <title>סדר לבישת הבגדים</title>
       <description>מהיכן מתחילים להתלבש מפלג הגוף העליון או התחתון ומה מנהג חב"ד בזה?
 
 בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:66jVGnLF7RI</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/66jVGnLF7RI.mp3" length="7059693" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/66jVGnLF7RI.mp3" length="7059693" type="audio/mpeg" />
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>882</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>882</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>26</spotify:order></item>
     <item>
       <title>הכנת הבית לפסח בקלות וביעילות</title>
       <description>השיעור עוסק בהכנת הבית והכשרת המטבח לפסח, כולל נקיון הפה והגוף לפסח ובפסח,
@@ -359,31 +359,31 @@
 
 בית חב"ד צפון גדרה, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:bavYBGJUfc4</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/bavYBGJUfc4.mp3" length="24775341" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/bavYBGJUfc4.mp3" length="24775341" type="audio/mpeg" />
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>3097</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>3097</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>27</spotify:order></item>
     <item>
       <title>מה ענה הרבי לאדם שאמר שאין לו עם מי להתייעץ</title>
       <description>מהו האיזון הנכון בין 'ציות' לבין להפעיל את השכל.</description>
       <guid isPermaLink="false">yt:video:_0LHj9Czamc</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/_0LHj9Czamc.mp3" length="1353645" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/_0LHj9Czamc.mp3" length="1353645" type="audio/mpeg" />
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>169</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>169</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>28</spotify:order></item>
     <item>
       <title>לקחת הפסקה באמצע העבודה</title>
       <description>האם מותר לקחת הפסקות מנוחה באמצע העבודה בלי רשות של המעסיק
 
 בית הכנסת המרכזי קרית מלאכי, אדר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:KHQlFw6-Eqo</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/KHQlFw6-Eqo.mp3" length="2574381" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/KHQlFw6-Eqo.mp3" length="2574381" type="audio/mpeg" />
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>322</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>322</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>29</spotify:order></item>
     <item>
       <title>ושמחת בחגך - שיעור לפסח</title>
       <description>השיעור עוסק בשאלה מה הטעם שאוכלים מצות שבעה ימים בזמן שהנס היה רק יום אחד?
@@ -392,22 +392,22 @@
 
 בית הכנסת רני ושמחי, רחובות, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:kK39b6JE3K0</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/kK39b6JE3K0.mp3" length="20332461" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/kK39b6JE3K0.mp3" length="20332461" type="audio/mpeg" />
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2542</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2542</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>30</spotify:order></item>
     <item>
       <title>דיני ערב פסח וליל הסדר</title>
       <description>מנהגי ערב פסח וליל הסדר בשפה השווה לכל נפש
 
 בית הכנסת המרכזי קרית מלאכי, חודש ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:N9eUxKpSFQw</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/N9eUxKpSFQw.mp3" length="19814637" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/N9eUxKpSFQw.mp3" length="19814637" type="audio/mpeg" />
       <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2477</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2477</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>31</spotify:order></item>
     <item>
       <title>גניבת לקוחות - מתי מותר ומתי אסור</title>
       <description>מה מותר לבעל עסק לעשות כדי למשוך לקוחות, האם מותר להביע דיעה על עסק
@@ -415,22 +415,22 @@
 
 בית הכנסת המרכזי חולון, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:Ne4rdeJbmMY</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Ne4rdeJbmMY.mp3" length="7121709" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Ne4rdeJbmMY.mp3" length="7121709" type="audio/mpeg" />
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>890</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>890</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>32</spotify:order></item>
     <item>
       <title>איך נעשים חייל</title>
       <description>המאפיין של איש צבא הוא 'קבלת עול', איך נעשים חייל גם באזרחי. סיפור על חסיד שעשה את זה.
 
 בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:84-Tmw2zGxA</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/84-Tmw2zGxA.mp3" length="2261037" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/84-Tmw2zGxA.mp3" length="2261037" type="audio/mpeg" />
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>283</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>283</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>33</spotify:order></item>
     <item>
       <title>איך זוכים לקריעת ים סוף האישית שלך</title>
       <description>שיעור בלקוטי תורה ד"ה הים ראה וינס - שביעי של פסח
@@ -441,11 +441,11 @@
 
 בית הכנסת רני ושמחי, רחובות, חול המועד פסח תשפ"ו.</description>
       <guid isPermaLink="false">yt:video:iUL_QAFjg9c</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/iUL_QAFjg9c.mp3" length="18580077" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/iUL_QAFjg9c.mp3" length="18580077" type="audio/mpeg" />
       <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2323</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2323</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>34</spotify:order></item>
     <item>
       <title>דיני חול המועד</title>
       <description>האם צריך ללבוש בגדי שבת בחול המועד? איך מתייחסים לעבודות מחשב ומתי מותר לעבוד כרגיל?
@@ -454,11 +454,11 @@
 
 בית חב"ד צפון גדרה, חול המועד פסח תשפ"ו</description>
       <guid isPermaLink="false">yt:video:nEMaRmj6b9w</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/nEMaRmj6b9w.mp3" length="25563693" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/nEMaRmj6b9w.mp3" length="25563693" type="audio/mpeg" />
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>3195</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>3195</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>35</spotify:order></item>
     <item>
       <title>האם יש כישופים בזמן הזה</title>
       <description>למה אסרה התורה את הכישוף ובאלו מצבים מותר ללכת למכשף.
@@ -466,11 +466,11 @@
 
 כינוס תורה חול המועד פסח תשפ"ו - בית חב"ד המרכזי באר שבע.</description>
       <guid isPermaLink="false">yt:video:xzcJj9pZAdE</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/xzcJj9pZAdE.mp3" length="25605933" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/xzcJj9pZAdE.mp3" length="25605933" type="audio/mpeg" />
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>3201</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>3201</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>36</spotify:order></item>
     <item>
       <title>לויתן ושור הבר - שני סוגים של בני אדם</title>
       <description>שיעור בליקוטי תורה פ' שמיני ד"ה לויתן זה יצרת לשחק בו
@@ -481,11 +481,11 @@
 
 בית הכנסת רני ושמחי, רחובות, כ"ג ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:HtTWVcpVd0k</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/HtTWVcpVd0k.mp3" length="20711853" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/HtTWVcpVd0k.mp3" length="20711853" type="audio/mpeg" />
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2589</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2589</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>37</spotify:order></item>
     <item>
       <title>דיני ברכת הגומל לחייבים טובות</title>
       <description>אדם שכמעט עשה תאונה וניצל, האם יברך הגומל?
@@ -494,55 +494,55 @@
 
 בית חב"ד צפון גדרה, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:E1Z01PgFra8</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/E1Z01PgFra8.mp3" length="14602221" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/E1Z01PgFra8.mp3" length="14602221" type="audio/mpeg" />
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1825</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1825</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>38</spotify:order></item>
     <item>
       <title>תספורת בספירת העומר</title>
       <description>באילו מצבים מותר לספר את השערות בספירת העומר.
 
 בית כנסת חב"ד המרכזי קריית מלאכי, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:KlycESPCjWk</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/KlycESPCjWk.mp3" length="9506541" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/KlycESPCjWk.mp3" length="9506541" type="audio/mpeg" />
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1188</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1188</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>39</spotify:order></item>
     <item>
       <title>מוזיקה וריקודים בבר מצוה בספירת העומר</title>
       <description>האם ניתן לרקוד ולשים מוזיקה בבר מצוה במהלך ספירת העומר, והאם יש חסרון בדחיית הבר מצוה לאחרי חג השבועות.
 
 בית הכנסת המרכזי קרית מלאכי, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:45pVMSctELo</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/45pVMSctELo.mp3" length="7063341" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/45pVMSctELo.mp3" length="7063341" type="audio/mpeg" />
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>883</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>883</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>40</spotify:order></item>
     <item>
       <title>מה קורה לאדם שלא מכבד</title>
       <description>מה ענה הרבי לאחד שסיפר לו על מקרה מצער בו יורשים של רב מסוים שרפו את חידושי התורה שעליהם עמל.
 
 בית הכנסת המרכזי קרית מלאכי, תשפ"ו</description>
       <guid isPermaLink="false">yt:video:b1vZW5sKzjY</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/b1vZW5sKzjY.mp3" length="993453" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/b1vZW5sKzjY.mp3" length="993453" type="audio/mpeg" />
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>124</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>124</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>41</spotify:order></item>
     <item>
       <title>האם יש בעיה הלכתית להשתמש בתאריך הלועזי</title>
       <description>עד כמה חשוב להשתמש בתאריך עברי, האם התאריך הלועזי קשור עם הנצרות?
 
 בית חב"ד צפון גדרה, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:EdYB3LttULc</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/EdYB3LttULc.mp3" length="9352749" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/EdYB3LttULc.mp3" length="9352749" type="audio/mpeg" />
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1169</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1169</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>42</spotify:order></item>
     <item>
       <title>מה יחס התורה לקוראן</title>
       <description>המוסלמים לא נחשבים עובדי עבודה זרה אבל מה הדין של הקוראן האם מותר לקרוא בו,
@@ -550,11 +550,11 @@
 
 בית חב"ד צפון גדרה, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:z_Q-rZGvHnM</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/z_Q-rZGvHnM.mp3" length="5266221" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/z_Q-rZGvHnM.mp3" length="5266221" type="audio/mpeg" />
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>658</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>658</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>43</spotify:order></item>
     <item>
       <title>קיצורי דרך בעבודת ה'</title>
       <description>שיעור בליקוטי תורה פ' תזריע ד"ה שוש תשיש ותגל העקרה.
@@ -563,66 +563,66 @@
 
 בית הכנסת רני ושמחי רחובות, ל' ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:Wjpb9ImJTcY</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Wjpb9ImJTcY.mp3" length="21910317" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Wjpb9ImJTcY.mp3" length="21910317" type="audio/mpeg" />
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2739</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2739</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>44</spotify:order></item>
     <item>
       <title>חסידי אומות העולם - מה זה אומר</title>
       <description>מה התנאים להיות חסיד אומות העולם, איך צריך להתנהג איתם, ומה יהיה המעמד שלהם לעתיד לבוא.
 
 בית חב"ד צפון גדרה, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:6nwlvi6O5Ng</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/6nwlvi6O5Ng.mp3" length="8313453" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/6nwlvi6O5Ng.mp3" length="8313453" type="audio/mpeg" />
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1039</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1039</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>45</spotify:order></item>
     <item>
       <title>האם מותר להלשין בשביל מטרה חינוכית</title>
       <description>האם מותר למורה לגרום לתלמיד להלשין על חברו לצורך חינוכו של התלמיד
 
 בית הכנסת המרכזי נחל'ה, תשפ"ו</description>
       <guid isPermaLink="false">yt:video:z0hwhUdc6dc</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/z0hwhUdc6dc.mp3" length="4872429" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/z0hwhUdc6dc.mp3" length="4872429" type="audio/mpeg" />
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>609</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>609</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>46</spotify:order></item>
     <item>
       <title>האם יש בעיה לקנות מדיח כלים משומש</title>
       <description>האם אפשר להשתמש באותו מדיח כלים לבשרי וחלבי והאם מותר לקנות מדיח כלים משומש.
 
 בית הכנסת המרכזי קרית מלאכי, תשפ"ו</description>
       <guid isPermaLink="false">yt:video:pP6WyHXWPzA</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/pP6WyHXWPzA.mp3" length="6798957" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/pP6WyHXWPzA.mp3" length="6798957" type="audio/mpeg" />
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>850</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>850</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>47</spotify:order></item>
     <item>
       <title>האם מותר לאדם להציל את עצמו על חשבון מישהו אחר</title>
       <description>מהם האפשרויות שיש לאדם להציל את עצמו למרות שעל ידי זה יכנס אדם אחר תחתיו וינזק או אפילו ימות.
 
 בית הכנסת הגדול חולון, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:nhvAXoCStNw</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/nhvAXoCStNw.mp3" length="8413101" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/nhvAXoCStNw.mp3" length="8413101" type="audio/mpeg" />
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1052</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1052</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>48</spotify:order></item>
     <item>
       <title>איך להתייחס לנפילות בעבודת ה'</title>
       <description>לפעמים אדם נכשל שוב ושוב עד שחש שאין טעם לנסות עוד. מעבר לחיזוק הנפשי צריך לדעת שיש הבדל ביחס של התורה בין מעשה טוב למעשה רע. ההבדל מתבטא גם בפן ההלכתי וגם בפן המעשי. ועל כך, בשיעור שלפניכם.
 
 בית הכנסת הגדול חולון, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:x8bMtzKmQ9o</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/x8bMtzKmQ9o.mp3" length="10635693" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/x8bMtzKmQ9o.mp3" length="10635693" type="audio/mpeg" />
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1329</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1329</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>49</spotify:order></item>
     <item>
       <title>מה מרוויחים כאשר מכופפים את הראש</title>
       <description>שיעור בליקוטי תורה פ' אחרי - קדושים ד"ה כי ביום הזה יכפר עליכם
@@ -635,11 +635,11 @@
 
 בית הכנסת רני ושמחי, רחובות, ז' אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:LL6iBUbaqNY</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/LL6iBUbaqNY.mp3" length="21471405" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/LL6iBUbaqNY.mp3" length="21471405" type="audio/mpeg" />
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2684</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2684</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>50</spotify:order></item>
     <item>
       <title>האם צריך כיריים נפרדות לחלבי ובשרי ומה הדין בקולט אדים</title>
       <description>האם יש בעיה הלכתית להניח סיר חלבי ובשרי בו זמנית על כיריים, הן מצד הכיריים עצמם והן מצד התערבות האדים דקיימא לן זיעה מילתא.
@@ -647,65 +647,65 @@
 
 בית הכנסת המרכזי, קריית מלאכי, ניסן תשפ"ו</description>
       <guid isPermaLink="false">yt:video:dDyJ_hUFSzo</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/dDyJ_hUFSzo.mp3" length="14703597" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/dDyJ_hUFSzo.mp3" length="14703597" type="audio/mpeg" />
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1838</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1838</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>51</spotify:order></item>
     <item>
       <title>האם יש בעיה הלכתית לגדל קוקו או בלורית</title>
       <description>בשו"ע נפסק שאסור להסתפר כמנהגי הגויים משום ובחוקותיהם לא תלכו, על איזה תספורת מדובר, ואיך משכנעים אדם להסתפר לפי ההלכה.
 
 בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:-adAJIOhPmY</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/-adAJIOhPmY.mp3" length="10149165" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/-adAJIOhPmY.mp3" length="10149165" type="audio/mpeg" />
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1269</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1269</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>52</spotify:order></item>
     <item>
       <title>מהם התנאים לקיום מצות פרו ורבו</title>
       <description>עד כמה מחויב אדם להשקיע בקיום מצות פרו ורבו ומדוע לא אומרים לאדם שאין לו ילדים שעליו להתגרש כדי לקיים את המצוה.
 
 בית חב"ד צפון גדרה, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:huyTqdUEvHc</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/huyTqdUEvHc.mp3" length="15591981" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/huyTqdUEvHc.mp3" length="15591981" type="audio/mpeg" />
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1949</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1949</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>53</spotify:order></item>
     <item>
       <title>לעשות רעש ודרמה - זה טוב או לא טוב</title>
       <description>בדור שלנו עניני הקדושה צריכים להעשות דווקא ברעש, זה חלק מהתיקון.
 
 בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:oQpTTpht_Ns</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/oQpTTpht_Ns.mp3" length="1541805" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/oQpTTpht_Ns.mp3" length="1541805" type="audio/mpeg" />
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>193</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>193</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>54</spotify:order></item>
     <item>
       <title>מחיקת שם השם בטלפון, קדושה בכתב מיקרופילם ובשטר של דולר</title>
       <description>האם מותר למחוק את שם השם בהודעת וואצאפ, האם יש קדושה  בשטר של דולר מצד שכתוב עליו שם השם, ומה היחס לשטר של מאתיים ש"ח שיש עליו שם השם באותיות מזעריות, שזה מזכיר את הדין של כתב מיקרופילם.
 
 בית הכנסת המרכזי קרית מלאכי, אייר תשפ''ו</description>
       <guid isPermaLink="false">yt:video:lB8sGgMGJws</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/lB8sGgMGJws.mp3" length="10264941" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/lB8sGgMGJws.mp3" length="10264941" type="audio/mpeg" />
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1283</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1283</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>55</spotify:order></item>
     <item>
       <title>התוועדות פסח שני תשפ''ו</title>
       <description>התוועדות לכבוד י"ד אייר - פסח שני תשפ"ו
 בית הכנסת המרכזי קרית מלאכי</description>
       <guid isPermaLink="false">yt:video:ln4AqrW1jVc</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/ln4AqrW1jVc.mp3" length="17596845" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/ln4AqrW1jVc.mp3" length="17596845" type="audio/mpeg" />
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2200</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2200</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>56</spotify:order></item>
     <item>
       <title>דיני שנים מקרא ואחד תרגום</title>
       <description>מה נפעל בעולם כתוצאה מאמירת שנים מקרא ואחד תרגום ואיך מקיימים את מצוה זו בהידור.
@@ -714,11 +714,11 @@
 
 בית הכנסת המרכזי קרית מלאכי, חודש אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:iyTrNq-A5nU</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/iyTrNq-A5nU.mp3" length="12106029" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/iyTrNq-A5nU.mp3" length="12106029" type="audio/mpeg" />
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1513</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1513</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>57</spotify:order></item>
     <item>
       <title>דיני הנחה על הפלטה בשבת</title>
       <description>מהם התנאים להחזיר מאכל על מקור חום בשבת והאם צריך לשמור אותם גם בפלטה,
@@ -727,11 +727,11 @@
 
 בית הכנסת חב"ד רמת הנשיא בת ים, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:Is2mog__ZN0</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Is2mog__ZN0.mp3" length="7773165" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Is2mog__ZN0.mp3" length="7773165" type="audio/mpeg" />
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>972</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>972</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>58</spotify:order></item>
     <item>
       <title>מה ההבדל בין העברית שלנו ללשון הקודש</title>
       <description>באיזה שפה דיבר אברהם אבינו?
@@ -742,11 +742,11 @@
 
 בית הכנסת הגדול חולון, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:24VkyEHqolU</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/24VkyEHqolU.mp3" length="12334317" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/24VkyEHqolU.mp3" length="12334317" type="audio/mpeg" />
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1542</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1542</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>59</spotify:order></item>
     <item>
       <title>אם ישראל משמרים שתי שבתות מיד הם נגאלים - מה הכוונה</title>
       <description>שיעור בליקוטי תורה פ' בהר - ד"ה את שבתותי תשמרו
@@ -756,55 +756,55 @@
 
 בית הכנסת רני ושמחי, רחובות, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:8UQF-4t4NFk</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/8UQF-4t4NFk.mp3" length="21129261" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/8UQF-4t4NFk.mp3" length="21129261" type="audio/mpeg" />
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2641</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2641</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>60</spotify:order></item>
     <item>
       <title>האם יש בעיה ללבוש בגד בצבע אדום</title>
       <description>בגד אדום האם זהו איסור הלכתי או מנהג, ומה דעת היהדות על צבע אדום בכלל?
 
 בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:aNeYO9QosNE</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/aNeYO9QosNE.mp3" length="8820141" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/aNeYO9QosNE.mp3" length="8820141" type="audio/mpeg" />
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1103</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1103</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>61</spotify:order></item>
     <item>
       <title>מה נקרא הפסק בין נטילת ידיים לסעודה</title>
       <description>כמה זמן מותר להפסיק בין נטילת ידיים לברכת המוציא, מה קורה כאשר יוצאים לחדר אחר או אפילו בית אחר, והאם צריכים ליטול ידיים שוב כאשר מדברים דברים שאינם קשורים לסעודה.
 
 בית חב"ד צפון גדרה, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:G9rV_seTBsA</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/G9rV_seTBsA.mp3" length="11003373" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/G9rV_seTBsA.mp3" length="11003373" type="audio/mpeg" />
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1375</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1375</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>62</spotify:order></item>
     <item>
       <title>האם מותר לפתוח מקרר שאין בו התקן שבת</title>
       <description>איזה בעיות חוסך מקרר שיש בו התקן שבת, ואיך נכון להתנהג עם מקרר שאין בו התקן שבת - לפני השבת ובמהלך השבת.
 
 בית הכנסת המרכזי קרית מלאכי, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:GDx9OAJww8Q</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/GDx9OAJww8Q.mp3" length="9970413" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/GDx9OAJww8Q.mp3" length="9970413" type="audio/mpeg" />
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1246</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1246</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>63</spotify:order></item>
     <item>
       <title>האם מותר לבקש מילד להדליק את המזגן בשבת</title>
       <description>האם ילד מתחת לגיל בר מצוה יכול לשמש אותנו במקום 'גוי של שבת', ומה עושים כאשר הילד מחלל שבת להנאתו -  האם חייבים למנוע אותו או שאפשר לשתוק.
 
 בית חב"ד צפון גדרה, אייר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:creVgtFSeZY</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/creVgtFSeZY.mp3" length="12502509" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/creVgtFSeZY.mp3" length="12502509" type="audio/mpeg" />
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1563</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1563</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>64</spotify:order></item>
     <item>
       <title>כל פעולה קטנה שיהודי עושה מרגשת את הקב"ה</title>
       <description>שיעור בליקוטי תורה פ' במדבר - חג השבועות ד"ה וארשתיך לי לעולם.
@@ -813,11 +813,11 @@
 
 בית הכנסת רוני ושמחי, ערב ש"פ במדבר תשפ"ו</description>
       <guid isPermaLink="false">yt:video:OUl-DUifq_M</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/OUl-DUifq_M.mp3" length="20866605" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/OUl-DUifq_M.mp3" length="20866605" type="audio/mpeg" />
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2608</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2608</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>65</spotify:order></item>
     <item>
       <title>דיני עירוב תבשילין</title>
       <description>יום טוב שחל בערב שבת איך מקיימים את מצות עירוב תבשילין בהידור, מה עושים כאשר שוכחים - כמה פעמים אפשר לסמוך על עירוב של אחרים.
@@ -825,11 +825,11 @@
 
 בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:wf_u23PmjHY</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/wf_u23PmjHY.mp3" length="12161517" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/wf_u23PmjHY.mp3" length="12161517" type="audio/mpeg" />
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1520</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1520</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>66</spotify:order></item>
     <item>
       <title>עשרת הדברות בפארקים וגינות ציבוריות</title>
       <description>באילו מצבים מותר להוציא ספר תורה מבית הכנסת לבית אחר או לרשות הרבים, והאם
@@ -837,11 +837,11 @@
 
 בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:S9lg0hqaIqM</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/S9lg0hqaIqM.mp3" length="5147181" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/S9lg0hqaIqM.mp3" length="5147181" type="audio/mpeg" />
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>643</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>643</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>67</spotify:order></item>
     <item>
       <title>למה למנהג חב"ד ילד שעשה בר מצוה בספירת העומר ממשיך לספור עם ברכה</title>
       <description>נחלקו הפוסקים בילד שעשה בר מצוה בספירת העומר, האם מה שספר בתור קטן נחשבת גם לזמן שהוא גדול. המחלוקת נובעת מתוך תפיסה שכל ספירת העומר היא בעצם מצוה אחת.
@@ -849,44 +849,44 @@
 
 בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:UcDaHcUoUhA</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/UcDaHcUoUhA.mp3" length="5172717" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/UcDaHcUoUhA.mp3" length="5172717" type="audio/mpeg" />
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>647</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>647</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>68</spotify:order></item>
     <item>
       <title>סיר לבישול איטי - האם מותר להשתמש בו בשבת</title>
       <description>באיזה אופן ניתן להשתמש בסיר לבישול איטי (Slow cooker) בשבת - מצד דיני השהיה ודיני הטמנה
 
 בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:abZSEHmpwC4</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/abZSEHmpwC4.mp3" length="3295341" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/abZSEHmpwC4.mp3" length="3295341" type="audio/mpeg" />
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>412</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>412</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>69</spotify:order></item>
     <item>
       <title>להתייחס למעשים ולא לכוונות</title>
       <description>נלמד לשפוט בני אדם כפי שהקב"ה שופט אותנו
 
 בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:GiXqC7GKKPs</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/GiXqC7GKKPs.mp3" length="1422381" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/GiXqC7GKKPs.mp3" length="1422381" type="audio/mpeg" />
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>178</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>178</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>70</spotify:order></item>
     <item>
       <title>אל תפתח פה לשטן - מה זה אומר</title>
       <description>בשיעור נלמד עד כמה הפליגו חז"ל בחשיבות השמירה על הפה לא רק במובן של נקיות והנהגה נכונה אלא במובן שהמילים שהאדם מוציא מפיו יכולות לקבוע עת העתיד.
 
 בית הכנסת הגדול חולון, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:NOfcqN6zGwY</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/NOfcqN6zGwY.mp3" length="8374317" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/NOfcqN6zGwY.mp3" length="8374317" type="audio/mpeg" />
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1047</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1047</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>71</spotify:order></item>
     <item>
       <title>דיני בל תשחית וביזוי אוכלין</title>
       <description>האם מותר לזרוק שאריות של מזון שלא מתכננים לאכול ובאיזה אופן,
@@ -897,44 +897,44 @@
 
 בית חב"ד צפון גדרה, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:CDDfRpFpaXk</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/CDDfRpFpaXk.mp3" length="26848365" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/CDDfRpFpaXk.mp3" length="26848365" type="audio/mpeg" />
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>3356</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>3356</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>72</spotify:order></item>
     <item>
       <title>איך לא להתפתות מול מקרר מלא בכל טוב</title>
       <description>איזו עיצה נתן הרבי לאדם שכל פתיחת מקרר גרמה לו להתמודדות קשה.
 
 בית הכנסת המרכזי קרית מלאכי, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:Nhx6ob-wh6I</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Nhx6ob-wh6I.mp3" length="1635309" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Nhx6ob-wh6I.mp3" length="1635309" type="audio/mpeg" />
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>204</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>204</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>73</spotify:order></item>
     <item>
       <title>למה לספור מנין עם הפסוק 'הושיעה את עמך' לא מספיק</title>
       <description>השיעור עוסק באיסור לספור יהודים מפני חשש מגיפה, מדוע בזמן דוד המלך מתו יהודים במגפה בזמן שספרו אותם, ולמה כאשר סופרים מנין לא מספיק לספור עם פסוק?
 
 בית חב"ד צפון גדרה, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:CKkeEzkKaHI</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/CKkeEzkKaHI.mp3" length="10464045" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/CKkeEzkKaHI.mp3" length="10464045" type="audio/mpeg" />
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1308</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1308</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>74</spotify:order></item>
     <item>
       <title>ספר תורה שנתרם לבית הכנסת והמשפחה רוצה לקחת אותו</title>
       <description>אדם שתרם ספר תורה למקום מסוים ואחר כך רוצה לחזור בו. למה כותבים על הספר תורה שהוא 'מושאל' לבית הכנסת ומה עושים כאשר התורם לא ידע שצריך לציין את זה.
 
 בית חב"ד צפון גדרה, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:Yo4D6cw-JcM</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Yo4D6cw-JcM.mp3" length="6293613" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/Yo4D6cw-JcM.mp3" length="6293613" type="audio/mpeg" />
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>787</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>787</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>75</spotify:order></item>
     <item>
       <title>מה טוב בלהיות מבולבל</title>
       <description>שיעור בלקוטי תורה פ' בהעלותך ד"ה וזה מעשה המנורה.
@@ -943,22 +943,22 @@
 
 בית הכנסת רני ושמחי, רחובות, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:V6evkzyzvYg</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/V6evkzyzvYg.mp3" length="21392877" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/V6evkzyzvYg.mp3" length="21392877" type="audio/mpeg" />
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2674</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>2674</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>76</spotify:order></item>
     <item>
       <title>אין לי מזל - איך מתמודדים עם זה</title>
       <description>סקירה מרתקת ממקורות חז"ל והפוסקים עד כמה למזל יש השפעה על חיינו, והאם ניתן להשתמש בו כתירוץ להתנהגויות שלנו.
 
 בית הכנסת הגדול חולון, סיון תשפ"ו</description>
       <guid isPermaLink="false">yt:video:XH2dTcs1UH0</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/XH2dTcs1UH0.mp3" length="12849453" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/XH2dTcs1UH0.mp3" length="12849453" type="audio/mpeg" />
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>1606</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>1606</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>77</spotify:order></item>
     <item>
       <title>השיעור הזה יגרום לכם להפסיק לשקר לעצמכם! | הרב אלחנן משה נחמנסון</title>
       <description>השיעור נמסר בבית הכנסת "רוני ושמחי" - רחובות 
@@ -1015,11 +1015,11 @@
 
 #פרשת_השבוע #יהדות #תורה #הלכה #אמונה #השקפה #חיזוק #אקטואליה #דברי_תורה</description>
       <guid isPermaLink="false">yt:video:AIrtR92VEcQ</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/AIrtR92VEcQ.mp3" length="25052205" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/AIrtR92VEcQ.mp3" length="25052205" type="audio/mpeg" />
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>3132</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+      <ns1:duration>3132</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>78</spotify:order></item>
     <item>
       <title>"למה יש לי כל כך הרבה קשיים?" הסוד של הנשמות הגבוהות | פרשת בלק</title>
       <description>שיעור תורה חדש מאת הרב אלחנן משה נחמנסון
@@ -1032,10 +1032,10 @@
 
 #פרשת_השבוע #יהדות #תורה #הלכה #אמונה #השקפה #חיזוק #אקטואליה #דברי_תורה</description>
       <guid isPermaLink="false">yt:video:MbRsgEj_G6U</guid>
-      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/MbRsgEj_G6U.mp3" length="23884077" type="audio/mpeg"/>
+      <enclosure url="https://pub-98870003a0374406b04def2bed239266.r2.dev/MbRsgEj_G6U.mp3" length="23884077" type="audio/mpeg" />
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <itunes:duration>2985</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-  </channel>
+      <ns1:duration>2985</ns1:duration>
+      <ns1:explicit>no</ns1:explicit>
+    <spotify:order>79</spotify:order></item>
+  <spotify:limit>100</spotify:limit><spotify:countryOfOrigin>il</spotify:countryOfOrigin></channel>
 </rss>
