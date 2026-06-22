@@ -1,4 +1,4 @@
-name: Sync Podcast from YouTube
+name: Sync Episodes from YouTube
 
 on:
   # schedule:
@@ -43,7 +43,7 @@ jobs:
           printf '%s' "$YOUTUBE_COOKIES" > /tmp/yt_cookies.txt
           echo "Cookie file: $(wc -l < /tmp/yt_cookies.txt) lines, $(wc -c < /tmp/yt_cookies.txt) bytes"
 
-      - name: Run sync script
+      - name: Sync episodes (YouTube → R2 → episodes.json)
         env:
           PLAYLIST_ID: ${{ secrets.YOUTUBE_PLAYLIST_ID }}
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
@@ -51,15 +51,21 @@ jobs:
           R2_SECRET_KEY: ${{ secrets.R2_SECRET_KEY }}
           R2_BUCKET: ${{ secrets.R2_BUCKET }}
           R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
-        run: python3 yt/sync_podcast.py
+        run: python3 yt/sync_episodes.py
 
-      - name: Commit updated feed and episodes
+      - name: Build feeds (episodes.json → feed.xml + feed-standard.xml)
+        if: always()
+        env:
+          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+        run: python3 yt/build_feeds.py
+
+      - name: Commit updated feeds and episodes
         if: always()
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add yt/episodes.json feed.xml
-          git diff --staged --quiet || git commit -m "🎙️ Sync YouTube → podcast feed"
+          git add yt/episodes.json feed.xml feed-standard.xml
+          git diff --staged --quiet || git commit -m "🎙️ Sync episodes + rebuild feeds"
           git push
 
       - name: Notify on failure
