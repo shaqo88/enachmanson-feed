@@ -7,7 +7,7 @@ Private dashboard ownership and recovery details must be filled in manually.
 | --- | --- | --- | --- | --- |
 | Podbean | `https://enachmanson.podbean.com` | | [ ] | Current host |
 | Apple Podcasts | See daily evidence artifact | | [ ] | Not cut over |
-| Spotify | | | [ ] | Not cut over |
+| Spotify | `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL` | Verified in Spotify for Creators on June 23, 2026 | [ ] | Ownership confirmed; not cut over |
 | Amazon Music | | | [ ] | Not checked |
 | Pocket Casts | | | [ ] | Not checked |
 | Overcast | | | [ ] | Not checked |

@@ -33,8 +33,11 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 - [x] Automated soak monitoring active: [run 28023914547](https://github.com/shaqo88/enachmanson-feed/actions/runs/28023914547)
 - [x] Automated RSS/artwork evidence capture active: [run 28023914554](https://github.com/shaqo88/enachmanson-feed/actions/runs/28023914554)
 - [ ] Final Podbean RSS snapshot saved:
-- [ ] Podbean analytics export saved:
+- [x] Podbean analytics export saved outside this repository:
+  `C:\Users\ShaulRoyzen\Documents\personal\repos\podbean-migration-backup-2026-06-23`
 - [x] Directory listing inventory created: [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md)
+- [x] Spotify ownership confirmed for
+  `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL`
 - [x] Artwork backup saved: `assets/podcast-cover.png` (1400×1400 PNG)
 
 ## Soak record
