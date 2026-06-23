@@ -17,7 +17,7 @@ DEFAULT_START = "2026-06-23T10:45:15Z"
 DEFAULT_END = "2026-06-30T10:45:15Z"
 DEFAULT_BASELINE_REF = "841fe71"
 EPISODES_FILE = Path("yt/episodes.json")
-MAX_HEALTHY_GAP_HOURS = 2.0
+SCHEDULING_GAP_WARNING_HOURS = 2.0
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -137,11 +137,18 @@ def audit(
     ]
 
     unhealthy_reasons = []
+    warning_reasons = []
     if failed:
         unhealthy_reasons.append(f"{len(failed)} scheduled run(s) failed")
-    if max_gap > MAX_HEALTHY_GAP_HOURS:
-        unhealthy_reasons.append(
-            f"largest observed scheduling gap is {max_gap:.2f} hours"
+    if max_gap > SCHEDULING_GAP_WARNING_HOURS:
+        warning_reasons.append(
+            f"GitHub scheduled-run gap is {max_gap:.2f} hours; "
+            "all runs that started still succeeded"
+        )
+    if len(scheduled) < expected_to_date:
+        warning_reasons.append(
+            f"observed {len(scheduled)} of {expected_to_date} expected hourly runs; "
+            "GitHub may delay or drop scheduled events"
         )
 
     complete = now >= end
@@ -165,6 +172,7 @@ def audit(
         "pending_runs": len(pending),
         "largest_gap_hours": max_gap,
         "unhealthy_reasons": unhealthy_reasons,
+        "warning_reasons": warning_reasons,
         "new_episodes": new_episodes,
         "runs": [
             {
@@ -198,6 +206,10 @@ def markdown_summary(report: dict) -> str:
     if report["unhealthy_reasons"]:
         lines.extend(["## Health problems", ""])
         lines.extend(f"- {reason}" for reason in report["unhealthy_reasons"])
+        lines.append("")
+    if report["warning_reasons"]:
+        lines.extend(["## Scheduling warnings", ""])
+        lines.extend(f"- {reason}" for reason in report["warning_reasons"])
         lines.append("")
     if report["new_episodes"]:
         lines.extend(["## New episodes", ""])

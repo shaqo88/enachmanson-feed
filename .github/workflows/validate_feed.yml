@@ -1,6 +1,9 @@
 name: Validate Published Podcast Feed
 
 on:
+  schedule:
+    # Independent public-health evidence even if GitHub delays a sync run.
+    - cron: '27 * * * *'
   push:
     branches:
       - main

@@ -45,7 +45,8 @@ On or after June 30, 2026 at 13:45 Israel time:
 
 1. Open GitHub Actions → **Monitor Migration Soak**.
 2. Open the latest successful run and confirm the summary reports:
-   no failed runs, no unhealthy scheduling gap, and at least one new episode.
+   no failed runs and at least one new episode. Scheduling-delay warnings are
+   acceptable when all runs that actually started succeeded.
 3. Download its `migration-soak-status-*` artifact.
 4. Open GitHub Actions → **Capture Migration Evidence**.
 5. Download the latest successful `migration-evidence-*` artifact.

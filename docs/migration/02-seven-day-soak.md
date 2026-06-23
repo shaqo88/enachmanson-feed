@@ -10,7 +10,9 @@ completion is June 30, 2026 at 10:45 UTC (13:45 Israel time).
 
 ## Required evidence
 
-- [ ] Every hourly scheduled run succeeds for seven consecutive days.
+- [ ] Every scheduled sync run that starts succeeds for seven consecutive
+  days. GitHub may delay or drop scheduled events during high load; these are
+  recorded as warnings and reviewed separately from actual workflow failures.
 - [ ] At least one genuinely new episode completes the full path:
   YouTube → MP3 → R2 → RSS.
 - [ ] The new episode plays from the canonical feed.
@@ -24,8 +26,10 @@ completion is June 30, 2026 at 10:45 UTC (13:45 Israel time).
 - [x] A future migration to an R2 custom domain is tracked in
   [FUTURE_WORK.md](FUTURE_WORK.md).
 
-The `Monitor Migration Soak` workflow records run counts, failures, scheduling
-gaps, and new episodes after every sync and once per hour.
+The `Monitor Migration Soak` workflow records run counts, actual failures,
+scheduling-delay warnings, and new episodes after every sync and once per hour.
+`Validate Published Podcast Feed` also runs hourly as an independent public
+feed, artwork, and enclosure health check.
 
 ## Preserve before cutover
 

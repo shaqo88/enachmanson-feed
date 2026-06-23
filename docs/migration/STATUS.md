@@ -52,6 +52,10 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 | New episode used for end-to-end test | |
 | Evidence | [First hardened scheduled run](https://github.com/shaqo88/enachmanson-feed/actions/runs/28020592571) |
 
+GitHub Actions may delay or drop scheduled events during high load. The soak
+fails on an actual workflow failure or public validation failure; scheduling
+gaps are retained as warnings for review.
+
 ## Cutover record
 
 | Field | Value |
