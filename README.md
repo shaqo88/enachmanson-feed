@@ -8,6 +8,11 @@ https://shaqo88.github.io/enachmanson-feed/feed.xml
 This feed is auto-generated from the Podbean source:
 `https://feed.podbean.com/enachmanson/feed.xml`
 
+## Migration
+
+See the [Podbean migration plan](docs/migration/MIGRATION_PLAN.md) for the
+staged runbook and live status tracker.
+
 ---
 
 ## How it works
