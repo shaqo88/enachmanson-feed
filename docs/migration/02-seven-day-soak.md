@@ -23,16 +23,23 @@ completion is June 30, 2026 at 10:45 UTC (13:45 Israel time).
 - [ ] The `r2.dev` production warning is recorded as accepted temporary risk.
 - [ ] A future migration to an R2 custom domain is tracked separately.
 
+The `Monitor Migration Soak` workflow records run counts, failures, scheduling
+gaps, and new episodes after every sync and once per hour.
+
 ## Preserve before cutover
 
 Store these outside Podbean as well as in the migration records:
 
-- [ ] Final Podbean RSS XML snapshot.
+- [ ] Final Podbean RSS XML snapshot from the latest `Capture Migration
+  Evidence` artifact.
 - [ ] Podbean analytics export.
 - [ ] URLs for every known podcast listing.
 - [ ] Account owner, login-recovery, and billing ownership details for each
   directory.
 - [ ] A copy of the final artwork.
+
+See [MANUAL_CHECKLIST.md](MANUAL_CHECKLIST.md) for the remaining account and
+playback steps.
 
 ## Exit gate
 

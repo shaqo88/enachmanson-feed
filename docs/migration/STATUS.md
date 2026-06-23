@@ -32,7 +32,7 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 - [x] Public validation passed: [GitHub Actions run 28019687498](https://github.com/shaqo88/enachmanson-feed/actions/runs/28019687498)
 - [ ] Final Podbean RSS snapshot saved:
 - [ ] Podbean analytics export saved:
-- [ ] Directory listing inventory saved:
+- [x] Directory listing inventory created: [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md)
 - [x] Artwork backup saved: `assets/podcast-cover.png` (1400×1400 PNG)
 
 ## Soak record
