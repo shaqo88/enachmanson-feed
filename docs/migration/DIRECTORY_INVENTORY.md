@@ -8,12 +8,12 @@ Private dashboard ownership and recovery details must be filled in manually.
 | Podbean | `https://enachmanson.podbean.com` | Dashboard access confirmed June 23, 2026 | [ ] | Current host; redirect remains empty |
 | Apple Podcasts | See daily evidence artifact | Ownership confirmed in Apple Podcasts Connect on June 23, 2026 | [ ] | Ownership confirmed; not cut over |
 | Spotify | `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL` | Verified in Spotify for Creators on June 23, 2026 | [ ] | Ownership confirmed; not cut over |
-| Amazon Music | | | [ ] | Not checked |
-| Pocket Casts | | | [ ] | Not checked |
-| Overcast | | | [ ] | Not checked |
-| Castbox | | | [ ] | Not checked |
-| Podcast Index | | | [ ] | Not checked |
-| TuneIn | | | [ ] | Not checked |
+| Amazon Music | `https://music.amazon.com/podcasts/c845e46a-4f59-4ca1-9894-4cdd26dfca78` | | [ ] | Existing listing confirmed; not cut over |
+| Pocket Casts | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
+| Overcast | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
+| Castbox | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
+| Podcast Index | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
+| TuneIn | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
 | Other | | | [ ] | |
 
 Do not submit a new show to any directory. Record the existing listing only.

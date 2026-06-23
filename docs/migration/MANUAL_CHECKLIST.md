@@ -24,8 +24,10 @@ Apple public-directory discovery.
 
 ### Directory inventory and recovery
 
-- [ ] Complete [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md) with every
-  existing public listing URL.
+- [x] Record the confirmed Spotify, Apple, Amazon Music, and Podbean listings
+  in [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md).
+- [x] Search for Pocket Casts, Overcast, Castbox, Podcast Index, and TuneIn.
+  No public listings were found on June 23, 2026; recheck after redirect.
 - [ ] Record the account owner or email without recording passwords.
 - [ ] Verify password recovery or two-factor authentication for Podbean,
   Spotify, and Apple.

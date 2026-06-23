@@ -36,6 +36,10 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 - [x] Podbean analytics export saved outside this repository:
   `C:\Users\ShaulRoyzen\Documents\personal\repos\podbean-migration-backup-2026-06-23`
 - [x] Directory listing inventory created: [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md)
+- [x] Amazon Music listing recorded:
+  `https://music.amazon.com/podcasts/c845e46a-4f59-4ca1-9894-4cdd26dfca78`
+- [x] No public Pocket Casts, Overcast, Castbox, Podcast Index, or TuneIn
+  listing was found on June 23, 2026.
 - [x] Spotify ownership confirmed for
   `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL`
 - [x] Apple ownership claim submitted on June 23, 2026.
