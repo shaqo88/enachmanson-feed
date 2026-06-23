@@ -20,8 +20,9 @@ completion is June 30, 2026 at 10:45 UTC (13:45 Israel time).
 - [ ] The artwork is reachable, square, and between 1400 and 3000 pixels.
 - [ ] The feed is valid XML and passes a podcast feed validator.
 - [ ] All 79 historical GUIDs remain unchanged and unique.
-- [ ] The `r2.dev` production warning is recorded as accepted temporary risk.
-- [ ] A future migration to an R2 custom domain is tracked separately.
+- [x] The `r2.dev` production warning is recorded as accepted temporary risk.
+- [x] A future migration to an R2 custom domain is tracked in
+  [FUTURE_WORK.md](FUTURE_WORK.md).
 
 The `Monitor Migration Soak` workflow records run counts, failures, scheduling
 gaps, and new episodes after every sync and once per hour.

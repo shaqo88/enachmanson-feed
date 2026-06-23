@@ -30,6 +30,8 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 - [x] Available audio totals 934,481,955 bytes (0.87 GiB).
 - [x] Four unavailable YouTube entries are excluded from the feed.
 - [x] Public validation passed: [GitHub Actions run 28019687498](https://github.com/shaqo88/enachmanson-feed/actions/runs/28019687498)
+- [x] Automated soak monitoring active: [run 28023914547](https://github.com/shaqo88/enachmanson-feed/actions/runs/28023914547)
+- [x] Automated RSS/artwork evidence capture active: [run 28023914554](https://github.com/shaqo88/enachmanson-feed/actions/runs/28023914554)
 - [ ] Final Podbean RSS snapshot saved:
 - [ ] Podbean analytics export saved:
 - [x] Directory listing inventory created: [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md)
