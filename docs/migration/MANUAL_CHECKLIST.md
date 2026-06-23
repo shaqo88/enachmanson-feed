@@ -13,19 +13,14 @@ Apple public-directory discovery.
   - `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL`
 - [x] Enable Podbean's ownership verification email for Spotify.
 - [x] Submit the existing Apple Podcasts show ownership claim.
-  - Submitted June 23, 2026; waiting for Apple to attach it to the account.
+  - Submitted and completed June 23, 2026.
 - [x] Use Apple's existing-show claim flow; no duplicate new show was
   submitted.
+- [x] Confirm the existing show appears in Apple Podcasts Connect.
+- [x] Confirm its settings are accessible.
 - [x] Keep Podbean's **Redirect to a New Feed** field empty during Stage 2.
 
 ## Remaining during Stage 2
-
-### Apple ownership
-
-- [ ] Confirm the existing show appears in Apple Podcasts Connect.
-- [ ] Confirm its settings are accessible.
-- [ ] Leave Podbean's Apple verification setting enabled until the claim is
-  complete.
 
 ### Directory inventory and recovery
 
@@ -34,6 +29,8 @@ Apple public-directory discovery.
 - [ ] Record the account owner or email without recording passwords.
 - [ ] Verify password recovery or two-factor authentication for Podbean,
   Spotify, and Apple.
+- [ ] Keep Podbean's ownership-verification email and Apple verification
+  settings enabled through cutover.
 
 ### Real new-episode test
 

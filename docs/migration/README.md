@@ -37,8 +37,6 @@ validation checks the feed, artwork, and every enclosure.
 - The seven-day observation window has not completed.
 - At least one real new episode must complete the full
   YouTube → MP3 → R2 → RSS path during the soak.
-- The Apple Podcasts ownership claim was submitted on June 23, 2026 and is
-  still pending.
 - The remaining public listing URLs and account-recovery checks must be added
   to the directory inventory.
 - The audio uses an `r2.dev` public endpoint. Cloudflare documents this

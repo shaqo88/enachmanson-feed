@@ -39,7 +39,8 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 - [x] Spotify ownership confirmed for
   `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL`
 - [x] Apple ownership claim submitted on June 23, 2026.
-- [ ] Apple ownership claim completed and show settings accessible.
+- [x] Apple ownership claim completed and show settings accessible on
+  June 23, 2026.
 - [x] Artwork backup saved: `assets/podcast-cover.png` (1400×1400 PNG)
 
 ## Soak record

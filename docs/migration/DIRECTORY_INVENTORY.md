@@ -6,7 +6,7 @@ Private dashboard ownership and recovery details must be filled in manually.
 | Directory | Existing listing URL | Dashboard/account owner | Recovery verified | Migration status |
 | --- | --- | --- | --- | --- |
 | Podbean | `https://enachmanson.podbean.com` | Dashboard access confirmed June 23, 2026 | [ ] | Current host; redirect remains empty |
-| Apple Podcasts | See daily evidence artifact | Claim submitted June 23, 2026 | [ ] | Ownership claim pending; not cut over |
+| Apple Podcasts | See daily evidence artifact | Ownership confirmed in Apple Podcasts Connect on June 23, 2026 | [ ] | Ownership confirmed; not cut over |
 | Spotify | `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL` | Verified in Spotify for Creators on June 23, 2026 | [ ] | Ownership confirmed; not cut over |
 | Amazon Music | | | [ ] | Not checked |
 | Pocket Casts | | | [ ] | Not checked |
