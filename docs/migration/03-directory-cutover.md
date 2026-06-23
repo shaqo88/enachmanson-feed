@@ -6,6 +6,9 @@ Use this canonical feed for every step:
 
 Record the operator and exact cutover time in [STATUS.md](STATUS.md).
 
+Do not start Stage 3 until Stage 2 is complete and the existing Apple show is
+visible and manageable in Apple Podcasts Connect.
+
 ## 1. Configure the Podbean redirect
 
 1. In Podbean, open **Settings → Feed → Advanced Feed Settings**.

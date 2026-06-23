@@ -29,15 +29,18 @@ Baseline reviewed on June 22, 2026 and rechecked locally on June 23, 2026:
 | R2 audio referenced by the feed | 934,481,955 bytes (0.87 GiB) |
 | Unavailable YouTube inventory entries | 4, intentionally excluded from the feed |
 
-The feed was rebuilt on June 23, 2026 at 06:30:15 UTC and still contained 79
-items with 79 unique GUIDs.
+The feed continues to contain 79 items with 79 unique GUIDs. Hourly public
+validation checks the feed, artwork, and every enclosure.
 
 ## Current blockers
 
-- The required seven consecutive days of successful scheduled runs have not
-  yet been demonstrated.
+- The seven-day observation window has not completed.
 - At least one real new episode must complete the full
   YouTube → MP3 → R2 → RSS path during the soak.
+- The Apple Podcasts ownership claim was submitted on June 23, 2026 and is
+  still pending.
+- The remaining public listing URLs and account-recovery checks must be added
+  to the directory inventory.
 - The audio uses an `r2.dev` public endpoint. Cloudflare documents this
   endpoint as intended for non-production use.
 - Apple requires the redirect and `itunes:new-feed-url` to remain available for
@@ -48,7 +51,7 @@ items with 79 unique GUIDs.
 | Stage | Exit gate |
 | --- | --- |
 | [1. Repository preparation](01-repository-preparation.md) | Legacy writer removed; feed metadata and workflows hardened |
-| [2. Seven-day soak](02-seven-day-soak.md) | Seven days of successful scheduled runs and one real new episode |
+| [2. Seven-day soak](02-seven-day-soak.md) | Seven days without actual sync/public-validation failures and one real new episode |
 | [3. Directory cutover](03-directory-cutover.md) | Podbean 301 and existing directory listings point to the canonical feed |
 | [4. Redirect window and shutdown](04-redirect-window-and-shutdown.md) | At least 28 days of stable redirect operation |
 | [5. Final acceptance](05-final-acceptance.md) | Every technical and directory-level acceptance test passes |

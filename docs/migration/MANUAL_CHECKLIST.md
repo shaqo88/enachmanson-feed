@@ -1,56 +1,62 @@
 # Manual Migration Checklist
 
-Automation now covers feed health, all 79 enclosure range checks, artwork,
+Automation covers feed health, all 79 enclosure range checks, artwork,
 scheduled-run monitoring, Podbean/canonical RSS snapshots, GUID comparison, and
 Apple public-directory discovery.
 
-The remaining work requires authenticated account access or human playback
-judgment.
+## Completed
 
-## Do now during Stage 2
+- [x] Export Podbean analytics.
+  - Saved at
+    `C:\Users\ShaulRoyzen\Documents\personal\repos\podbean-migration-backup-2026-06-23`.
+- [x] Claim the existing Spotify show.
+  - `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL`
+- [x] Enable Podbean's ownership verification email for Spotify.
+- [x] Submit the existing Apple Podcasts show ownership claim.
+  - Submitted June 23, 2026; waiting for Apple to attach it to the account.
+- [x] Use Apple's existing-show claim flow; no duplicate new show was
+  submitted.
+- [x] Keep Podbean's **Redirect to a New Feed** field empty during Stage 2.
 
-### 1. Export Podbean analytics
+## Remaining during Stage 2
 
-1. Sign in to Podbean.
-2. Open the podcast analytics/statistics area.
-3. Select the widest available lifetime date range.
-4. Export every available CSV or report.
-5. Save the files outside Podbean in a backed-up folder.
-6. Add the storage location to [STATUS.md](STATUS.md).
+### Apple ownership
 
-### 2. Complete the directory inventory
+- [ ] Confirm the existing show appears in Apple Podcasts Connect.
+- [ ] Confirm its settings are accessible.
+- [ ] Leave Podbean's Apple verification setting enabled until the claim is
+  complete.
 
-1. Open [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md).
-2. For each directory where the show already exists, paste the existing public
-   listing URL.
-3. Record the account owner or email without recording passwords.
-4. Verify that password recovery or two-factor authentication reaches the
-   correct owner.
-5. Do not create any new show listing.
+### Directory inventory and recovery
 
-### 3. Confirm the real new-episode test
+- [ ] Complete [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md) with every
+  existing public listing URL.
+- [ ] Record the account owner or email without recording passwords.
+- [ ] Verify password recovery or two-factor authentication for Podbean,
+  Spotify, and Apple.
 
-Wait for the rabbi to publish a genuinely new YouTube episode during the soak.
-After the automated sync succeeds:
+### Real new-episode test
 
-1. Open the canonical feed in one podcast application.
-2. Confirm the new episode appears.
-3. Play from the beginning.
-4. Seek to the middle and confirm playback resumes.
-5. Record the episode title and application in [STATUS.md](STATUS.md).
+Wait for a genuinely new YouTube episode during the soak. After the automated
+sync succeeds:
 
-## Do at the end of the soak
+- [ ] Confirm the episode appears in the canonical feed.
+- [ ] Play it from the beginning in a podcast application.
+- [ ] Seek to the middle and confirm playback resumes.
+- [ ] Record the episode title and application in [STATUS.md](STATUS.md).
+
+## At the end of the soak
 
 On or after June 30, 2026 at 13:45 Israel time:
 
-1. Open GitHub Actions → **Monitor Migration Soak**.
-2. Open the latest successful run and confirm the summary reports:
-   no failed runs and at least one new episode. Scheduling-delay warnings are
-   acceptable when all runs that actually started succeeded.
-3. Download its `migration-soak-status-*` artifact.
-4. Open GitHub Actions → **Capture Migration Evidence**.
-5. Download the latest successful `migration-evidence-*` artifact.
-6. Store both artifacts with the Podbean analytics export.
-7. Mark the Stage 2 evidence in [STATUS.md](STATUS.md).
+- [ ] Open GitHub Actions → **Monitor Migration Soak**.
+- [ ] Confirm the latest successful summary reports no failed sync runs and at
+  least one new episode. Scheduling-delay warnings are acceptable when every
+  run that started succeeded.
+- [ ] Download the `migration-soak-status-*` artifact.
+- [ ] Open GitHub Actions → **Capture Migration Evidence**.
+- [ ] Download the latest `migration-evidence-*` artifact.
+- [ ] Store both artifacts with the Podbean analytics export.
+- [ ] Mark the Stage 2 evidence in [STATUS.md](STATUS.md).
 
-Do not configure the Podbean redirect until all Stage 2 checks pass.
+Do not configure the Podbean redirect until every Stage 2 requirement passes.

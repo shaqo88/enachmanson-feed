@@ -23,6 +23,7 @@ It records:
 
 - expected and observed run counts;
 - successful, failed, and pending runs;
-- the largest scheduling gap;
+- the largest scheduling gap, reported as a warning rather than a podcast
+  failure when all runs that started succeeded;
 - any episodes added after the soak baseline;
 - links to every scheduled sync run in the soak window.

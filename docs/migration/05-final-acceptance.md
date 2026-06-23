@@ -2,6 +2,10 @@
 
 The migration is complete only when every check passes.
 
+These checkboxes intentionally remain open until the post-cutover and
+four-week redirect checks are performed. Passing the same technical checks
+during Stage 2 does not complete final acceptance.
+
 ## Feed and redirect
 
 - [ ] The old Podbean URL returns a permanent HTTP 301 to the exact canonical

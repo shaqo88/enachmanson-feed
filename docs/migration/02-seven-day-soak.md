@@ -17,11 +17,11 @@ completion is June 30, 2026 at 10:45 UTC (13:45 Israel time).
   YouTube → MP3 → R2 → RSS.
 - [ ] The new episode plays from the canonical feed.
 - [ ] The canonical feed remains available throughout the soak.
-- [ ] All 79 historical enclosure URLs return successfully.
-- [ ] Every enclosure supports ranged playback.
-- [ ] The artwork is reachable, square, and between 1400 and 3000 pixels.
-- [ ] The feed is valid XML and passes a podcast feed validator.
-- [ ] All 79 historical GUIDs remain unchanged and unique.
+- [x] All 79 historical enclosure URLs return successfully.
+- [x] Every enclosure supports ranged playback.
+- [x] The artwork is reachable and square at 1400×1400 pixels.
+- [x] The feed is valid XML and passes the repository validator.
+- [x] All 79 historical GUIDs remain unchanged and unique.
 - [x] The `r2.dev` production warning is recorded as accepted temporary risk.
 - [x] A future migration to an R2 custom domain is tracked in
   [FUTURE_WORK.md](FUTURE_WORK.md).
@@ -37,11 +37,13 @@ Store these outside Podbean as well as in the migration records:
 
 - [ ] Final Podbean RSS XML snapshot from the latest `Capture Migration
   Evidence` artifact.
-- [ ] Podbean analytics export.
+- [x] Podbean analytics export saved outside this repository at
+  `C:\Users\ShaulRoyzen\Documents\personal\repos\podbean-migration-backup-2026-06-23`.
 - [ ] URLs for every known podcast listing.
 - [ ] Account owner, login-recovery, and billing ownership details for each
   directory.
-- [ ] A copy of the final artwork.
+- [x] A copy of the final artwork is stored at
+  `assets/podcast-cover.png`.
 
 See [MANUAL_CHECKLIST.md](MANUAL_CHECKLIST.md) for the remaining account and
 playback steps.

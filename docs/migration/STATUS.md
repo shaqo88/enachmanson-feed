@@ -38,6 +38,8 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 - [x] Directory listing inventory created: [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md)
 - [x] Spotify ownership confirmed for
   `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL`
+- [x] Apple ownership claim submitted on June 23, 2026.
+- [ ] Apple ownership claim completed and show settings accessible.
 - [x] Artwork backup saved: `assets/podcast-cover.png` (1400×1400 PNG)
 
 ## Soak record
@@ -46,11 +48,14 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 | --- | --- |
 | Soak start | June 23, 2026 10:45 UTC / 13:45 Israel time |
 | Soak end | June 30, 2026 10:45 UTC / 13:45 Israel time |
-| Expected hourly runs | 168 |
-| Successful hourly runs | 1 |
-| Failed hourly runs | 0 |
+| Target scheduled events | 168 (GitHub schedule is best-effort) |
+| Observed scheduled runs | 2 |
+| Successful scheduled runs | 2 |
+| Failed scheduled runs | 0 |
 | New episode used for end-to-end test | |
-| Evidence | [First hardened scheduled run](https://github.com/shaqo88/enachmanson-feed/actions/runs/28020592571) |
+| Sync evidence | [Run 8](https://github.com/shaqo88/enachmanson-feed/actions/runs/28020592571), [Run 9](https://github.com/shaqo88/enachmanson-feed/actions/runs/28031038313) |
+| Latest monitor | [Successful corrected monitor](https://github.com/shaqo88/enachmanson-feed/actions/runs/28032205322) |
+| Latest public validation | [Successful validation](https://github.com/shaqo88/enachmanson-feed/actions/runs/28032206474) |
 
 GitHub Actions may delay or drop scheduled events during high load. The soak
 fails on an actual workflow failure or public validation failure; scheduling
