@@ -30,9 +30,12 @@ Apple public-directory discovery.
   No public listings were found on June 23, 2026; recheck after redirect.
 - [x] Copy the existing Boomplay, Podchaser, Player FM, and iHeartRadio public
   listing URLs from Podbean into [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md).
+- [x] Claim the existing Amazon Music show.
+- [x] Classify Boomplay, Podchaser, Player FM, iHeartRadio, and currently
+  undiscovered aggregators as optional post-redirect checks.
 - [ ] Record the account owner or email without recording passwords.
-- [ ] Verify password recovery or two-factor authentication for Podbean,
-  Spotify, and Apple.
+- [ ] Verify password recovery or two-factor authentication for the required
+  dashboards: Podbean, Spotify, Apple, and Amazon Music.
 - [ ] Keep Podbean's ownership-verification email and Apple verification
   settings enabled through cutover.
 
@@ -60,4 +63,5 @@ On or after June 30, 2026 at 13:45 Israel time:
 - [ ] Store both artifacts with the Podbean analytics export.
 - [ ] Mark the Stage 2 evidence in [STATUS.md](STATUS.md).
 
-Do not configure the Podbean redirect until every Stage 2 requirement passes.
+Optional aggregator dashboards do not block Stage 2. Do not configure the
+Podbean redirect until every required Stage 2 item passes.

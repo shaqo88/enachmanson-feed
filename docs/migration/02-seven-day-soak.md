@@ -40,8 +40,10 @@ Store these outside Podbean as well as in the migration records:
 - [x] Podbean analytics export saved outside this repository at
   `C:\Users\ShaulRoyzen\Documents\personal\repos\podbean-migration-backup-2026-06-23`.
 - [ ] URLs for every known podcast listing.
-- [ ] Account owner, login-recovery, and billing ownership details for each
-  directory.
+- [ ] Account owner, login-recovery, and billing ownership details for the
+  required dashboards: Podbean, Spotify, Apple, and Amazon Music.
+- [x] Other aggregator dashboards are optional post-redirect checks and do not
+  block the soak.
 - [x] A copy of the final artwork is stored at
   `assets/podcast-cover.png`.
 
