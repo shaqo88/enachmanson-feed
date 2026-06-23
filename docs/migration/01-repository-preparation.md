@@ -45,8 +45,10 @@ Complete every item before starting the seven-day soak.
 - [x] Exclude entries marked `unavailable` when reporting
   `episodes.json` records that have no R2 object.
 
-Implementation completed locally on June 23, 2026. The Stage 1 exit gate remains
-open until the hardened workflow completes successfully on GitHub Actions.
+Implementation completed locally on June 23, 2026. Public validation passed in
+[GitHub Actions run 28019687498](https://github.com/shaqo88/enachmanson-feed/actions/runs/28019687498),
+including the published feed, 1400×1400 artwork, and byte-range playback for
+all 79 enclosures.
 
 ## Exit gate
 
@@ -57,4 +59,4 @@ Stage 1 is complete only when:
 - workflow failures are visible without losing successfully completed work;
 - local and workflow validation checks pass.
 
-Record completion in [STATUS.md](STATUS.md).
+Stage 1 completed on June 23, 2026.

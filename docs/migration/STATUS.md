@@ -7,7 +7,7 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 
 | Field | Value |
 | --- | --- |
-| Current stage | Stage 1 — awaiting hardened workflow verification |
+| Current stage | Stage 2 — seven-day soak in progress |
 | Migration owner | |
 | Last status update | June 23, 2026 |
 | Canonical feed | `https://shaqo88.github.io/enachmanson-feed/feed.xml` |
@@ -16,7 +16,7 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 
 ## Stage gates
 
-- [ ] Stage 1: Repository preparation complete
+- [x] Stage 1: Repository preparation complete
 - [ ] Stage 2: Seven-day soak complete
 - [ ] Stage 3: Directory cutover complete
 - [ ] Stage 4: Four-week redirect window complete
@@ -29,6 +29,7 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 - [x] 79 unique enclosure URLs are present.
 - [x] Available audio totals 934,481,955 bytes (0.87 GiB).
 - [x] Four unavailable YouTube entries are excluded from the feed.
+- [x] Public validation passed: [GitHub Actions run 28019687498](https://github.com/shaqo88/enachmanson-feed/actions/runs/28019687498)
 - [ ] Final Podbean RSS snapshot saved:
 - [ ] Podbean analytics export saved:
 - [ ] Directory listing inventory saved:
@@ -38,13 +39,13 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 
 | Field | Value |
 | --- | --- |
-| Soak start | |
-| Soak end | |
-| Expected hourly runs | |
-| Successful hourly runs | |
-| Failed hourly runs | |
+| Soak start | June 23, 2026 10:45 UTC / 13:45 Israel time |
+| Soak end | June 30, 2026 10:45 UTC / 13:45 Israel time |
+| Expected hourly runs | 168 |
+| Successful hourly runs | 1 |
+| Failed hourly runs | 0 |
 | New episode used for end-to-end test | |
-| Evidence | |
+| Evidence | [First hardened scheduled run](https://github.com/shaqo88/enachmanson-feed/actions/runs/28020592571) |
 
 ## Cutover record
 

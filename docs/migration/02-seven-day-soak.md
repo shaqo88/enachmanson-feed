@@ -3,6 +3,11 @@
 Run the prepared production system for seven consecutive days before cutover.
 Restart the seven-day clock after a material feed-generation or sync fix.
 
+The soak started with successful scheduled
+[run 28020592571](https://github.com/shaqo88/enachmanson-feed/actions/runs/28020592571)
+on June 23, 2026 at 10:45 UTC (13:45 Israel time). The earliest successful
+completion is June 30, 2026 at 10:45 UTC (13:45 Israel time).
+
 ## Required evidence
 
 - [ ] Every hourly scheduled run succeeds for seven consecutive days.
