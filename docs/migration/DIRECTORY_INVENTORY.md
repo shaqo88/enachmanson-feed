@@ -14,10 +14,10 @@ Private dashboard ownership and recovery details must be filled in manually.
 | Castbox | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
 | Podcast Index | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
 | TuneIn | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
-| Boomplay | Existing listing reported; public URL not yet recorded | | [ ] | Obtain URL from Podbean or listing |
-| Podchaser | Existing listing reported; public URL not yet recorded | | [ ] | Obtain URL from Podbean or listing |
-| Player FM | Existing listing reported; public URL not yet recorded | | [ ] | Obtain URL from Podbean or listing |
-| iHeartRadio | Existing listing reported; public URL not yet recorded | | [ ] | Obtain URL from Podbean or listing |
+| Boomplay | `https://www.boomplaymusic.com/podcasts/142678` | | [ ] | Existing listing confirmed; not cut over |
+| Podchaser | `https://www.podchaser.com/podcasts/-6389203` | | [ ] | Existing listing confirmed; not cut over |
+| Player FM | `https://player.fm/series/3718925` | | [ ] | Existing listing confirmed; not cut over |
+| iHeartRadio | `https://iheart.com/podcast/324265937` | | [ ] | Existing listing confirmed; not cut over |
 | Other | | | [ ] | |
 
 Do not submit a new show to any directory. Record the existing listing only.

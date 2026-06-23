@@ -28,7 +28,7 @@ Apple public-directory discovery.
   in [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md).
 - [x] Search for Pocket Casts, Overcast, Castbox, Podcast Index, and TuneIn.
   No public listings were found on June 23, 2026; recheck after redirect.
-- [ ] Copy the existing Boomplay, Podchaser, Player FM, and iHeartRadio public
+- [x] Copy the existing Boomplay, Podchaser, Player FM, and iHeartRadio public
   listing URLs from Podbean into [DIRECTORY_INVENTORY.md](DIRECTORY_INVENTORY.md).
 - [ ] Record the account owner or email without recording passwords.
 - [ ] Verify password recovery or two-factor authentication for Podbean,
