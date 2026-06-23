@@ -14,6 +14,10 @@ Private dashboard ownership and recovery details must be filled in manually.
 | Castbox | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
 | Podcast Index | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
 | TuneIn | No public listing found June 23, 2026 | | N/A | Recheck after redirect |
+| Boomplay | Existing listing reported; public URL not yet recorded | | [ ] | Obtain URL from Podbean or listing |
+| Podchaser | Existing listing reported; public URL not yet recorded | | [ ] | Obtain URL from Podbean or listing |
+| Player FM | Existing listing reported; public URL not yet recorded | | [ ] | Obtain URL from Podbean or listing |
+| iHeartRadio | Existing listing reported; public URL not yet recorded | | [ ] | Obtain URL from Podbean or listing |
 | Other | | | [ ] | |
 
 Do not submit a new show to any directory. Record the existing listing only.

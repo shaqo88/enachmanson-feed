@@ -40,6 +40,8 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
   `https://music.amazon.com/podcasts/c845e46a-4f59-4ca1-9894-4cdd26dfca78`
 - [x] No public Pocket Casts, Overcast, Castbox, Podcast Index, or TuneIn
   listing was found on June 23, 2026.
+- [ ] Boomplay, Podchaser, Player FM, and iHeartRadio listings are reported in
+  Podbean but their public URLs still need to be recorded.
 - [x] Spotify ownership confirmed for
   `https://open.spotify.com/show/4L5uYe7yGitsip9lnh44yL`
 - [x] Apple ownership claim submitted on June 23, 2026.
