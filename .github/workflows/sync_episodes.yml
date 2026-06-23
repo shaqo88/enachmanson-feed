@@ -6,6 +6,9 @@ on:
     - cron: '17 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 concurrency:
   group: update-feed
   cancel-in-progress: false
@@ -18,21 +21,23 @@ jobs:
 
       - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.0.2
         with:
-          python-version: '3.x'
+          python-version: '3.12'
+          cache: pip
 
       - name: Install Deno (JS runtime required by yt-dlp for YouTube n-challenge)
         run: |
           curl -fsSL https://deno.land/install.sh | sh
-          echo "$HOME/.deno/bin" >> $GITHUB_PATH
+          echo "$HOME/.deno/bin" >> "$GITHUB_PATH"
 
       - name: Install ffmpeg
         run: sudo apt-get install -y ffmpeg
 
-      - name: Install Python dependencies
-        run: pip install feedgen boto3 "yt-dlp[default]"
+      - name: Install pinned Python dependencies
+        run: python -m pip install --requirement requirements.txt
 
       - name: Verify setup
         run: |
+          python --version
           deno --version
           ffmpeg -version | head -1
           yt-dlp --version
@@ -45,6 +50,8 @@ jobs:
           echo "Cookie file: $(wc -l < /tmp/yt_cookies.txt) lines, $(wc -c < /tmp/yt_cookies.txt) bytes"
 
       - name: Sync episodes (YouTube → R2 → episodes.json)
+        id: sync
+        continue-on-error: true
         env:
           PLAYLIST_ID: ${{ secrets.YOUTUBE_PLAYLIST_ID }}
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
@@ -52,22 +59,36 @@ jobs:
           R2_SECRET_KEY: ${{ secrets.R2_SECRET_KEY }}
           R2_BUCKET: ${{ secrets.R2_BUCKET }}
           R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
-        run: python3 yt/sync_episodes.py
+        run: python yt/sync_episodes.py
 
-      - name: Build feeds (episodes.json → feed.xml + feed-standard.xml)
-        if: always()
-        env:
-          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
-        run: python3 yt/build_feeds.py
+      - name: Build feeds
+        run: python yt/build_feeds.py
 
-      - name: Commit updated feeds and episodes
-        if: always()
+      - name: Validate generated feeds
+        run: python yt/validate_feed.py
+
+      - name: Commit successful episodes and feeds
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           git add yt/episodes.json feed.xml feed-standard.xml
           git diff --staged --quiet || git commit -m "🎙️ Sync episodes + rebuild feeds"
           git push
+
+      - name: Validate public artwork and audio ranges
+        run: |
+          for attempt in {1..12}; do
+            python yt/validate_feed.py --network && exit 0
+            echo "Public validation attempt $attempt failed; retrying in 10 seconds."
+            sleep 10
+          done
+          exit 1
+
+      - name: Report partial sync failure
+        if: always() && steps.sync.outcome != 'success'
+        run: |
+          echo "One or more episodes failed. Successful episodes were committed."
+          exit 1
 
       - name: Notify on failure
         if: failure()
@@ -81,4 +102,4 @@ jobs:
           subject: "⚠️ Podcast sync failed"
           to: ${{ secrets.GMAIL_USER }}
           from: ${{ secrets.GMAIL_USER }}
-          body: "The YouTube → podcast sync workflow failed. Check https://github.com/shaqo88/enachmanson-feed/actions for details. The next run will retry automatically."
+          body: "The YouTube → podcast sync workflow failed. Successfully processed episodes were preserved. Check https://github.com/shaqo88/enachmanson-feed/actions for details."

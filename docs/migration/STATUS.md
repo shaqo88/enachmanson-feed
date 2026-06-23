@@ -7,7 +7,7 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 
 | Field | Value |
 | --- | --- |
-| Current stage | Stage 1 — Repository preparation |
+| Current stage | Stage 1 — awaiting hardened workflow verification |
 | Migration owner | |
 | Last status update | June 23, 2026 |
 | Canonical feed | `https://shaqo88.github.io/enachmanson-feed/feed.xml` |
@@ -32,7 +32,7 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 - [ ] Final Podbean RSS snapshot saved:
 - [ ] Podbean analytics export saved:
 - [ ] Directory listing inventory saved:
-- [ ] Artwork backup saved:
+- [x] Artwork backup saved: `assets/podcast-cover.png` (1400×1400 PNG)
 
 ## Soak record
 

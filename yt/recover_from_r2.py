@@ -3,7 +3,7 @@
 recover_from_r2.py — Read-only inventory of what's actually in the R2 bucket,
 reconciled against yt/episodes.json.
 
-Run this BEFORE re-running sync_podcast.py whenever episodes.json looks
+Run this BEFORE re-running sync_episodes.py whenever episodes.json looks
 suspicious (empty, partial, or out of sync) — it tells you exactly what's
 sitting in R2 already so you don't lose track of already-uploaded files or
 re-download audio that's already there.
@@ -14,7 +14,7 @@ Modes:
               from episodes.json, by re-fetching metadata (title/description/
               duration/publish date) from YouTube via yt-dlp — metadata only,
               no re-download of audio. feed.xml is NOT regenerated; run
-              sync_podcast.py afterward to rebuild the feed.
+              build_feeds.py afterward to rebuild the feed.
 
 Destination path in repo: yt/recover_from_r2.py
 """
@@ -22,10 +22,16 @@ Destination path in repo: yt/recover_from_r2.py
 import os
 import json
 import argparse
+import sys
 from pathlib import Path
 
 import boto3
 import yt_dlp
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
 
 R2_ACCOUNT_ID = os.environ["R2_ACCOUNT_ID"]
 R2_ACCESS_KEY = os.environ["R2_ACCESS_KEY"]
@@ -85,7 +91,15 @@ def main():
     print(f"☁️  R2 bucket has {len(in_r2)} .mp3 file(s)")
 
     missing_from_json = sorted(set(in_r2) - set(known))
-    orphaned_in_json   = sorted(set(known) - set(in_r2))
+    available_known = {
+        vid_id for vid_id, episode in known.items()
+        if not episode.get("unavailable")
+    }
+    unavailable_known = {
+        vid_id for vid_id, episode in known.items()
+        if episode.get("unavailable")
+    }
+    orphaned_in_json = sorted(available_known - set(in_r2))
 
     print(f"\n🔍 In R2 but NOT in episodes.json: {len(missing_from_json)}")
     for vid in missing_from_json:
@@ -95,6 +109,7 @@ def main():
     print(f"\n🔍 In episodes.json but NOT in R2 (would 404 in the feed): {len(orphaned_in_json)}")
     for vid in orphaned_in_json:
         print(f"   {vid}  — {known[vid].get('title', '?')}")
+    print(f"\nℹ️  Unavailable entries intentionally excluded from the feed: {len(unavailable_known)}")
 
     if not args.rebuild:
         print("\nℹ️  Read-only report only. Re-run with --rebuild to patch episodes.json.")
@@ -125,7 +140,7 @@ def main():
 
     EPISODES_FILE.write_text(json.dumps(known, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n💾 Wrote {len(known)} total entries to {EPISODES_FILE}")
-    print("ℹ️  feed.xml was NOT regenerated. Run sync_podcast.py next to rebuild the feed from the updated episodes.json.")
+    print("ℹ️  Feeds were not regenerated. Run yt/build_feeds.py next.")
 
 
 if __name__ == "__main__":

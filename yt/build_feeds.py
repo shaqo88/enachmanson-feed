@@ -1,44 +1,43 @@
 #!/usr/bin/env python3
 """
-build_feeds.py — episodes.json → RSS feeds (no network calls, no R2, no YouTube)
+Build the canonical RSS feed and an unregistered compatibility mirror.
 
-Reads the shared episode database and writes two feeds from the exact same data:
-
-  feed.xml           Zinc-compatible feed. Name and URL are frozen — Zinc already
-                      depends on this exact path. Includes the spotify: namespace
-                      fields Zinc requires (ported from the old convert_feed.py).
-
-  feed-standard.xml  Clean, namespace-free feed intended for Spotify for
-                      Podcasters / Apple Podcasts Connect submission.
-
-Safe to re-run any time episodes.json changes, or whenever feed formatting needs
-a fix — never touches YouTube or R2.
+Both feeds are generated from yt/episodes.json. The canonical URL, historical
+episode GUIDs, and artwork URL are permanent migration identifiers.
 """
 
-import os
 import json
+import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 
 from feedgen.feed import FeedGenerator
 
-# ── Config ────────────────────────────────────────────────────────────────────
-EPISODES_FILE       = Path("yt/episodes.json")
-FEED_ZINC_FILE      = Path("feed.xml")            # frozen name/URL — Zinc depends on this
-FEED_STANDARD_FILE  = Path("feed-standard.xml")   # new — for Spotify/Apple submission
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
-FEED_URL_ZINC       = "https://shaqo88.github.io/enachmanson-feed/feed.xml"
-FEED_URL_STANDARD   = "https://shaqo88.github.io/enachmanson-feed/feed-standard.xml"
+EPISODES_FILE = Path("yt/episodes.json")
+FEED_CANONICAL_FILE = Path("feed.xml")
+FEED_MIRROR_FILE = Path("feed-standard.xml")
+ARTWORK_FILE = Path("assets/podcast-cover.png")
+
+FEED_URL_CANONICAL = "https://shaqo88.github.io/enachmanson-feed/feed.xml"
+FEED_URL_MIRROR = "https://shaqo88.github.io/enachmanson-feed/feed-standard.xml"
+ARTWORK_URL = "https://shaqo88.github.io/enachmanson-feed/assets/podcast-cover.png"
 
 PODCAST_TITLE = "שיעורי הרב אלחנן נחמנסון"
-PODCAST_DESC  = "שיעורי הלכה, חסידות וחינוך מאת הרב אלחנן נחמנסון"
-AUTHOR_NAME   = "הרב אלחנן נחמנסון"
+PODCAST_DESCRIPTION = (
+    "כאן תשמעו שיעורי הלכה במגוון תחומים, שיעורים בחסידות בשפה השווה לכל נפש "
+    "עם נגיעה לחיי היומיום, שיעורים בחינוך ושלום בית. בשיעוריו לוקח אותנו למסע "
+    "המחבר את חיי המעשה עם התורה, כך שהתורה נהפכת לתורת חיים - מגלה רובד עמוק "
+    "יותר בחיינו ופותחת צוהר להתרומם מעל אתגרי היומיום."
+)
+AUTHOR_NAME = "הרב אלחנן נחמנסון"
+COPYRIGHT = "Copyright 2026 All rights reserved."
 
-R2_PUBLIC_URL = os.environ.get("R2_PUBLIC_URL", "").rstrip("/")
-LOGO_URL      = f"{R2_PUBLIC_URL}/logo.png" if R2_PUBLIC_URL else ""
-
-SPOTIFY_NS    = "http://www.spotify.com/ns/rss"
+SPOTIFY_NS = "http://www.spotify.com/ns/rss"
+ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 SPOTIFY_LIMIT = 100
 
 
@@ -50,79 +49,108 @@ def parse_date(yyyymmdd: str) -> datetime:
 
 
 def build_base_feed(feed_url: str) -> FeedGenerator:
-    fg = FeedGenerator()
-    fg.load_extension("podcast")
-    fg.id(feed_url)
-    fg.title(PODCAST_TITLE)
-    fg.description(PODCAST_DESC)
-    fg.author({"name": AUTHOR_NAME})
-    fg.link(href=feed_url, rel="self")
-    fg.language("he")
-    if LOGO_URL:
-        fg.image(LOGO_URL)
-    fg.podcast.itunes_category("Religion & Spirituality", "Judaism")
-    fg.podcast.itunes_explicit("no")
-    fg.podcast.itunes_author(AUTHOR_NAME)
-    if LOGO_URL:
-        fg.podcast.itunes_image(LOGO_URL)
-    return fg
+    feed = FeedGenerator()
+    feed.load_extension("podcast")
+    feed.id(feed_url)
+    feed.title(PODCAST_TITLE)
+    feed.description(PODCAST_DESCRIPTION)
+    feed.author({"name": AUTHOR_NAME})
+    feed.link(href=feed_url, rel="self")
+    feed.language("he")
+    feed.copyright(COPYRIGHT)
+    feed.image(ARTWORK_URL)
+    feed.podcast.itunes_category("Religion & Spirituality", "Judaism")
+    feed.podcast.itunes_explicit("no")
+    feed.podcast.itunes_author(AUTHOR_NAME)
+    feed.podcast.itunes_image(ARTWORK_URL)
+    return feed
 
 
-def add_episodes(fg: FeedGenerator, episodes_sorted: list) -> None:
-    for ep in episodes_sorted:
-        fe = fg.add_entry()
-        fe.id(f"yt:video:{ep['id']}")   # matches existing PodBean GUIDs exactly
-        fe.title(ep["title"])
-        fe.description(ep["description"] or ep["title"])
-        fe.published(parse_date(ep["published"]))
-        fe.updated(parse_date(ep["published"]))
-        fe.enclosure(ep["url"], str(ep["size"]), "audio/mpeg")
-        fe.podcast.itunes_duration(ep["duration"])
-        fe.podcast.itunes_explicit("no")
+def add_episodes(feed: FeedGenerator, episodes: list[dict]) -> None:
+    for episode in episodes:
+        entry = feed.add_entry()
+        entry.id(f"yt:video:{episode['id']}")
+        entry.title(episode["title"])
+        entry.description(episode["description"] or episode["title"])
+        entry.published(parse_date(episode["published"]))
+        entry.updated(parse_date(episode["published"]))
+        entry.enclosure(episode["url"], str(episode["size"]), "audio/mpeg")
+        entry.podcast.itunes_duration(episode["duration"])
+        entry.podcast.itunes_explicit("no")
 
 
-def add_spotify_fields(xml_bytes: bytes) -> bytes:
-    """Port of what convert_feed.py used to inject — keeps Zinc happy."""
-    ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
+def add_channel_metadata(xml_bytes: bytes, include_spotify: bool) -> bytes:
+    """Inject migration metadata and optional Spotify compatibility fields."""
+    ET.register_namespace("itunes", ITUNES_NS)
     ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
     ET.register_namespace("content", "http://purl.org/rss/1.0/modules/content/")
     ET.register_namespace("spotify", SPOTIFY_NS)
+
     root = ET.fromstring(xml_bytes)
     channel = root.find("channel")
+    if channel is None:
+        raise ValueError("Generated RSS has no channel element")
 
-    def set_or_update(parent, tag, value):
-        existing = parent.find(tag)
-        if existing is not None:
-            existing.text = value
-        else:
-            ET.SubElement(parent, tag).text = value
+    def set_or_update(parent: ET.Element, tag: str, value: str) -> None:
+        element = parent.find(tag)
+        if element is None:
+            element = ET.SubElement(parent, tag)
+        element.text = value
 
-    set_or_update(channel, f"{{{SPOTIFY_NS}}}limit", str(SPOTIFY_LIMIT))
-    set_or_update(channel, f"{{{SPOTIFY_NS}}}countryOfOrigin", "il")
-    for i, item in enumerate(channel.findall("item"), start=1):
-        set_or_update(item, f"{{{SPOTIFY_NS}}}order", str(i))
+    set_or_update(channel, f"{{{ITUNES_NS}}}type", "episodic")
+    set_or_update(channel, f"{{{ITUNES_NS}}}summary", PODCAST_DESCRIPTION)
+    set_or_update(channel, f"{{{ITUNES_NS}}}new-feed-url", FEED_URL_CANONICAL)
+
+    if include_spotify:
+        set_or_update(channel, f"{{{SPOTIFY_NS}}}limit", str(SPOTIFY_LIMIT))
+        set_or_update(channel, f"{{{SPOTIFY_NS}}}countryOfOrigin", "il")
+        for order, item in enumerate(channel.findall("item"), start=1):
+            set_or_update(item, f"{{{SPOTIFY_NS}}}order", str(order))
 
     return ET.tostring(root, encoding="utf-8", xml_declaration=True)
 
 
-def main():
-    known = json.loads(EPISODES_FILE.read_text(encoding="utf-8")) if EPISODES_FILE.exists() else {}
-    real_episodes = [ep for ep in known.values() if not ep.get("unavailable")]
-    episodes_sorted = sorted(real_episodes, key=lambda x: x["published"], reverse=True)
-    print(f"📚 Building feeds from {len(episodes_sorted)} episodes")
+def write_feed(
+    path: Path,
+    feed_url: str,
+    episodes: list[dict],
+    include_spotify: bool,
+) -> None:
+    feed = build_base_feed(feed_url)
+    add_episodes(feed, episodes)
+    xml_bytes = add_channel_metadata(
+        feed.rss_str(pretty=True),
+        include_spotify=include_spotify,
+    )
+    path.write_bytes(xml_bytes)
+    print(f"✅ {path} written with {len(episodes)} episodes")
 
-    # ── Zinc feed (feed.xml) — frozen name/URL, with spotify: fields ──────────
-    fg_zinc = build_base_feed(FEED_URL_ZINC)
-    add_episodes(fg_zinc, episodes_sorted)
-    zinc_xml = add_spotify_fields(fg_zinc.rss_str(pretty=True))
-    FEED_ZINC_FILE.write_bytes(zinc_xml)
-    print(f"✅ {FEED_ZINC_FILE} written with {len(episodes_sorted)} episodes (Zinc / spotify: fields)")
 
-    # ── Standard feed (feed-standard.xml) — clean, for Spotify/Apple ──────────
-    fg_standard = build_base_feed(FEED_URL_STANDARD)
-    add_episodes(fg_standard, episodes_sorted)
-    fg_standard.rss_file(str(FEED_STANDARD_FILE), pretty=True)
-    print(f"✅ {FEED_STANDARD_FILE} written with {len(episodes_sorted)} episodes (standard)")
+def main() -> None:
+    if not ARTWORK_FILE.exists():
+        raise FileNotFoundError(f"Required artwork is missing: {ARTWORK_FILE}")
+
+    known = (
+        json.loads(EPISODES_FILE.read_text(encoding="utf-8"))
+        if EPISODES_FILE.exists()
+        else {}
+    )
+    available = [episode for episode in known.values() if not episode.get("unavailable")]
+    episodes = sorted(available, key=lambda episode: episode["published"], reverse=True)
+    print(f"📚 Building feeds from {len(episodes)} episodes")
+
+    write_feed(
+        FEED_CANONICAL_FILE,
+        FEED_URL_CANONICAL,
+        episodes,
+        include_spotify=True,
+    )
+    write_feed(
+        FEED_MIRROR_FILE,
+        FEED_URL_MIRROR,
+        episodes,
+        include_spotify=False,
+    )
 
 
 if __name__ == "__main__":

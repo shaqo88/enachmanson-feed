@@ -38,13 +38,10 @@ items with 79 unique GUIDs.
   yet been demonstrated.
 - At least one real new episode must complete the full
   YouTube → MP3 → R2 → RSS path during the soak.
+- The hardened workflow and new GitHub Pages artwork URL must complete their
+  first successful public validation run.
 - The audio uses an `r2.dev` public endpoint. Cloudflare documents this
   endpoint as intended for non-production use.
-- The legacy Podbean workflow remains present and can still overwrite
-  `feed.xml`.
-- Show metadata and migration tags are incomplete.
-- HTTP byte-range playback for every audio object and the artwork dimensions
-  have not been externally validated.
 - Apple requires the redirect and `itunes:new-feed-url` to remain available for
   at least four weeks. A shorter shutdown schedule is not supported.
 

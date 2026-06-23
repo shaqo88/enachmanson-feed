@@ -1,63 +1,82 @@
 # enachmanson-feed
-Spotify-compatible RSS feed for the Rabbi Elchanan Nachmanson podcast.
+
+RSS feed for the Rabbi Elchanan Nachmanson podcast.
 
 ## Feed URL
+
 ```
 https://shaqo88.github.io/enachmanson-feed/feed.xml
 ```
-This feed is auto-generated from the Podbean source:
-`https://feed.podbean.com/enachmanson/feed.xml`
 
 ## Migration
 
 See the [Podbean migration plan](docs/migration/MIGRATION_PLAN.md) for the
 staged runbook and live status tracker.
 
----
-
 ## How it works
 
-**`check_feed.py`** fetches the Podbean RSS feed and computes a SHA-256 hash, comparing it against the last known hash stored in `last_hash.txt`. If unchanged, the rest of the pipeline is skipped entirely.
+The production pipeline is:
 
-**`convert_feed.py`** fetches the feed, converts it to a Spotify-compatible namespace structure, detects new, updated, and removed episodes, and writes `feed.xml`, `last_hash.txt`, and a commit message. The feed is hosted via GitHub Pages at the URL above.
+1. `yt/sync_episodes.py` reads the YouTube playlist.
+2. New videos are downloaded and converted to 64 kbps MP3.
+3. MP3 files are uploaded to Cloudflare R2.
+4. Episode metadata is saved in `yt/episodes.json`.
+5. `yt/build_feeds.py` generates the RSS feeds.
+6. GitHub Pages serves the canonical feed.
 
----
+The source-controlled artwork is served from:
 
-## Auto-updates
+```
+https://shaqo88.github.io/enachmanson-feed/assets/podcast-cover.png
+```
 
-A GitHub Actions workflow runs every hour and is split into four jobs:
+## Generated feeds
 
-| Job | What it does |
-|---|---|
-| `check` | Compares feed hash — skips remaining jobs if unchanged |
-| `update` | Converts the feed and uploads artifacts |
-| `commit` | Commits `feed.xml` and `last_hash.txt` to the repo |
-| `notify` | Sends an email notification with the list of changes |
+- `feed.xml` is the canonical feed. Register only this URL with podcast
+  directories.
+- `feed-standard.xml` is an unregistered compatibility mirror generated from
+  the same episode database.
 
-No manual intervention needed. When the feed is unchanged, only `check` runs — the other three jobs are skipped.
+## Automation
 
-To trigger a manual update: go to **Actions → Update Podcast Feed → Run workflow**.
+`Sync Episodes from YouTube` runs hourly at minute 17. It downloads new
+episodes, uploads them to R2, rebuilds both feeds, validates the generated XML
+and public media, and commits successful work.
 
----
+If one episode fails, the script continues processing the remaining episodes,
+persists successful uploads, and reports the workflow as failed after those
+successful changes are committed.
 
-## Notifications
+The manual workflows are:
 
-An email is sent to the repo owner whenever the feed is updated, showing exactly which episodes were added, updated, or removed.
+- `Rebuild Feeds Only`: rebuild and validate feeds from `episodes.json`.
+- `Recover Episodes from R2`: compare R2 with `episodes.json` and optionally
+  recover missing metadata.
 
-Requires two GitHub repository secrets:
-- `GMAIL_USER` — Gmail address to send and receive notifications
-- `GMAIL_APP_PASSWORD` — [Gmail App Password](https://myaccount.google.com/apppasswords) (requires 2-Step Verification)
+## Repository secrets
 
----
+- `YOUTUBE_PLAYLIST_ID`
+- `YOUTUBE_COOKIES`
+- `R2_ACCOUNT_ID`
+- `R2_ACCESS_KEY`
+- `R2_SECRET_KEY`
+- `R2_BUCKET`
+- `R2_PUBLIC_URL`
+- `GMAIL_USER`
+- `GMAIL_APP_PASSWORD`
 
 ## Local usage
 
 ```bash
-# Check if feed has changed
-python3 check_feed.py
+# Install the exact workflow dependencies
+python -m pip install -r requirements.txt
 
-# Convert and update feed
-python3 convert_feed.py
+# Rebuild feeds from the checked-in episode database
+python yt/build_feeds.py
+
+# Validate XML, metadata, GUIDs, enclosures, and local artwork
+python yt/validate_feed.py
+
+# Also validate public artwork and byte-range playback for every enclosure
+python yt/validate_feed.py --network
 ```
-
-Both scripts output to the current directory. `convert_feed.py` writes `feed.xml` and `last_hash.txt`.

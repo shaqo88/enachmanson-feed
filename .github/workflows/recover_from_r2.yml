@@ -1,14 +1,17 @@
 name: Recover Episodes from R2
 
-# Manual only — this is a diagnostic/repair tool, never run on a schedule.
+# Manual only — diagnostic by default, with an optional metadata rebuild.
 on:
   workflow_dispatch:
     inputs:
       rebuild:
-        description: 'Write missing entries back into episodes.json (leave unchecked for a safe read-only report)'
+        description: 'Write missing entries back into episodes.json'
         required: false
         type: boolean
         default: false
+
+permissions:
+  contents: write
 
 concurrency:
   group: update-feed
@@ -22,23 +25,23 @@ jobs:
 
       - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.0.2
         with:
-          python-version: '3.x'
+          python-version: '3.12'
+          cache: pip
 
       - name: Install Deno (JS runtime required by yt-dlp for YouTube n-challenge)
         run: |
           curl -fsSL https://deno.land/install.sh | sh
-          echo "$HOME/.deno/bin" >> $GITHUB_PATH
+          echo "$HOME/.deno/bin" >> "$GITHUB_PATH"
 
-      - name: Install Python dependencies
-        run: pip install boto3 "yt-dlp[default]"
+      - name: Install pinned Python dependencies
+        run: python -m pip install --requirement requirements.txt
 
       - name: Write YouTube cookies file
         env:
           YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
-        run: |
-          printf '%s' "$YOUTUBE_COOKIES" > /tmp/yt_cookies.txt
+        run: printf '%s' "$YOUTUBE_COOKIES" > /tmp/yt_cookies.txt
 
-      - name: Run recovery script (report mode)
+      - name: Run recovery report
         if: ${{ github.event.inputs.rebuild != 'true' }}
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
@@ -46,9 +49,9 @@ jobs:
           R2_SECRET_KEY: ${{ secrets.R2_SECRET_KEY }}
           R2_BUCKET: ${{ secrets.R2_BUCKET }}
           R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
-        run: python3 yt/recover_from_r2.py
+        run: python yt/recover_from_r2.py
 
-      - name: Run recovery script (rebuild mode)
+      - name: Rebuild missing episode metadata
         if: ${{ github.event.inputs.rebuild == 'true' }}
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
@@ -56,13 +59,31 @@ jobs:
           R2_SECRET_KEY: ${{ secrets.R2_SECRET_KEY }}
           R2_BUCKET: ${{ secrets.R2_BUCKET }}
           R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
-        run: python3 yt/recover_from_r2.py --rebuild
+        run: python yt/recover_from_r2.py --rebuild
 
-      - name: Commit recovered episodes.json
+      - name: Build feeds after recovery
+        if: ${{ github.event.inputs.rebuild == 'true' }}
+        run: python yt/build_feeds.py
+
+      - name: Validate recovered feeds
+        if: ${{ github.event.inputs.rebuild == 'true' }}
+        run: python yt/validate_feed.py
+
+      - name: Commit recovered episodes and feeds
         if: ${{ github.event.inputs.rebuild == 'true' }}
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add yt/episodes.json
+          git add yt/episodes.json feed.xml feed-standard.xml
           git diff --staged --quiet || git commit -m "🔧 Recover episodes.json from R2 inventory"
           git push
+
+      - name: Validate public artwork and audio ranges
+        if: ${{ github.event.inputs.rebuild == 'true' }}
+        run: |
+          for attempt in {1..12}; do
+            python yt/validate_feed.py --network && exit 0
+            echo "Public validation attempt $attempt failed; retrying in 10 seconds."
+            sleep 10
+          done
+          exit 1

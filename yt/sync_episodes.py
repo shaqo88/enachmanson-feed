@@ -16,10 +16,15 @@ Recovery guarantee:
 
 import os
 import json
+import sys
 import yt_dlp
 import boto3
-from botocore.exceptions import ClientError
 from pathlib import Path
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
 
 # ── Config from environment ────────────────────────────────────────────────
 PLAYLIST_ID   = os.environ["PLAYLIST_ID"]
@@ -84,6 +89,7 @@ def main():
 
     # ── Process new episodes ─────────────────────────────────────────────────
     new_count = 0
+    failures = []
     for entry in entries:
         vid_id = entry.get("id")
         if not vid_id:
@@ -121,10 +127,12 @@ def main():
                 )
             else:
                 print(f"  ❌ Download failed for {vid_id}: {e}")
+                failures.append(f"{vid_id}: download failed")
             continue  # only retried next run if NOT marked unavailable
           
         if not tmp_mp3.exists():
             print(f"  ❌ Expected {tmp_mp3} not found after download; skipping")
+            failures.append(f"{vid_id}: converted MP3 was not created")
             continue
 
         file_size = tmp_mp3.stat().st_size
@@ -138,9 +146,10 @@ def main():
                 ExtraArgs={"ContentType": "audio/mpeg"},
             )
             print(f"  ✅ Uploaded to R2: {r2_key} ({file_size // 1024 // 1024} MB)")
-        except ClientError as e:
+        except Exception as e:
             print(f"  ❌ R2 upload failed for {vid_id}: {e}")
             tmp_mp3.unlink(missing_ok=True)
+            failures.append(f"{vid_id}: R2 upload failed")
             continue  # skip; next run will retry
 
         tmp_mp3.unlink(missing_ok=True)
@@ -165,6 +174,11 @@ def main():
         print(f"  💾 Saved to episodes.json")
 
     print(f"\n📥 Processed {new_count} new episode(s)")
+    if failures:
+        print(f"❌ {len(failures)} episode(s) failed and will be retried:")
+        for failure in failures:
+            print(f"   - {failure}")
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

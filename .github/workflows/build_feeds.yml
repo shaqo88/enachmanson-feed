@@ -1,10 +1,11 @@
 name: Rebuild Feeds Only
 
-# Manual only — fast feed-only rebuild from the existing episodes.json.
-# Never touches YouTube or R2. Useful after manually editing episodes.json,
-# or after a feed-formatting fix in build_feeds.py.
+# Manual only — rebuild from episodes.json without touching YouTube or R2.
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 concurrency:
   group: update-feed
@@ -18,15 +19,17 @@ jobs:
 
       - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.0.2
         with:
-          python-version: '3.x'
+          python-version: '3.12'
+          cache: pip
 
-      - name: Install Python dependencies
-        run: pip install feedgen
+      - name: Install pinned Python dependencies
+        run: python -m pip install --requirement requirements.txt
 
       - name: Build feeds
-        env:
-          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
-        run: python3 yt/build_feeds.py
+        run: python yt/build_feeds.py
+
+      - name: Validate generated feeds
+        run: python yt/validate_feed.py
 
       - name: Commit updated feeds
         run: |
@@ -35,3 +38,12 @@ jobs:
           git add feed.xml feed-standard.xml
           git diff --staged --quiet || git commit -m "🔄 Rebuild feeds from episodes.json"
           git push
+
+      - name: Validate public artwork and audio ranges
+        run: |
+          for attempt in {1..12}; do
+            python yt/validate_feed.py --network && exit 0
+            echo "Public validation attempt $attempt failed; retrying in 10 seconds."
+            sleep 10
+          done
+          exit 1
