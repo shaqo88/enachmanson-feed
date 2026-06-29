@@ -24,6 +24,7 @@ ARTWORK_FILE = Path("assets/podcast-cover.png")
 
 FEED_URL_CANONICAL = "https://shaqo88.github.io/enachmanson-feed/feed.xml"
 FEED_URL_MIRROR = "https://shaqo88.github.io/enachmanson-feed/feed-standard.xml"
+MIGRATED_FEED_URL = "https://shaqo88.github.io/youtube-podcast-feeds/nachmanson/feed.xml"
 ARTWORK_URL = "https://shaqo88.github.io/enachmanson-feed/assets/podcast-cover.png"
 
 PODCAST_TITLE = "שיעורי הרב אלחנן נחמנסון"
@@ -99,7 +100,7 @@ def add_channel_metadata(xml_bytes: bytes, include_spotify: bool) -> bytes:
 
     set_or_update(channel, f"{{{ITUNES_NS}}}type", "episodic")
     set_or_update(channel, f"{{{ITUNES_NS}}}summary", PODCAST_DESCRIPTION)
-    set_or_update(channel, f"{{{ITUNES_NS}}}new-feed-url", FEED_URL_CANONICAL)
+    set_or_update(channel, f"{{{ITUNES_NS}}}new-feed-url", MIGRATED_FEED_URL)
 
     if include_spotify:
         set_or_update(channel, f"{{{SPOTIFY_NS}}}limit", str(SPOTIFY_LIMIT))

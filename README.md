@@ -4,14 +4,23 @@ RSS feed for the Rabbi Elchanan Nachmanson podcast.
 
 ## Feed URL
 
+The active feed has moved to the generic podcast system:
+
+```
+https://shaqo88.github.io/youtube-podcast-feeds/nachmanson/feed.xml
+```
+
+The old feed remains online only as a migration pointer for podcast directories:
+
 ```
 https://shaqo88.github.io/enachmanson-feed/feed.xml
 ```
 
 ## Migration
 
-See the [Podbean migration plan](docs/migration/MIGRATION_PLAN.md) for the
-staged runbook and live status tracker.
+This repository has been migrated into
+[`youtube-podcast-feeds`](https://github.com/shaqo88/youtube-podcast-feeds).
+The old feed includes `itunes:new-feed-url` pointing to the active feed above.
 
 ## How it works
 
@@ -39,9 +48,8 @@ https://shaqo88.github.io/enachmanson-feed/assets/podcast-cover.png
 
 ## Automation
 
-`Sync Episodes from YouTube` runs hourly at minute 17. It downloads new
-episodes, uploads them to R2, rebuilds both feeds, validates the generated XML
-and public media, and commits successful work.
+`Sync Episodes from YouTube` is manual-only in this repository. The active
+scheduled sync runs from `youtube-podcast-feeds`.
 
 If one episode fails, the script continues processing the remaining episodes,
 persists successful uploads, and reports the workflow as failed after those

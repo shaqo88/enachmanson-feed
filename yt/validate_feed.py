@@ -24,6 +24,7 @@ ARTWORK_FILE = Path("assets/podcast-cover.png")
 
 CANONICAL_FEED_URL = "https://shaqo88.github.io/enachmanson-feed/feed.xml"
 MIRROR_FEED_URL = "https://shaqo88.github.io/enachmanson-feed/feed-standard.xml"
+MIGRATED_FEED_URL = "https://shaqo88.github.io/youtube-podcast-feeds/nachmanson/feed.xml"
 ARTWORK_URL = "https://shaqo88.github.io/enachmanson-feed/assets/podcast-cover.png"
 
 PODCAST_TITLE = "שיעורי הרב אלחנן נחמנסון"
@@ -110,8 +111,8 @@ def validate_feed(path: Path, expected_self_url: str, episodes: dict) -> dict:
         f"{path}: itunes:explicit must be false/no",
     )
     require(
-        text(channel, f"{{{ITUNES_NS}}}new-feed-url") == CANONICAL_FEED_URL,
-        f"{path}: itunes:new-feed-url must be the canonical feed",
+        text(channel, f"{{{ITUNES_NS}}}new-feed-url") == MIGRATED_FEED_URL,
+        f"{path}: itunes:new-feed-url must be the migrated feed",
     )
     require(
         text(channel, f"{{{ITUNES_NS}}}summary") == PODCAST_DESCRIPTION,
@@ -198,7 +199,7 @@ def validate_public_feed(expected_guids: set[str]) -> None:
         "Published canonical feed GUIDs do not match the generated feed",
     )
     require(
-        text(channel, f"{{{ITUNES_NS}}}new-feed-url") == CANONICAL_FEED_URL,
+        text(channel, f"{{{ITUNES_NS}}}new-feed-url") == MIGRATED_FEED_URL,
         "Published canonical feed has the wrong itunes:new-feed-url",
     )
     itunes_image = channel.find(f"{{{ITUNES_NS}}}image")

@@ -7,18 +7,19 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 
 | Field | Value |
 | --- | --- |
-| Current stage | Stage 2 — seven-day soak in progress |
+| Current stage | Migrated to generic podcast system |
 | Migration owner | |
-| Last status update | June 23, 2026 |
-| Canonical feed | `https://shaqo88.github.io/enachmanson-feed/feed.xml` |
-| Cutover date/time | Not scheduled |
+| Last status update | June 29, 2026 |
+| Canonical feed | `https://shaqo88.github.io/youtube-podcast-feeds/nachmanson/feed.xml` |
+| Legacy feed | `https://shaqo88.github.io/enachmanson-feed/feed.xml` |
+| Cutover date/time | June 29, 2026 |
 | Earliest Podbean cancellation date | Cutover date + 28 days |
 
 ## Stage gates
 
 - [x] Stage 1: Repository preparation complete
 - [ ] Stage 2: Seven-day soak complete
-- [ ] Stage 3: Directory cutover complete
+- [x] Stage 3: Directory cutover to generic feed complete
 - [ ] Stage 4: Four-week redirect window complete
 - [ ] Stage 5: Final acceptance complete
 

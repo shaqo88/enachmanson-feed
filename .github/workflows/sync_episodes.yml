@@ -1,9 +1,6 @@
 name: Sync Episodes from YouTube
 
 on:
-  schedule:
-    # Avoid minute 0, when GitHub Actions scheduled-run load is highest.
-    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
