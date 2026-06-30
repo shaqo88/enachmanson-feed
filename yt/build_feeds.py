@@ -35,6 +35,8 @@ PODCAST_DESCRIPTION = (
     "יותר בחיינו ופותחת צוהר להתרומם מעל אתגרי היומיום."
 )
 AUTHOR_NAME = "הרב אלחנן נחמנסון"
+OWNER_NAME = "Torah Pod"
+OWNER_EMAIL = "torahyoupod@gmail.com"
 COPYRIGHT = "Copyright 2026 All rights reserved."
 
 SPOTIFY_NS = "http://www.spotify.com/ns/rss"
@@ -98,9 +100,17 @@ def add_channel_metadata(xml_bytes: bytes, include_spotify: bool) -> bytes:
             element = ET.SubElement(parent, tag)
         element.text = value
 
+    def set_owner(parent: ET.Element) -> None:
+        owner = parent.find(f"{{{ITUNES_NS}}}owner")
+        if owner is None:
+            owner = ET.SubElement(parent, f"{{{ITUNES_NS}}}owner")
+        set_or_update(owner, f"{{{ITUNES_NS}}}name", OWNER_NAME)
+        set_or_update(owner, f"{{{ITUNES_NS}}}email", OWNER_EMAIL)
+
     set_or_update(channel, f"{{{ITUNES_NS}}}type", "episodic")
     set_or_update(channel, f"{{{ITUNES_NS}}}summary", PODCAST_DESCRIPTION)
     set_or_update(channel, f"{{{ITUNES_NS}}}new-feed-url", MIGRATED_FEED_URL)
+    set_owner(channel)
 
     if include_spotify:
         set_or_update(channel, f"{{{SPOTIFY_NS}}}limit", str(SPOTIFY_LIMIT))

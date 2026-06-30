@@ -34,6 +34,8 @@ PODCAST_DESCRIPTION = (
     "המחבר את חיי המעשה עם התורה, כך שהתורה נהפכת לתורת חיים - מגלה רובד עמוק "
     "יותר בחיינו ופותחת צוהר להתרומם מעל אתגרי היומיום."
 )
+OWNER_NAME = "Torah Pod"
+OWNER_EMAIL = "torahyoupod@gmail.com"
 COPYRIGHT = "Copyright 2026 All rights reserved."
 
 ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
@@ -118,6 +120,16 @@ def validate_feed(path: Path, expected_self_url: str, episodes: dict) -> dict:
         text(channel, f"{{{ITUNES_NS}}}summary") == PODCAST_DESCRIPTION,
         f"{path}: itunes:summary must preserve the show description",
     )
+    owner = channel.find(f"{{{ITUNES_NS}}}owner")
+    require(owner is not None, f"{path}: missing itunes:owner")
+    require(
+        text(owner, f"{{{ITUNES_NS}}}name") == OWNER_NAME,
+        f"{path}: itunes:owner name must be {OWNER_NAME}",
+    )
+    require(
+        text(owner, f"{{{ITUNES_NS}}}email") == OWNER_EMAIL,
+        f"{path}: itunes:owner email must be {OWNER_EMAIL}",
+    )
 
     self_urls = {
         link.get("href")
@@ -201,6 +213,11 @@ def validate_public_feed(expected_guids: set[str]) -> None:
     require(
         text(channel, f"{{{ITUNES_NS}}}new-feed-url") == MIGRATED_FEED_URL,
         "Published canonical feed has the wrong itunes:new-feed-url",
+    )
+    owner = channel.find(f"{{{ITUNES_NS}}}owner")
+    require(
+        owner is not None and text(owner, f"{{{ITUNES_NS}}}email") == OWNER_EMAIL,
+        "Published canonical feed has the wrong owner email",
     )
     itunes_image = channel.find(f"{{{ITUNES_NS}}}image")
     require(
