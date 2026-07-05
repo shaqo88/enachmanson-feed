@@ -19,6 +19,11 @@ Apple public-directory discovery.
 - [x] Confirm the existing show appears in Apple Podcasts Connect.
 - [x] Confirm its settings are accessible.
 - [x] Keep Podbean's **Redirect to a New Feed** field empty during Stage 2.
+- [x] Configure the PodBean redirect to the new Torah Pod feed.
+- [x] Confirm Apple Podcasts migrated to the new feed.
+- [x] Confirm Spotify migrated to the new feed.
+- [x] Confirm Amazon Music is managed from a separate email account and is
+  configured with the new feed.
 
 ## Remaining during Stage 2
 
@@ -36,7 +41,7 @@ Apple public-directory discovery.
 - [ ] Record the account owner or email without recording passwords.
 - [ ] Verify password recovery or two-factor authentication for the required
   dashboards: Podbean, Spotify, Apple, and Amazon Music.
-- [ ] Keep Podbean's ownership-verification email and Apple verification
+- [x] Keep Podbean's ownership-verification email and Apple verification
   settings enabled through cutover.
 
 ### Real new-episode test
@@ -61,7 +66,17 @@ On or after June 30, 2026 at 13:45 Israel time:
 - [ ] Open GitHub Actions → **Capture Migration Evidence**.
 - [ ] Download the latest `migration-evidence-*` artifact.
 - [ ] Store both artifacts with the Podbean analytics export.
-- [ ] Mark the Stage 2 evidence in [STATUS.md](STATUS.md).
+- [x] Mark the Stage 2 evidence in [STATUS.md](STATUS.md).
 
 Optional aggregator dashboards do not block Stage 2. Do not configure the
 Podbean redirect until every required Stage 2 item passes.
+
+## Remaining after major-platform cutover
+
+- [ ] Verify the PodBean feed returns HTTP 301 to
+  `https://shaqo88.github.io/youtube-podcast-feeds/nachmanson/feed.xml` from a
+  network that is not blocked by NetFree.
+- [ ] Keep PodBean redirect active for 28 days from the redirect enable date.
+- [ ] Ask PodBean whether the redirect survives downgrade/cancellation/deletion.
+- [ ] Cancel or downgrade PodBean only after the redirect window passes and the
+  redirect behavior is understood.

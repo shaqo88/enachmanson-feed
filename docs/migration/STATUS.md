@@ -9,16 +9,16 @@ saved feed snapshots, validator results, screenshots, and analytics exports.
 | --- | --- |
 | Current stage | Migrated to generic podcast system |
 | Migration owner | |
-| Last status update | June 29, 2026 |
+| Last status update | July 5, 2026 |
 | Canonical feed | `https://shaqo88.github.io/youtube-podcast-feeds/nachmanson/feed.xml` |
 | Legacy feed | `https://shaqo88.github.io/enachmanson-feed/feed.xml` |
 | Cutover date/time | June 29, 2026 |
-| Earliest Podbean cancellation date | Cutover date + 28 days |
+| Earliest Podbean cancellation date | PodBean redirect enable date + 28 days, unless PodBean confirms the redirect survives cancellation |
 
 ## Stage gates
 
 - [x] Stage 1: Repository preparation complete
-- [ ] Stage 2: Seven-day soak complete
+- [x] Stage 2: Seven-day soak complete
 - [x] Stage 3: Directory cutover to generic feed complete
 - [ ] Stage 4: Four-week redirect window complete
 - [ ] Stage 5: Final acceptance complete
@@ -76,18 +76,19 @@ gaps are retained as warnings for review.
 
 | Field | Value |
 | --- | --- |
-| Operator | |
-| Final Podbean feed URL | |
-| Podbean redirect enabled at | |
-| Verified HTTP status | |
-| Verified `Location` header | |
-| Spotify confirmed at | |
-| Apple confirmed at | |
-| Other directory evidence | |
+| Operator | Shaul Royzen |
+| Final Podbean feed URL | `https://feed.podbean.com/enachmanson/feed.xml` |
+| Podbean redirect enabled at | Added before July 5, 2026; exact timestamp not recorded |
+| Verified HTTP status | Pending external verification; local check was blocked by NetFree HTTP 418 |
+| Verified `Location` header | Pending external verification |
+| Spotify confirmed at | Migrated more than one week before July 5, 2026 |
+| Apple confirmed at | Migrated more than one week before July 5, 2026 |
+| Amazon Music confirmed at | Confirmed July 5, 2026: managed from a separate email account and configured with the new feed |
+| Other directory evidence | Major-platform cutover complete; optional/long-tail directories should rely on the PodBean redirect window and spot checks |
 
 ## Post-cutover checkpoints
 
-- [ ] Day 7 checkpoint completed:
+- [x] Day 7 checkpoint completed: Apple and Spotify had already migrated more than a week before July 5, 2026; Amazon is configured with the new feed.
 - [ ] Day 28 checkpoint completed:
 - [ ] Podbean confirmed redirect behavior after downgrade/cancellation:
 - [ ] Podbean cancellation or downgrade completed:
