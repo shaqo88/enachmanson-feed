@@ -1,5 +1,13 @@
 # Manual Migration Checklist
 
+Retired on July 7, 2026. The active feed is now:
+
+<https://torah-pod.pages.dev/nachmanson/feed.xml>
+
+The PodBean account was deleted after Apple Podcasts, Spotify, and Amazon Music
+were confirmed on the Torah Pod feed. Remaining unchecked PodBean tasks below
+are historical and should not be executed.
+
 Automation covers feed health, all 79 enclosure range checks, artwork,
 scheduled-run monitoring, Podbean/canonical RSS snapshots, GUID comparison, and
 Apple public-directory discovery.
@@ -71,12 +79,17 @@ On or after June 30, 2026 at 13:45 Israel time:
 Optional aggregator dashboards do not block Stage 2. Do not configure the
 Podbean redirect until every required Stage 2 item passes.
 
-## Remaining after major-platform cutover
+## Historical remaining items after major-platform cutover
 
-- [ ] Verify the PodBean feed returns HTTP 301 to
+- [x] Major platforms were confirmed on the Torah Pod feed.
+- [x] PodBean account was deleted after cutover.
+- [ ] Historical only: verify the PodBean feed returns HTTP 301 to
   `https://shaqo88.github.io/youtube-podcast-feeds/nachmanson/feed.xml` from a
   network that is not blocked by NetFree.
-- [ ] Keep PodBean redirect active for 28 days from the redirect enable date.
-- [ ] Ask PodBean whether the redirect survives downgrade/cancellation/deletion.
-- [ ] Cancel or downgrade PodBean only after the redirect window passes and the
-  redirect behavior is understood.
+- [ ] Historical only: keep PodBean redirect active for 28 days from the
+  redirect enable date.
+- [ ] Historical only: ask PodBean whether the redirect survives
+  downgrade/cancellation/deletion.
+- [x] PodBean was deleted after the major platforms were confirmed.
+- [ ] Historical only: cancel or downgrade PodBean only after the redirect
+  window passes and the redirect behavior is understood.

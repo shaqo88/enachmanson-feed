@@ -1,5 +1,11 @@
 # Stage 4: Redirect Window and Podbean Shutdown
 
+Current status as of July 7, 2026: this stage is closed historically. Apple
+Podcasts, Spotify, and Amazon Music were confirmed on the Torah Pod feed, the
+PodBean account was deleted after cutover, and this repository is retired.
+
+The instructions below are retained only as the original migration plan.
+
 Do not cancel Podbean one week after cutover.
 
 Apple requires the redirect and `itunes:new-feed-url` to remain available for

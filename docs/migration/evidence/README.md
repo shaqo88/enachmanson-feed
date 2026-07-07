@@ -1,11 +1,16 @@
 # Automated Migration Evidence
 
+This evidence workflow was retired on July 7, 2026 after the PodBean account
+was deleted and the active Nachmanson podcast moved to Torah Pod:
+
+<https://torah-pod.pages.dev/nachmanson/feed.xml>
+
 GitHub Actions stores the evidence files as downloadable artifacts rather than
 committing changing snapshots to the repository.
 
 ## Daily evidence
 
-The `Capture Migration Evidence` workflow saves:
+The removed `Capture Migration Evidence` workflow saved:
 
 - the current Podbean RSS feed;
 - the current canonical RSS feed;
@@ -13,8 +18,9 @@ The `Capture Migration Evidence` workflow saves:
 - a GUID continuity report;
 - public Apple Podcasts directory search results.
 
-Use the final successful artifact immediately before cutover as the final
-Podbean RSS snapshot.
+Use the final successful artifact before cutover, if available, as the final
+Podbean RSS snapshot. Do not re-enable this workflow unless a new PodBean
+migration is intentionally created.
 
 ## Soak evidence
 

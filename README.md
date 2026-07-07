@@ -1,16 +1,21 @@
 # enachmanson-feed
 
-RSS feed for the Rabbi Elchanan Nachmanson podcast.
+Legacy RSS feed repository for the Rabbi Elchanan Nachmanson podcast.
+
+This repository is retired. The active podcast feed, sync, website, and
+operations now live in
+[`youtube-podcast-feeds`](https://github.com/shaqo88/youtube-podcast-feeds).
+This repository can be archived after this retirement note is pushed.
 
 ## Feed URL
 
 The active feed has moved to the generic podcast system:
 
 ```
-https://shaqo88.github.io/youtube-podcast-feeds/nachmanson/feed.xml
+https://torah-pod.pages.dev/nachmanson/feed.xml
 ```
 
-The old feed remains online only as a migration pointer for podcast directories:
+The old feed remains online only as a historical migration pointer:
 
 ```
 https://shaqo88.github.io/enachmanson-feed/feed.xml
@@ -20,18 +25,21 @@ https://shaqo88.github.io/enachmanson-feed/feed.xml
 
 This repository has been migrated into
 [`youtube-podcast-feeds`](https://github.com/shaqo88/youtube-podcast-feeds).
-The old feed includes `itunes:new-feed-url` pointing to the active feed above.
+The old feed includes `itunes:new-feed-url`. Apple, Spotify, and Amazon Music
+were already migrated to the Torah Pod feed before this repository was retired.
+The PodBean account was deleted after migration, so PodBean evidence-capture
+automation has been removed.
 
 ## How it works
 
-The production pipeline is:
+The retired production pipeline was:
 
 1. `yt/sync_episodes.py` reads the YouTube playlist.
 2. New videos are downloaded and converted to 64 kbps MP3.
 3. MP3 files are uploaded to Cloudflare R2.
 4. Episode metadata is saved in `yt/episodes.json`.
 5. `yt/build_feeds.py` generates the RSS feeds.
-6. GitHub Pages serves the canonical feed.
+6. GitHub Pages served the legacy feed.
 
 The source-controlled artwork is served from:
 
@@ -48,14 +56,14 @@ https://shaqo88.github.io/enachmanson-feed/assets/podcast-cover.png
 
 ## Automation
 
-`Sync Episodes from YouTube` is manual-only in this repository. The active
-scheduled sync runs from `youtube-podcast-feeds`.
+This repository has no active production automation. The active scheduled sync
+runs from `youtube-podcast-feeds`.
 
-If one episode fails, the script continues processing the remaining episodes,
-persists successful uploads, and reports the workflow as failed after those
-successful changes are committed.
+The old PodBean migration evidence workflow was removed because the PodBean
+account was deleted after cutover and no longer provides stable migration
+evidence.
 
-The manual workflows are:
+Legacy manual workflows may remain for historical recovery only:
 
 - `Rebuild Feeds Only`: rebuild and validate feeds from `episodes.json`.
 - `Recover Episodes from R2`: compare R2 with `episodes.json` and optionally

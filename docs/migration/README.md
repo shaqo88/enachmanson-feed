@@ -2,16 +2,22 @@
 
 ## Decision
 
-The migration design is sound, but **do not cancel Podbean yet**.
+This migration is complete and this repository is retired. The PodBean account
+was deleted after Apple Podcasts, Spotify, and Amazon Music were confirmed on
+the Torah Pod feed.
 
-The most important continuity requirement has been met: all 79 historical
-episode GUIDs exactly match between the final Podbean-derived feed and the new
-feed. Changing these GUIDs would cause podcast applications to treat existing
-episodes as new or duplicate episodes.
+Use this URL as the canonical active feed:
 
-Use this URL as the single canonical feed for every podcast directory:
+<https://torah-pod.pages.dev/nachmanson/feed.xml>
+
+The old GitHub Pages feed remains only as a historical migration pointer:
 
 <https://shaqo88.github.io/enachmanson-feed/feed.xml>
+
+The most important continuity requirement was met during migration: all 79
+historical episode GUIDs exactly matched between the final Podbean-derived feed
+and the replacement feed. Changing these GUIDs would cause podcast applications
+to treat existing episodes as new or duplicate episodes.
 
 `feed-standard.xml` is an unregistered compatibility mirror only. Do not submit
 it to Spotify, Apple Podcasts, or any other directory.
@@ -29,20 +35,16 @@ Baseline reviewed on June 22, 2026 and rechecked locally on June 23, 2026:
 | R2 audio referenced by the feed | 934,481,955 bytes (0.87 GiB) |
 | Unavailable YouTube inventory entries | 4, intentionally excluded from the feed |
 
-The feed continues to contain 79 items with 79 unique GUIDs. Hourly public
-validation checks the feed, artwork, and every enclosure.
+At retirement, the legacy feed contained 79 items with 79 unique GUIDs. Active
+public validation moved to `shaqo88/youtube-podcast-feeds`.
 
-## Current blockers
+## Current status
 
-- The seven-day observation window has not completed.
-- At least one real new episode must complete the full
-  YouTube → MP3 → R2 → RSS path during the soak.
-- The remaining public listing URLs and account-recovery checks must be added
-  to the directory inventory.
-- The audio uses an `r2.dev` public endpoint. Cloudflare documents this
-  endpoint as intended for non-production use.
-- Apple requires the redirect and `itunes:new-feed-url` to remain available for
-  at least four weeks. A shorter shutdown schedule is not supported.
+- Active sync, feed generation, validation, and website deployment moved to
+  `shaqo88/youtube-podcast-feeds`.
+- PodBean redirect evidence is no longer available because the PodBean account
+  was deleted after cutover.
+- This repository can remain archived as migration history.
 
 ## Migration stages
 
@@ -50,11 +52,11 @@ validation checks the feed, artwork, and every enclosure.
 | --- | --- |
 | [1. Repository preparation](01-repository-preparation.md) | Legacy writer removed; feed metadata and workflows hardened |
 | [2. Seven-day soak](02-seven-day-soak.md) | Seven days without actual sync/public-validation failures and one real new episode |
-| [3. Directory cutover](03-directory-cutover.md) | Podbean 301 and existing directory listings point to the canonical feed |
-| [4. Redirect window and shutdown](04-redirect-window-and-shutdown.md) | At least 28 days of stable redirect operation |
-| [5. Final acceptance](05-final-acceptance.md) | Every technical and directory-level acceptance test passes |
+| [3. Directory cutover](03-directory-cutover.md) | Major podcast directories point to the Torah Pod feed |
+| [4. Redirect window and shutdown](04-redirect-window-and-shutdown.md) | Waived after major-platform migration and PodBean deletion |
+| [5. Final acceptance](05-final-acceptance.md) | Accepted for the platforms used by this project |
 
-Record evidence and dates in [STATUS.md](STATUS.md).
+Recorded evidence and dates are in [STATUS.md](STATUS.md).
 
 ## Permanent invariants
 
